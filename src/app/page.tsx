@@ -6,6 +6,7 @@ import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
 import NewsFeature from "@/components/NewsFeature";
 import Experience from "@/components/Experience";
+import Teaching from "@/components/Teaching";
 import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
 
@@ -33,6 +34,9 @@ export default function Home() {
 
       {/* Experience Timeline Section */}
       <Experience />
+
+      {/* Teaching & Mentoring Section */}
+      <Teaching />
 
       {/* Awards & Honors Section */}
       <Awards />
