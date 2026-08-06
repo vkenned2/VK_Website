@@ -68,13 +68,13 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Selected Works & Portfolio
+          Ecology & Policy Research Portfolio
         </span>
         <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-5xl leading-[1.15]">
-          JEEVANANTHAM SANKARAN<span className="font-semibold">.</span>
+          VISHAL KENNEDY<span className="font-semibold">.</span>
         </h1>
-        <p className="text-base md:text-xl lg:text-2xl font-light text-[#86868b] mt-6 tracking-wide max-w-2xl text-balance">
-          VR Specialist designing immersive experiences at the intersection of simulation, interaction, and storytelling.
+        <p className="text-base md:text-xl lg:text-2xl font-light text-[#86868b] mt-6 tracking-wide max-w-3xl text-balance">
+          Ph.D. Candidate in Ecology & Evolutionary Biology mapping the future of biodiversity, conservation management, and environmental policy.
         </p>
       </div>
 
@@ -88,10 +88,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-20 lg:px-32 text-left max-w-3xl"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Immersive Simulations
+          Spatial Ecology & Data
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          I design <span className="font-medium text-white">VR simulations</span> that bridge real‑world challenges with virtual innovation.
+          Integrating <span className="font-medium text-white">niche modeling</span> and remote sensing to project biodiversity trends.
         </h2>
       </div>
 
@@ -105,10 +105,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-end px-8 md:px-20 lg:px-32 text-right max-w-3xl ml-auto"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Human-Centred Design
+          Science &amp; Policy Bridge
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Focusing on <span className="font-medium text-white">AR/VR &amp; digital twins</span> to build the next standard of training.
+          Translating complex <span className="font-medium text-white">scientific findings</span> into actionable environmental policies.
         </h2>
       </div>
 

@@ -21,9 +21,10 @@ export default function ScrollyCanvas({ scrollProgress }: ScrollyCanvasProps) {
 
     for (let i = 0; i < TOTAL_FRAMES; i++) {
       const img = new Image();
-      // Format: 00001.png to 00096.png (1-indexed, padded to 5 digits)
-      const frameIndex = (i + 1).toString().padStart(5, "0");
-      img.src = `/sequence/${frameIndex}.png`;
+      // Format: frame_00_delay-0.042s.png to frame_95_delay-0.042s.png (0-indexed, padded to 2 digits)
+      const frameIndex = i.toString().padStart(2, "0");
+      const filename = `frame_${frameIndex}_delay-0.042s.png`;
+      img.src = `/sequence/${filename}`;
       
       img.onload = () => {
         loadedCount++;
@@ -34,7 +35,7 @@ export default function ScrollyCanvas({ scrollProgress }: ScrollyCanvasProps) {
       };
       
       img.onerror = () => {
-        console.error(`Failed to load image frame: ${frameIndex}`);
+        console.error(`Failed to load image frame: ${filename}`);
         loadedCount++; // Avoid blocking the site if a frame is missing
         setImagesLoaded(loadedCount);
         if (loadedCount === TOTAL_FRAMES) {

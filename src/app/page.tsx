@@ -4,7 +4,9 @@ import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
+import NewsFeature from "@/components/NewsFeature";
 import Experience from "@/components/Experience";
+import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
 
 export default function Home() {
@@ -26,8 +28,14 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Featured Press / Recently in the News Section */}
+      <NewsFeature />
+
       {/* Experience Timeline Section */}
       <Experience />
+
+      {/* Awards & Honors Section */}
+      <Awards />
 
       {/* Projects Showcase & Footer Section */}
       <Projects />

@@ -64,7 +64,7 @@ export default function ProjectPage() {
       <header className="sticky top-0 z-50 w-full glass-nav">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="text-sm font-semibold tracking-wider hover:opacity-85 transition-opacity">
-            JEEVANANTHAM SANKARAN
+            VISHAL KENNEDY
           </Link>
           <Link
             href="/"

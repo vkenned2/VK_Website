@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jeevanantham Sankaran - Portfolio",
-  description: "VR Specialist & Creative Technologist designing immersive simulations, digital twins, and real-time 3D experiences.",
+  title: "Vishal Kennedy - Portfolio",
+  description: "Ph.D. Candidate in Ecology and Evolutionary Biology at the University of Tennessee, Knoxville. Specializing in conservation spatial modeling, genetics, and environmental policy.",
 };
 
 export default function RootLayout({

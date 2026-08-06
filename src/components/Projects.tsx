@@ -19,63 +19,63 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     id: "01",
-    title: "Architectural VR",
-    category: "Architectural Visualization",
-    year: "2025",
-    description: "High-fidelity Architectural VR Visualization in Unreal Engine 5, featuring photorealistic luxury interiors, dynamic lighting, and natural walkthrough navigation.",
-    tags: ["Unreal Engine 5", "VR", "Lumen & Nanite", "ArchViz"],
-    image: "/aura_arch.jpg",
-    link: "/projects/architectural-vr-visualization",
+    title: "Species Movement in Climate & Land-Use Change Across Appalachians",
+    category: "Conservation Spatial Modeling",
+    year: "2024",
+    description: "Spatial modeling of species connectivity, movement patterns, and habitat corridors under future climate and land-use change scenarios across the Appalachian region.",
+    tags: ["R", "Python", "Circuitscape", "Google Earth Engine", "Remote Sensing"],
+    image: "/projects/species-movement-appalachians.jpg",
+    link: "/projects/species-movement-climate-landuse-appalachians",
   },
   {
     id: "02",
-    title: "Emergency Evacuation Simulations",
-    category: "Design & Analysis",
-    year: "2024",
-    description: "Intelligent evacuation planning under dynamic threats, combining Unreal Engine simulations with OpenCV camera tracking and A* pathfinding egress routing.",
-    tags: ["Unreal Engine", "Python", "OpenCV", "A* Pathfinding"],
-    image: "/A.png",
-    link: "/projects/asters",
+    title: "Appalachian Biodiversity Projections",
+    category: "Ecology & Modeling",
+    year: "2025",
+    description: "Spatial land-use and climate change projections in the Appalachians to predict development expansion and habitat fragmentation.",
+    tags: ["Python", "R", "Dinamica EGO", "Circuitscape"],
+    image: "/projects/appalachian-modeling.jpg",
+    link: "/projects/appalachian-biodiversity-projections",
   },
   {
     id: "03",
-    title: "Maharashtra Truck Simulation",
-    category: "Driving Physics & Training",
-    year: "2025",
-    description: "A detailed virtual simulation of the Maharashtra truck transportation model, focusing on realistic road environments, vehicle physics, and training scenarios.",
-    tags: ["Unreal Engine", "Blueprints", "Physics", "Material Editor"],
-    image: "/M.png",
-    link: "/projects/maharashtra-truck",
+    title: "Indigenous Co-Management of Wetlands",
+    category: "Environmental Policy",
+    year: "2023",
+    description: "Federal policy proposal modernizing wetland protection through tribal co-management partnerships (3rd place national winner, NWF contest).",
+    tags: ["Policy Analysis", "Clean Water Act", "Science Comm"],
+    image: "/projects/wetlands-policy.jpg",
+    link: "/projects/wetlands-policy-memo",
   },
   {
     id: "04",
-    title: "Dental VR Project",
-    category: "Medical Training Simulation",
-    year: "2024",
-    description: "Immersive VR training using real patient dental scans. Simulates procedures with real-time tool constraints, detailed meshes, and scoring systems.",
-    tags: ["Unreal Engine", "VR", "Asset Pipeline", "3D Interaction"],
-    image: "/Dental_Front.png",
-    link: "/projects/dental-vr",
+    title: "EcoLeader Community Engagement",
+    category: "Community & Data Analytics",
+    year: "2025",
+    description: "Data analytics fellowship using Google Analytics and survey design to evaluate and improve national student conservation outreach.",
+    tags: ["Data Science", "Google Analytics", "UX Research"],
+    image: "/projects/nwf-analytics.jpg",
+    link: "/projects/nwf-ecoleader-fellowship",
   },
   {
     id: "05",
-    title: "Ravana VR",
-    category: "Cinematic Cultural Showcase",
-    year: "2024",
-    description: "Immersive VR cinematic combining character animation, stage-like lighting, post-processing effects, and sequenced audio for cultural storytelling.",
-    tags: ["Unreal Engine", "Blender", "Sequencer", "Animation"],
-    image: "/Ravana_Front.png",
-    link: "/projects/ravana-vr",
+    title: "Parent-Offspring Conflict in Mosses",
+    category: "Evolutionary Genetics",
+    year: "2026",
+    description: "Ph.D. research investigating resource allocation trade-offs and maternal-offspring interactions in bryophytes using microtomy and SEM.",
+    tags: ["Microscopy", "Genetics", "Evolutionary Theory"],
+    image: "/projects/moss-conflict.jpg",
+    link: "/projects/moss-parent-offspring-conflict",
   },
   {
     id: "06",
-    title: "NSK Digital Twin VR Experience",
-    category: "Digital Twin & VR Development",
-    year: "2026",
-    description: "Immersive industrial VR simulation and high-fidelity Digital Twin replica in Unreal Engine 5, focusing on realism and performance optimization.",
-    tags: ["Unreal Engine 5", "VR", "Digital Twin", "Lumen & Nanite", "Blueprints"],
-    image: "/NSK_Logo.png",
-    link: "/projects/nsk-digital-twin",
+    title: "Brassica Pathogen Genomics",
+    category: "Plant Pathogen Genetics",
+    year: "2021",
+    description: "Genome-wide association study (GWAS) and bioinformatic pipelines to map and annotate resistance genes in Brassica crops against Blackleg.",
+    tags: ["GWAS", "RGAugury", "PLINK", "R"],
+    image: "/projects/brassica-genomics.jpg",
+    link: "/projects/brassica-pathogen-genomics",
   },
 ];
 
@@ -97,14 +97,13 @@ export default function Projects() {
             </h2>
           </div>
           <p className="text-[#86868b] text-sm md:text-base max-w-sm font-light">
-            A curated selection of projects pushing the boundaries of interface speed, creative coding, and web aesthetics.
+            A curated selection of research, publications, and policy projects bridging ecological data with environmental conservation.
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {PROJECTS.map((project, index) => {
-            const hasWatermark = project.image === "/A.png" || project.image === "/M.png";
             return (
               <motion.div
                 key={project.id}
@@ -112,7 +111,7 @@ export default function Projects() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="group relative flex flex-col h-full max-w-[240px] mx-auto w-full rounded-2xl overflow-hidden glass-card"
+                className="group relative flex flex-col h-full max-w-[360px] mx-auto w-full rounded-2xl overflow-hidden glass-card"
               >
                 {/* Image Container */}
                 <div className="relative aspect-[16/9] w-full overflow-hidden bg-white/5">
@@ -120,12 +119,8 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                    className={`object-cover transition-transform duration-700 ease-out filter grayscale-[20%] group-hover:grayscale-0 brightness-[85%] group-hover:brightness-100 ${
-                      hasWatermark
-                        ? "scale-[1.08] group-hover:scale-[1.13]"
-                        : "group-hover:scale-105"
-                    }`}
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-700 ease-out filter grayscale-[20%] group-hover:grayscale-0 brightness-[85%] group-hover:brightness-100 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/90 via-[#121212]/10 to-transparent opacity-60" />
                 </div>
@@ -181,26 +176,22 @@ export default function Projects() {
             Get In Touch
           </span>
           <a
-            href="mailto:jeevaofficial1407@gmail.com"
+            href="mailto:vkenned2@vols.utk.edu"
             className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white hover:text-[#86868b] transition-colors duration-300 mb-6"
           >
-            jeevaofficial1407@gmail.com
+            vkenned2@vols.utk.edu
           </a>
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 text-[#86868b] text-sm font-light mt-4">
-            <a href="tel:+918838813020" className="hover:text-white transition-colors duration-300">
-              Phone: +91 8838813020
-            </a>
-            <span className="hidden sm:inline">•</span>
-            <a href="https://www.linkedin.com/in/jeevananthamsankaran/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/vishalkennedy/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
               LinkedIn
             </a>
             <span className="hidden sm:inline">•</span>
-            <a href="https://jeevanathams07.artstation.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
-              ArtStation
+            <a href="https://scholar.google.com/scholar?q=Vishal+Kennedy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
+              Google Scholar
             </a>
           </div>
           <p className="text-[#86868b] text-xs mt-12 tracking-widest uppercase">
-            © {new Date().getFullYear()} Jeevanantham Sankaran. All Rights Reserved.
+            © {new Date().getFullYear()} Vishal Kennedy. All Rights Reserved.
           </p>
         </motion.div>
       </div>

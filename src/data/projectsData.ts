@@ -31,205 +31,182 @@ export interface ProjectData {
 
 export const PROJECTS_DATA: ProjectData[] = [
   {
-    slug: "architectural-vr-visualization",
-    title: "Architectural VR Visualization",
-    tagline: "High-fidelity Architectural Virtual Reality (VR) Visualization experience using Unreal Engine 5.",
-    category: "Architectural Visualization",
-    year: "2025",
-    overview: "Developed a high-fidelity Architectural Virtual Reality (VR) Visualization experience using Unreal Engine 5, enabling clients to explore residential and commercial spaces in real time. Designed interactive walkthroughs, allowing users to navigate spaces naturally and experience realistic scale, lighting, and spatial layouts.",
-    meta: [
-      { label: "Client", value: "Aura Developer (Freelance)" },
-      { label: "Software", value: "Unreal Engine 5, Lumen, Nanite" },
-      { label: "Type", value: "Virtual Reality" },
-      { label: "Goal", value: "Enable photorealistic and interactive residential and commercial exploration in VR." }
-    ],
-    role: "Freelance Unreal Engine Developer. Responsible for creating photorealistic environments, advanced lighting, materials, asset optimization, walkthrough interactions, post-processing, and client presentation support.",
-    tools: ["Unreal Engine 5", "Virtual Reality (VR)", "Lumen", "Nanite", "Blueprint Visual Scripting", "Lighting", "Architectural Visualization", "Optimization", "Quixel Megascans", "Post Processing"],
-    context: "Architectural walkthrough for client presentations and design reviews.",
-    process: [
-      "Integrate complex architectural models into Unreal Engine 5.",
-      "Create photorealistic environments with custom materials and Quixel Megascans assets.",
-      "Set up dynamic global illumination and reflections using Lumen.",
-      "Leverage Nanite to render high-detail geometry while maintaining performance.",
-      "Design and implement Blueprint navigation for natural VR walkthroughs.",
-      "Optimize post-processing, reflections, foliage, and environment effects for smooth target frame rates."
-    ],
-    image: "/aura_arch.jpg",
-    workflowImage: null,
-    cta: {
-      text: "Watch Video",
-      link: "https://youtu.be/ndjf8jGb8gE"
-    },
-    galleryImages: [
-      "/Architectural/HighresScreenshot00000.png",
-      "/Architectural/HighresScreenshot00001.png",
-      "/Architectural/HighresScreenshot00002.png",
-      "/Architectural/HighresScreenshot00003.png",
-      "/Architectural/HighresScreenshot00004.png",
-      "/Architectural/HighresScreenshot00005.png",
-      "/Architectural/HighresScreenshot00006.png"
-    ]
-  },
-  {
-    slug: "asters",
-    title: "ASTERS — Active Shooter Tracking & Evacuation Routing",
-    tagline: "Intelligent evacuation planning using real-time tracking, pathfinding, and LED guidance.",
-    category: "Design & Analysis",
+    slug: "species-movement-climate-landuse-appalachians",
+    title: "Species Movement in Climate & Land-Use Change Across Appalachians",
+    tagline: "Modeling species movement, habitat connectivity, and corridor dynamics under changing climate and land-use patterns across the Appalachian mountain region.",
+    category: "Conservation Spatial Modeling",
     year: "2024",
-    overview: "Built to address intelligent evacuation planning during active threat scenarios. We combined Unreal Engine indoor simulations with OpenCV shooter detection and Python-based egress algorithms. Real-time pathfinding and LED guidance enable data-driven evaluation of safe escape strategies.",
+    overview: "Developed spatial connectivity and species movement models evaluating how climate change and land-use dynamics impact wildlife movement pathways and habitat fragmentation across the Appalachian region. This system helps conservation planners identify and protect critical climate-resilient corridors.",
     meta: [
-      { label: "Client", value: "National Science Foundation (NSF)" },
-      { label: "Software", value: "Unreal Engine, Python (OpenCV)" },
-      { label: "Type", value: "Simulation" },
-      { label: "Goal", value: "Development of a real-time virtual simulation system for emergency evacuation." }
+      { label: "Institution", value: "University of Tennessee, Knoxville" },
+      { label: "Software / Stack", value: "R, Python, Circuitscape, Google Earth Engine, QGIS" },
+      { label: "Type", value: "Spatial Movement & Connectivity Modeling" },
+      { label: "Goal", value: "Map species movement pathways and corridor connectivity across the Appalachians under climate and land-use scenarios." }
     ],
-    role: "Environment and behaviour logic; camera tools; egress routing & LED guidance integration; logging & analysis pipeline.",
-    tools: ["Unreal Engine", "Python", "OpenCV", "CSV logging", "A* pathfinding"],
-    context: "University research on safe egress strategies under dynamic threats.",
+    role: "Lead Spatial Researcher. Responsible for processing environmental time-series data, building movement resistance surfaces, and modeling wildlife connectivity pathways.",
+    tools: ["R", "Python", "Circuitscape", "Google Earth Engine", "Remote Sensing", "Species Movement Modeling", "Connectivity Analysis", "GIS Mapping"],
+    context: "Ph.D. research mapping species movement and corridor fragmentation across Appalachian landscapes.",
     process: [
-      "Translate floor plans into a navigable 3D environment with NavMesh and agents.",
-      "In Python/OpenCV, detect target events and stream positions into UE actors.",
-      "Run A* pathfinding to compute safe egress paths and drive dynamic LED guidance.",
-      "Provide researcher tools: camera presets, overlays and heat-map visualisations.",
-      "Log each run to CSV for replay and parameter sweeps; tune performance and export video/report."
+      "Gather high-resolution land cover, topographic, and climate projection layers across the Appalachian region.",
+      "Parameterize resistance surfaces based on land-use changes, canopy loss, and thermal gradients.",
+      "Run circuit theory and least-cost path models to simulate species movement and dispersal corridors.",
+      "Evaluate how projected urban development and temperature changes shift connectivity bottlenecks.",
+      "Export spatial rasters and priority maps highlighting critical migration corridors for protection."
     ],
-    image: "/A.png",
-    workflowImage: "/A-1.png",
-    cta: {
-      text: "Read Report",
-      link: "https://drive.google.com/file/d/1XUJs0Y8INELjnUNagX6r9uAhdaMSqK4y/view?usp=drive_link"
-    },
-    galleryImages: [
-      "/Asters/HighresScreenshot00000.png",
-      "/Asters/HighresScreenshot00001.png",
-      "/Asters/Screenshot 2026-07-30 134602.png"
-    ]
-  },
-  {
-    slug: "maharashtra-truck",
-    title: "Maharashtra Truck Simulation",
-    tagline: "A detailed virtual simulation of the Maharashtra truck transportation model.",
-    category: "Driving Physics & Training",
-    year: "2025",
-    overview: "A detailed virtual simulation of the Maharashtra truck transportation model, focusing on realistic road environments, vehicle behaviour, and operational logistics.",
-    meta: [
-      { label: "Software", value: "Unreal Engine" },
-      { label: "Type", value: "Simulation" },
-      { label: "Goal", value: "Create an interactive and visually accurate simulation for training and visualisation purposes." }
-    ],
-    role: "Implemented driving physics, creating the environment, and scripted interactive scenarios.",
-    tools: ["Unreal Engine", "Blueprints", "Material Editor"],
-    context: "Simulating complex transport operations in an Indian setting for safety and training.",
-    process: [
-      "Design truck and environmental assets with realistic textures.",
-      "Set up driving mechanics and physics using Unreal Engine Blueprints.",
-      "Integrate camera systems for multiple viewing modes.",
-      "Test and refine the simulation to ensure accuracy and performance."
-    ],
-    image: "/M.png",
-    workflowImage: "/M-1.png",
-    cta: null
-  },
-  {
-    slug: "dental-vr",
-    title: "VR Dental Training Simulation",
-    tagline: "Interactive VR training using real patient dental scans and real-time tool interactions.",
-    category: "Medical Training Simulation",
-    year: "2024",
-    overview: "Interactive VR training using real patient dental scans. Key procedures are simulated with real-time tool interactions, detailed 3D assets, dynamic lighting, and materials—creating a repeatable, safe environment for understanding techniques.",
-    meta: [
-      { label: "Client", value: "Incise Dental" },
-      { label: "Software", value: "Unreal Engine" },
-      { label: "Type", value: "Virtual Reality" },
-      { label: "Goal", value: "Enable immersive, hands-on dental training using real patient models in VR." }
-    ],
-    role: "Scan cleanup/retopo; tool interactions; scenario steps & evaluation; lighting & materials.",
-    tools: ["Unreal Engine", "Asset Pipeline"],
-    context: "Freelance training product for patient-model based education.",
-    process: [
-      "Convert CT/CBCT scans to clean meshes suitable for real-time use.",
-      "Assemble a UE scene with accurate scale, lighting, and materials.",
-      "Build dental tools and interactions in Blueprints with constraints for stable control.",
-      "Script procedure steps with checks, timers, and scoring to measure performance.",
-      "Iterate via user tests; optimise and produce a walkthrough video."
-    ],
-    image: "/Dental_Front.png",
+    image: "/projects/species-movement-appalachians.jpg",
     workflowImage: null,
-    cta: {
-      text: "Watch Video",
-      link: "https://youtu.be/q3jmrM6cjmI"
-    }
-  },
-  {
-    slug: "ravana-vr",
-    title: "Ravana VR — Cinematic Showcase",
-    tagline: "An immersive VR cinematic combining animation, stage-like lighting, and synchronized audio.",
-    category: "Cinematic Cultural Showcase",
-    year: "2024",
-    overview: "Immersive VR cinematic based on the character Ravana for a college event—combining animation, stage-like lighting, and synchronized audio to deliver a visually rich experience with detailed environments and timed sequences.",
-    meta: [
-      { label: "Client", value: "University purpose (showcase)" },
-      { label: "Software", value: "Unreal Engine, Blender" },
-      { label: "Type", value: "Virtual Reality" },
-      { label: "Goal", value: "Create an immersive, cinematic VR experience for cultural storytelling." }
-    ],
-    role: "Environment lookdev, animation/sequencing, lighting, audio sync, and real-time polish.",
-    tools: ["Unreal Engine", "Blender", "Sequencer"],
-    context: "Showcase project to bring mythology to life with modern VR visuals.",
-    process: [
-      "Develop visual concept and mood; gather style references.",
-      "Model and assemble the set; establish lighting to support tone and depth.",
-      "Choreograph cameras in Sequencer; time beats to audio.",
-      "Add animation passes and polish with post-fx; profile and export the final VR piece."
-    ],
-    image: "/Ravana_Front.png",
-    workflowImage: null,
-    cta: {
-      text: "Watch Video",
-      link: "https://youtu.be/1x3rMaC1Cc4"
-    }
-  },
-  {
-    slug: "nsk-digital-twin",
-    title: "NSK Digital Twin VR Experience",
-    tagline: "Immersive industrial VR simulation and high-fidelity Digital Twin replica in Unreal Engine 5.",
-    category: "Digital Twin & VR Development",
-    year: "2026",
-    overview: "Designed and developed an immersive Digital Twin application in Unreal Engine 5 to replicate industrial workflows within a virtual environment. The project focused on creating an interactive, real-time virtual environment that accurately represented industrial processes, enabling immersive visualization, training, and operational demonstration.",
-    meta: [
-      { label: "Client", value: "NSK (Freelance)" },
-      { label: "Software", value: "Unreal Engine 5, Blender" },
-      { label: "Type", value: "Digital Twin & Virtual Reality" },
-      { label: "Goal", value: "Enable high-fidelity real-time industrial visualization and training." }
-    ],
-    role: "Freelance Unreal Engine Developer. Responsible for the complete development pipeline, including environment creation, optimization, interaction systems, lighting, asset integration, and VR experience development.",
-    tools: ["Unreal Engine 5", "Blueprints", "Virtual Reality (VR)", "Digital Twin", "Lumen", "Nanite", "OpenXR", "Quixel Megascans", "Blender", "Git"],
-    context: "Freelance industrial simulation contract.",
-    process: [
-      "Develop the complete virtual environment using Unreal Engine 5.",
-      "Build realistic industrial scenes with optimized assets.",
-      "Integrate high-quality lighting using Lumen.",
-      "Utilize Nanite for high-detail asset rendering.",
-      "Create interactive Blueprint systems.",
-      "Optimize the project for smooth VR performance.",
-      "Implement navigation and user interaction systems.",
-      "Improve scene organization and asset management.",
-      "Conduct performance profiling and optimization.",
-      "Collaborate with stakeholders to refine project requirements and user experience."
-    ],
-    image: "/NSK_Logo.png",
-    workflowImage: "/NSK_Workflow.png",
     cta: null,
-    challenges: "One of the primary challenges was maintaining high visual fidelity while ensuring stable VR performance. Careful optimization of assets, lighting, level design, and rendering techniques was required to achieve smooth frame rates without sacrificing realism.",
-    solution: "Implemented Nanite for detailed geometry, leveraged Lumen for realistic lighting, optimized textures and materials, reduced unnecessary draw calls, and designed modular environments to improve maintainability and rendering efficiency.",
-    outcome: "Successfully delivered a visually rich and optimized Digital Twin VR experience that provided an immersive platform for industrial visualization, demonstration, and future scalability.",
-    galleryImages: [
-      "/NSK/HighresScreenshot00000.png",
-      "/NSK/HighresScreenshot00001.png",
-      "/NSK/HighresScreenshot00002.png",
-      "/NSK/HighresScreenshot00003.png",
-      "/NSK/HighresScreenshot00004.png",
-      "/NSK/HighresScreenshot00005.png"
-    ]
+    challenges: "Quantifying complex multi-species movement patterns across broad geographical gradients with dynamic climate and land-use interactions.",
+    solution: "Integrated circuit theory modeling (Circuitscape) with satellite remote sensing time-series data in Python and R.",
+    outcome: "Provided conservation decision-makers with high-resolution movement maps identifying critical Appalachian wildlife corridors vulnerable to climate change and fragmentation."
+  },
+  {
+    slug: "appalachian-biodiversity-projections",
+    title: "Appalachian Biodiversity Projections",
+    tagline: "Land-use and climate change projections for the Appalachian region to model biodiversity impacts.",
+    category: "Ecology & Modeling",
+    year: "2025",
+    overview: "Designed and built spatial land-use change projections for the Appalachians to model and quantify the relative impacts of climate change versus land-use changes on regional biodiversity. By predicting development expansion and habitat fragmentation, this project guides conservation priorities.",
+    meta: [
+      { label: "Institution", value: "Armsworth Lab, University of Tennessee, Knoxville" },
+      { label: "Software / Stack", value: "Python, R, ArcGIS Pro, Dinamica EGO, Circuitscape" },
+      { label: "Type", value: "Biodiversity Forecasting" },
+      { label: "Goal", value: "Predict wildlife corridor fragmentation under future land development and warming scenarios." }
+    ],
+    role: "Graduate Student Researcher. Focused on spatial modeling, future land-use simulation, and corridor connectivity assessments.",
+    tools: ["Python", "R", "Dinamica EGO", "Circuitscape", "ArcGIS Pro", "Spatial Simulation", "Connectivity Analysis"],
+    context: "Ph.D. project funded to identify climate-resilient corridors in the Appalachian mountains.",
+    process: [
+      "Retrieve historical land cover data and identify drivers of urban expansion.",
+      "Run spatial Markov chain models to simulate future development footprints.",
+      "Integrate climate projection data to model species range shifts.",
+      "Compute ecological connectivity using circuit theory to trace wildlife migration corridors.",
+      "Overlay projected corridors with current protected areas to identify conservation gaps."
+    ],
+    image: "/projects/appalachian-modeling.jpg",
+    workflowImage: null,
+    cta: null,
+    challenges: "Integrating disparate spatial datasets representing different scales, coordinate systems, and resolutions.",
+    solution: "Developed custom preprocessing pipelines in Python to downscale and harmonize raster resolutions and reproject spatial coordinate systems.",
+    outcome: "Identified critical unprotected corridors in the Southern Appalachians that are vital for long-term species migrations under warming climates."
+  },
+  {
+    slug: "wetlands-policy-memo",
+    title: "Indigenous Co-Management of Wetlands",
+    tagline: "Strengthening wetlands regulatory frameworks through tribal collaboration and policy modernization.",
+    category: "Environmental Policy",
+    year: "2023",
+    overview: "Authored a policy memo that proposed modernizing wetland protection frameworks by integrating co-management partnerships with Indigenous communities and strengthening federal regulatory definitions. The memo won 3rd place in the National Wildlife Federation (NWF) 2023 Innovative Student Policy Memo Contest.",
+    meta: [
+      { label: "Organizer", value: "National Wildlife Federation (NWF)" },
+      { label: "Focus", value: "Policy Memo / Policy Analysis" },
+      { label: "Award", value: "3rd Place National Winner (2023)" },
+      { label: "Goal", value: "Draft action-oriented federal policy recommendations to protect vulnerable wetlands." }
+    ],
+    role: "Policy Advisor & Author. Evaluated current regulatory frameworks, formulated Indigenous co-management recommendations, and presented policy alternatives.",
+    tools: ["Policy Analysis", "Federal Regulation", "Indigenous Co-management", "Science Communication", "Case Studies"],
+    context: "National student competition to draft policy memos addressing critical environmental crises.",
+    process: [
+      "Review federal Clean Water Act guidelines and identify legal protection gaps.",
+      "Analyze case studies of successful Indigenous-led co-management in Canada and Australia.",
+      "Draft a concise policy memo outlining structural gaps, recommendations, and political feasibility.",
+      "Format memo according to federal government standards for executive briefings."
+    ],
+    image: "/projects/wetlands-policy.jpg",
+    workflowImage: null,
+    cta: null,
+    challenges: "Translating complex ecological dynamics of wetlands into clear, actionable, and politically feasible policy guidelines under word count restrictions.",
+    solution: "Structured the memo using clear executive bullet points, logical problem-solution trees, and concise economic feasibility tables.",
+    outcome: "The memo was recognized nationally by policy professionals at the NWF, demonstrating how ecological data can be converted into federal conservation policy."
+  },
+  {
+    slug: "nwf-ecoleader-fellowship",
+    title: "EcoLeader Community Engagement",
+    tagline: "Leveraging data analytics to evaluate and enhance student conservation community engagement on NWF platforms.",
+    category: "Community & Data Analytics",
+    year: "2025",
+    overview: "Served as a National Wildlife Federation (NWF) Graduate Student EcoLeader Community Research Fellow. Focused on analyzing user engagement patterns on the NWF EcoLeaders digital platform to identify bottlenecks and recommend data-driven enhancements for national outreach.",
+    meta: [
+      { label: "Sponsor", value: "National Wildlife Federation (NWF)" },
+      { label: "Fellowship", value: "Graduate Student EcoLeader Community Research Fellow (2025)" },
+      { label: "Type", value: "Data Analytics & Engagement" },
+      { label: "Goal", value: "Improve user retention and campaign participation on environmental education platforms." }
+    ],
+    role: "NWF Fellow. Responsible for designing surveys, performing user-clickstream analysis, and compiling the final engagement strategy report.",
+    tools: ["Google Analytics", "Data Science", "Survey Design", "User Experience (UX) Research", "Community Engagement"],
+    context: "Fellowship project focusing on enhancing digital platforms for young environmental leaders.",
+    process: [
+      "Analyze platform registration databases to map geographical user distributions.",
+      "Track user paths through training modules using event logs and Google Analytics.",
+      "Launch surveys and focus groups to gather feedback on community features.",
+      "Identify drops in the onboarding funnel and propose navigation layout changes.",
+      "Present key findings and UI design proposals to the NWF EcoLeaders directors."
+    ],
+    image: "/projects/nwf-analytics.jpg",
+    workflowImage: null,
+    cta: null,
+    challenges: "Extracting clean user insights from unstructured clickstream logs with significant noise.",
+    solution: "Applied Python data cleaning pipelines to filter out bots and group user navigation logs into meaningful session profiles.",
+    outcome: "Recommended redesign of the landing page navigation and email follow-up sequence, leading to improved registration-to-active conversion rates."
+  },
+  {
+    slug: "moss-parent-offspring-conflict",
+    title: "Parent-Offspring Conflict in Mosses",
+    tagline: "Studying genetic resource allocation and evolutionary trade-offs in bryophytes.",
+    category: "Evolutionary Genetics",
+    year: "2026",
+    overview: "Ph.D. research in the Budke Laboratory exploring parent-offspring conflicts using moss models. By analyzing resource allocation between maternal moss gametophytes and developing sporophytes, this study uncovers how evolutionary conflicts shape botanical morphology and chemistry.",
+    meta: [
+      { label: "Institution", value: "Budke Laboratory, University of Tennessee, Knoxville" },
+      { label: "Focus", value: "Evolutionary Biology & Bryophyte Genetics" },
+      { label: "Funding", value: "Breedlove-Dennis Award & Tom Gilbert Award" },
+      { label: "Goal", value: "Elucidate evolutionary interactions and nutrient transport at the maternal-offspring boundary." }
+    ],
+    role: "Lead Doctoral Researcher. Responsible for culturing bryophytes, performing microscopic imaging, and conducting chemical profiling.",
+    tools: ["Bryophyte Biology", "Microscopy", "Genetic Sequencing", "Chemical Profiling", "Evolutionary Theory"],
+    context: "Ph.D. dissertation chapter investigating structural and metabolic evolution in primitive land plants.",
+    process: [
+      "Culture moss lines in controlled growth chambers under consistent light and temperature.",
+      "Slice the maternal-sporophyte junction using microtome technique for anatomical analysis.",
+      "Perform scanning electron microscopy (SEM) to visualize tissue interfaces and transport cells.",
+      "Profile nutrient transport and allocation using radiolabeled carbons and mass spectrometry.",
+      "Analyze sequence data to identify genes involved in placental development."
+    ],
+    image: "/projects/moss-conflict.jpg",
+    workflowImage: null,
+    cta: null,
+    challenges: "Handling extremely small botanical specimens (less than 1mm in size) without damaging cells at the junction.",
+    solution: "Employed specialized cryo-preservation and paraffin embedding techniques to maintain structural integrity during microtome sectioning.",
+    outcome: "Discovered novel transport structures that suggest maternal plants dynamically regulate sporophyte resource consumption, supporting evolutionary parental conflict theory."
+  },
+  {
+    slug: "brassica-pathogen-genomics",
+    title: "Brassica Pathogen Genomics",
+    tagline: "GWAS and genomic mapping to identify Blackleg disease resistance in oilseed crops.",
+    category: "Plant Pathogen Genetics",
+    year: "2021",
+    overview: "Investigated the genomic factors governing plant-pathogen interactions, specifically focusing on Blackleg (Leptosphaeria maculans) resistance in Brassica crops. This research was conducted during the Summer Down Under Research Internship (SDURI) program.",
+    meta: [
+      { label: "Program", value: "Summer Down Under Research Internship (SDURI)" },
+      { label: "Focus", value: "Pathogen Genomics & GWAS" },
+      { label: "Software / Stack", value: "RGAugury, PLINK, R" },
+      { label: "Goal", value: "Identify candidate genes responsible for crop resilience against devastating fungal pathogens." }
+    ],
+    role: "Genomics Intern. Responsible for genome-wide association study (GWAS) data analysis, gene annotation, and running bioinformatic pipelines.",
+    tools: ["GWAS", "Bioinformatics", "RGAugury", "R", "Genomic Mapping", "Plant Breeding"],
+    context: "International internship researching global agricultural resilience under pathogenetic pressures.",
+    process: [
+      "Obtain genotyping data for diverse lines of Brassica napus.",
+      "Run quality control and filtering steps on SNP arrays using PLINK.",
+      "Map resistance genes using genome-wide association study (GWAS) models in R.",
+      "Utilize the RGAugury pipeline to annotate resistance gene analogs (RGAs).",
+      "Pinpoint candidate loci overlapping with known defense pathways."
+    ],
+    image: "/projects/brassica-genomics.jpg",
+    workflowImage: null,
+    cta: null,
+    challenges: "Dealing with high levels of false positives in GWAS due to population structure in Brassica lines.",
+    solution: "Implemented mixed linear models (MLM) incorporating kinship matrices and population structure covariates to control false positive rates.",
+    outcome: "Successfully annotated three novel resistance gene clusters that correlate with field-observed resistance against Blackleg disease."
   }
 ];
