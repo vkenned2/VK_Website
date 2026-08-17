@@ -20,176 +20,202 @@ interface ExperienceItem {
 const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-1",
-    year: "Aug 2022 – Present",
-    role: "Ph.D. Candidate & NSF Graduate Research Assistant",
-    organization: "University of Tennessee, Knoxville",
+    year: "Aug 2022 - Present",
+    role: "Graduate Research Scientist (NSF Funded)",
+    organization: "University of Tennessee, Armsworth Lab",
     location: "Knoxville, TN",
     category: "research",
-    typeLabel: "NSF Research Project",
-    impactMetric: "270 Vertebrate Species Across 13 States",
+    typeLabel: "National Assessment & Modeling",
+    impactMetric: "210 Ecosystem Types Across 4.3M km²",
     highlights: [
-      "Engineered automated spatial data processing pipelines across **Python, R, and STATA** evaluating US protected-area effectiveness using federal datasets (PAD-US v4.1, NatureServe v1.0, USNVC, EPA ecoregions).",
-      "Modeled climate-driven range shifts for **270 vertebrate species across 13 Appalachian states**, constructing co-responsibility matrices (HHI, Pielou's J, Bray-Curtis) that identify critical policy gaps in State Wildlife Action Plans.",
-      "Scope research questions directly with NatureServe and USGS partners, translating spatial findings into federal comment letters and stakeholder briefs through the Environmental Law Organization (ELO)."
+      "Designed and led a national environmental assessment covering **210 ecosystem types across 4.3 million km²**, owning research design, statistical modeling, documentation, and validation.",
+      "Built a **two-tier quality assessment framework** separating high-integrity outcomes from nominal ones; revealed weaker tier supplies 70% of headline total, with targets met for 63% under permissive vs 19% under strict definitions.",
+      "Created the **baseline-setting methodology** defining expected outcomes, plus linear and log-log benchmark models making results comparable across units differing by orders of magnitude, explaining up to **82% of outcome variance**.",
+      "Reconciled 4 heterogeneous federal data sources (PAD-US, USNVC, EPA ecoregions, NatureServe G-ranks) into an analytical layer with automated QA/QC checks in Python and R, maintaining **ISO 14001-style audit-trail discipline**.",
+      "Modeled climate-driven range shifts for **270 species across 13 states** and constructed **co-responsibility matrices** (concentration & evenness indices) for jurisdictional attribution where climate impacts cross boundaries.",
+      "Served as technical lead in a cross-functional partnership with NatureServe and USGS, translating statistical methods into criteria non-specialist teams can apply."
     ],
-    tags: ["Spatial Data Pipelines", "Python & R", "GIS / PAD-US", "Climate Modeling", "Science Policy"]
+    tags: ["Nationwide Spatial Modeling", "PAD-US Analytics", "Baseline Modeling", "Two-Tier Quality Framework", "Python & R Pipelines", "ISO 14001 Audit Discipline", "Co-Responsibility Matrix"]
   },
   {
     id: "exp-2",
-    year: "2025",
-    role: "EcoLeaders Platform Rebuild Lead",
+    year: "May 2025 - Oct 2025",
+    role: "National EcoLeaders Research Fellow & Platform Strategist",
     organization: "National Wildlife Federation",
-    location: "Reston, VA / Hybrid",
-    category: "built",
-    typeLabel: "Product Analytics & UX",
-    impactMetric: "+283% Platform Engagement Surge",
+    location: "Remote / Reston, VA",
+    category: "leadership",
+    typeLabel: "National Sustainability Fellowship",
+    impactMetric: "+283% Engagement & Enterprise Roadmap",
     highlights: [
-      "Diagnosed participant churn on national youth engagement platform by combining user analytics with direct qualitative interviews.",
-      "Rebuilt core platform experience around data findings—restructuring content hierarchy, onboarding flows, and outreach cadence—driving a **283% increase in platform engagement** over prior cycle.",
-      "Documented outreach and retention framework for permanent staff execution and briefed executive leadership on strategic roadmap."
+      "Led digital strategy and behavioral data analytics for America's largest youth sustainability network, achieving a **+283% surge in active engagement** across the national platform.",
+      "Conducted longitudinal behavioral analytics on multi-year cohort datasets ($r = +0.84$ active user-action correlation), isolating onboarding bottlenecks and diagnosing platform stickiness levers.",
+      "Architected enterprise integration specifications with **Personify platform engineers**, establishing automated API triggers, behavioral email nudge journeys, and dynamic personalized recommendation widgets.",
+      "Engineered multi-tiered **gamification progression architecture** (milestone badges, Bronze/Silver/Gold ladders, seasonal challenges) and redesigned the EcoLeader Certification UX.",
+      "Convened and facilitated consultative focus groups with NWF's **National Youth Advisory Council (YAC)**, embedding stakeholder co-design into national digital governance.",
+      "Scripted, designed, and produced full-suite multimedia video tours (DaVinci Resolve / CapCut / Canva) and delivered an executive-adopted 6–12 month implementation roadmap."
     ],
-    tags: ["Python", "Platform Analytics", "UX Strategy", "Google Analytics", "Product Strategy"]
+    tags: ["Behavioral Analytics", "Personify Platform", "Gamification Engines", "Longitudinal Modeling", "Youth Advisory Council", "Multimedia UX"]
   },
   {
     id: "exp-3",
-    year: "2024 – Present",
-    role: "National Protected-Areas Representation Pipeline Developer",
-    organization: "University of Tennessee, with NatureServe & USGS",
+    year: "2024 - Present",
+    role: "Environmental Management & Audit Systems Specialist",
+    organization: "Baker School of Public Policy / Audit Workshop",
     location: "Knoxville, TN",
-    category: "research",
-    typeLabel: "National Spatial Pipeline",
-    impactMetric: "210 USNVC Vegetation Groups Analyzed",
+    category: "policy",
+    typeLabel: "EMS & Regulatory Compliance",
+    impactMetric: "ISO 14001 Lead Auditor Certified",
     highlights: [
-      "Built a reproducible pipeline overlaying **210 USNVC vegetation groups** against PAD-US v4.1 and EPA Level-I ecoregions at national scale, measuring ecological quality over raw acreage.",
-      "Demonstrated that strict (GAP 1/2) vs broad (GAP 1/2/3) protection gaps inflate apparent ecosystem representation, undercutting 30x30 policy narratives.",
-      "Shipped per-ecoregion regression tables, publication figures, and documented Jupyter/R notebooks for USGS and NatureServe collaborators."
+      "Completed **Exemplar Global certified ISO 14001:2026 Lead Auditor training** covering EMS requirements, audit planning/execution, environmental aspects & impacts, nonconformity/corrective action, and Plan-Do-Check-Act continual improvement.",
+      "Completed **U.S. EPA foundational regulatory training** in Clean Air Act (CAA) and RCRA, with self-directed review of South Carolina DES (SC DES) permitting requirements.",
+      "Analyzed state & federal clean-energy and land-use policy with the Environmental Law Organization, including EV infrastructure, utility incentives, clean energy standards, and siting compliance.",
+      "Trained in Advanced Microsoft Excel (VLOOKUP, pivot tables, multi-source data reconciliation, macros) and environmental compliance reporting software."
     ],
-    tags: ["R & Python", "PAD-US", "NatureServe", "Geospatial Modeling", "30x30 Policy"]
+    tags: ["ISO 14001 EMS", "Lead Auditor Training", "Clean Air Act & RCRA", "SC DES Permitting", "Advanced Excel", "Compliance Reporting"]
   },
   {
     id: "exp-4",
-    year: "Jan 2025 – Oct 2025",
-    role: "Campus Strategist",
+    year: "Jan 2025 - Oct 2025",
+    role: "Campus Strategist and Training Program Lead",
     organization: "Perplexity AI",
-    location: "Remote / UTK Campus",
-    category: "policy",
-    typeLabel: "AI Adoption & Strategy",
-    impactMetric: "500+ Researchers & Faculty Onboarded",
+    location: "Knoxville, TN / Remote",
+    category: "leadership",
+    typeLabel: "Enterprise Program Lead",
+    impactMetric: "500+ Researchers & Staff Trained",
     highlights: [
-      "Directed campus adoption program for an enterprise AI research platform, designing and delivering live workshops and hands-on demonstrations for **500+ graduate researchers and faculty**.",
-      "Built a network of student leaders and department champions who fielded AI questions, while routing structured user feedback to product engineering teams.",
-      "Drafted student-centered recommendations on transparent and academically responsible AI integration, shaping departmental policy guidelines."
+      "Coordinated and developed a technical training curriculum delivered to **500+ researchers and staff** across multiple departments.",
+      "Drafted responsible-use guidelines adopted at department level for non-technical users and maintained supporting intranet, web content, and internal communications.",
+      "Ran structured feedback cycles between campus users and product engineering team across fast-paced release windows."
     ],
-    tags: ["AI Adoption Strategy", "Prompt Engineering", "Product Feedback Loops", "Responsible AI"]
+    tags: ["Training Curriculum", "Intranet & Web Maintenance", "Cross-Functional Leadership", "User Feedback Loops"]
   },
   {
     id: "exp-5",
-    year: "2024",
-    role: "Automated TEM Analysis Pipeline Developer",
-    organization: "Mic-hackathon (ORNL & Microscopy Society of America)",
-    location: "Oak Ridge National Lab / Remote",
-    category: "built",
-    typeLabel: "Hackathon & ML Publication",
-    impactMetric: "Peer-Reviewed ML Publication (2025)",
+    year: "Dec 2021 - Aug 2022",
+    role: "Research Scientist",
+    organization: "Manipal Centre for Natural Sciences (Dr. Pandi Lab)",
+    location: "Manipal, India",
+    category: "research",
+    typeLabel: "Global Sustainability Analytics",
+    impactMetric: "UN SDG 13 & 15 Evaluation",
     highlights: [
-      "Co-developed machine-learning pipelines automating Transmission Electron Microscopy (TEM) analysis with a multi-university research team (Penn State, NYU, Purdue, UTK), replacing manual instrument acquisition.",
-      "Benchmarked image-cropping and augmentation strategies for structure-property prediction in disordered systems using **autoencoder models** to surface nanoparticle geometry correlations.",
-      "Contributed directly to peer-reviewed paper: *Mic-hackathon 2024: hackathon on machine learning for electron and scanning probe microscopy*, Machine Learning: Science and Technology (2025), DOI: 10.1088/2632-2153/ae1f5d."
+      "Applied geospatial and statistical modeling to evaluate environmental program performance against **UN Sustainable Development Goals 13 (Climate Action)** and **15 (Life on Land)**.",
+      "Integrated large, heterogeneous environmental datasets into technical compliance reports used by government decision-makers and international stakeholders."
     ],
-    tags: ["Python", "Machine Learning", "Autoencoders", "Computer Vision", "ORNL Hackathon", "PyTorch"]
+    tags: ["UN SDGs 13 & 15", "Geospatial Modeling", "Technical Reports", "Environmental Performance"]
   },
   {
     id: "exp-6",
-    year: "2024",
-    role: "Clarifying-Question AI Chatbot Creator",
-    organization: "Google Gemini API Developer Competition",
-    location: "Global Competition",
-    category: "built",
-    typeLabel: "Google Gemini AI App",
-    impactMetric: "Built & Shipped Full-Stack Node/Express App",
+    year: "Jun 2021 - Aug 2021",
+    role: "Summer Research Intern (SDURI Fellowship)",
+    organization: "The University of Western Australia",
+    location: "Perth, Australia",
+    category: "research",
+    typeLabel: "Supply Chain Risk Fellowship",
+    impactMetric: "+30% Screening Throughput",
     highlights: [
-      "Architected an intelligent conversational agent that asks clarifying follow-up questions before generating answers, surfacing intent to condition the **Google Gemini API** call.",
-      "Shipped a working full-stack Node.js/Express web application with a responsive browser interface.",
-      "Demonstrated that eliciting structured context upfront produces significantly higher output quality for non-expert users compared to traditional prompt engineering."
+      "Analyzed experimental phenotypic and genomic screening data for government-funded program on crop resilience to disease and climate stress (**input-side risk in agricultural supply chains**).",
+      "Restructured analytical pipeline to **raise screening throughput 30%**, scaling evaluation across a heterogeneous dataset without loosening quality standards applied to each sample."
     ],
-    tags: ["JavaScript", "Node.js", "Express", "Google Gemini API", "LLM Elicitation", "Full-Stack"]
+    tags: ["Supply Chain Risk", "Throughput Optimization", "Data Pipelines", "Multidisciplinary Collaboration"]
   },
   {
     id: "exp-7",
-    year: "2025 – Present",
+    year: "2025 - Present",
     role: "Youth Board Member",
     organization: "US Biosphere Network (USBN)",
     location: "National / Washington, DC",
     category: "policy",
     typeLabel: "National Policy Board",
-    impactMetric: "UNESCO Hangzhou Strategic Action Plan",
+    impactMetric: "UNESCO National Gap Analysis",
     highlights: [
-      "Appointed to represent early-career scientists in national biosphere reserve strategy, multi-scale gap analysis, and global 30x30 conservation framework implementation.",
-      "Authored nationwide spatial gap analysis evaluating ecosystem representation across US Biosphere Reserves (e.g. Southern Appalachian Biosphere Reserve) aligned with UNESCO targets.",
-      "Briefed senior agency leaders and international working groups on ecosystem representation debt and conservation prioritization."
+      "Represent early-career scientists on national biosphere-reserve strategy and national ecosystem representation gap analysis.",
+      "Authored national representation gap analysis and presented to U.S. Biosphere Network, Southeast Climate Adaptation Science Center, and agency leaders.",
+      "Briefed senior agency leaders and international working groups on ecosystem protection targets."
     ],
-    tags: ["Biosphere Reserves", "UNESCO Policy", "30x30 Target", "Geospatial Gap Analysis"]
+    tags: ["UNESCO Policy", "Geospatial Gap Analysis", "National Agency Briefings", "Stakeholder Presentation"]
   },
   {
     id: "exp-8",
-    year: "May 2025 – Nov 2025",
-    role: "EcoLeader Community Management Intern",
-    organization: "National Wildlife Federation",
-    location: "Reston, VA / Hybrid",
-    category: "policy",
-    typeLabel: "Fellowship & Policy",
-    impactMetric: "3rd Place National Policy Memo Contest",
+    year: "2024",
+    role: "Automated TEM Analysis Pipeline Developer",
+    organization: "Mic-hackathon (ORNL & MSA)",
+    location: "Oak Ridge National Lab / Remote",
+    category: "built",
+    typeLabel: "ML Publication",
+    impactMetric: "Peer-Reviewed ML Publication",
     highlights: [
-      "Authored strategic policy memoranda on sustainability governance and program implementation; earned an **Environmental Justice Badge** for Okefenokee protection advocacy.",
-      "Awarded **3rd Place in NWF National Innovative Policy Memo Contest (2023)** for Clean Water Act and tribal co-management policy."
+      "Co-developed ML pipelines automating Transmission Electron Microscopy analysis with a four-university team (Penn State, NYU, Purdue, UTK).",
+      "Benchmarked image-cropping and augmentation strategies, using autoencoders to surface nanoparticle-geometry correlations.",
+      "Contributed to resulting peer-reviewed paper in *Machine Learning: Science and Technology* (DOI: 10.1088/2632-2153/ae1f5d)."
     ],
-    tags: ["Policy Governance", "Environmental Justice", "Clean Water Act", "Strategic Writing"]
+    tags: ["Python", "Machine Learning", "Autoencoders", "ORNL Hackathon", "Computer Vision"]
   },
   {
     id: "exp-9",
-    year: "Jun 2021 – Aug 2021",
-    role: "Summer Down Under Research Intern",
-    organization: "The University of Western Australia",
-    location: "Perth, Australia",
-    category: "research",
-    typeLabel: "Genomics Research",
-    impactMetric: "+30% Screening Efficiency",
+    year: "2024",
+    role: "Clarifying-Question AI Chatbot Creator",
+    organization: "Google Gemini API Developer Competition",
+    location: "Global Competition",
+    category: "built",
+    typeLabel: "Full-Stack App",
+    impactMetric: "Full-Stack Node/Express App Shipped",
     highlights: [
-      "Optimized disease-resistance screening efficiency by **30%** on a state-funded agricultural resilience project by rewriting analytical pipelines for phenotypic data.",
-      "Executed genome-wide association study (GWAS) mapping and RGAugury bioinformatics annotation to identify climate-resilient crop traits."
+      "Designed a conversational agent that asks clarifying questions before answering, conditioning each API call on user intent.",
+      "Shipped full-stack Node.js/Express app with responsive browser interface, demonstrating context-awareness and user guidance."
     ],
-    tags: ["Bioinformatics", "GWAS", "RGAugury", "Phenotypic Pipelines", "Crop Resilience"]
+    tags: ["JavaScript", "Node.js", "Express", "Google Gemini API", "UX Engineering"]
   },
   {
     id: "exp-10",
-    year: "Aug 2016 – Aug 2021",
-    role: "BS-MS Integrated Degree & Student Leader",
+    year: "Aug 2016 - Aug 2021",
+    role: "Integrated B.S. and M.S., Ecology & Environmental Biology",
     organization: "IISER Kolkata",
     location: "Kolkata, India",
     category: "leadership",
     typeLabel: "Degree & Governance",
     impactMetric: "Top 1% National INSPIRE Scholar",
     highlights: [
-      "Awarded prestigious **INSPIRE Fellowship** (Top 1% national merit, Govt of India) for outstanding academic achievement in natural sciences.",
-      "Completed Master's Thesis on plant developmental biochemistry and calyptra morphology under rigorous empirical standards.",
-      "Elected **General Secretary of the Student Affairs Council (SAC)**; managed annual budgets, campus logistics, and student governance for 2,000+ members."
+      "Conferred Master's degree in 2021, followed by 5 years of continuous full-time quantitative research.",
+      "Awarded INSPIRE Fellowship (top 1% national merit, Govt. of India) for academic excellence.",
+      "Elected General Secretary of Student Affairs Council, governing budgets and logistics for a 2,000+ member organization across multicultural teams."
     ],
-    tags: ["Biological Sciences", "INSPIRE Fellow", "Master's Thesis", "Student Governance"]
+    tags: ["Ecology & Environment", "INSPIRE Fellow", "Student Governance", "Budget & Logistics"]
   },
   {
     id: "exp-11",
-    year: "2021 – Present",
-    role: "Graduate Teaching Assistant & Science Communicator",
-    organization: "Division of Biology & McClung Museum (UTK)",
+    year: "2022 - Present",
+    role: "Graduate Teaching Associate & Science Communicator",
+    organization: "University of Tennessee, Knoxville",
     location: "Knoxville, TN",
     category: "leadership",
     typeLabel: "Instruction & Outreach",
     impactMetric: "CIRTL Practitioner Certified",
     highlights: [
-      "Instructed lab sections for BIOL 159 & BioLit 150; earned **CIRTL Practitioner certification** in evidence-based STEM instruction and student mentorship.",
-      "Curated interactive biodiversity public exhibits for annual **Darwin's Day at McClung Museum**, translating complex ecological datasets for public audiences."
+      "Instruct laboratory sections for 90+ credit hours of environmental science, regulatory policy, and quantitative methods.",
+      "Earned CIRTL Practitioner certification in evidence-based STEM instruction.",
+      "Designed and led public environmental education sessions, museum exhibits, and visitor programming for McClung Museum Darwin's Day (2022–2025)."
     ],
-    tags: ["STEM Pedagogy", "CIRTL Practitioner", "Public Communication", "Student Mentorship"]
+    tags: ["Evidence-Based Instruction", "CIRTL Practitioner", "Public Outreach", "Environmental Education"]
+  },
+  {
+    id: "exp-12",
+    year: "2022 - Present",
+    role: "Environmental & Sustainability Leadership Initiative",
+    organization: "University of Tennessee, Knoxville",
+    location: "Knoxville, TN",
+    category: "leadership",
+    typeLabel: "Campus Sustainability & Advocacy",
+    impactMetric: "2026 Sustainability Award Nominee",
+    highlights: [
+      "Founded and led a campus **Electric Vehicle (EV) sustainability initiative**, expanding EV charging infrastructure awareness and sustainable transportation advocacy—nominated for the **2026 Campus Sustainability Award**.",
+      "Served as **IP-PIPES mentor** to incoming graduate students, providing research guidance and fostering inclusive academic community within EEB.",
+      "Volunteered at **McClung Museum of Natural History & Culture**, contributing to citizen science programs, Darwin Day public outreach, and biodiversity education events (2022–2025).",
+      "Active member of the **Environmental Law Organization**, co-authoring a public comment letter opposing strip mining near Okefenokee National Wildlife Refuge.",
+      "Engaged with **Naturalists Club**, **Society for Professional Environmental Scientists (SPES)**, and **Ecological Leadership Group (ELG)** to lead campus invasive plant removal at Deans Woods trail and biodiversity awareness campaigns.",
+      "Presented at the **Tennessee Biodiversity Summit**, **SE Climate Adaptation Science Center (SE-CASC)**, and **Appalachian Law Conference** on conservation policy and ecosystem representation gaps."
+    ],
+    tags: ["EV Initiative", "2026 Sustainability Award", "IP-PIPES Mentor", "McClung Museum", "Environmental Law", "Naturalists Club"]
   }
 ];
 

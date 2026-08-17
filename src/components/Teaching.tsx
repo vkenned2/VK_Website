@@ -29,93 +29,93 @@ interface TeachingItem {
 const TEACHING_EXPERIENCES: TeachingItem[] = [
   {
     id: "teach-1",
-    period: "2021 – Present",
+    period: "2021 - Present",
     role: "Graduate Teaching Assistant & Laboratory Instructor",
     organization: "Division of Biology, University of Tennessee, Knoxville",
     location: "Knoxville, TN",
     category: "instruction",
     impactMetric: "120+ Undergraduates Taught",
     highlights: [
-      "Instructed laboratory sections for **BIOL 159 (Skills of Biological Investigation)** & **BioLit 150 (Biological Literacy)**.",
-      "Guided students through scientific hypothesis formulation, experimental design, and spatial data analysis in R and Python.",
-      "Earned **CIRTL Practitioner Certification** in evidence-based STEM instruction, active learning design, and inclusive lab environments.",
-      "Provided detailed feedback on empirical research papers and facilitated collaborative scientific discussions."
+      "Instruct lab sections for BIOL 159 (Skills of Biological Investigation) and BioLit 150 (Biological Literacy).",
+      "Guide students through hypothesis formulation, experimental design, and data analysis in R and Python.",
+      "Apply CIRTL Practitioner methods (active learning, inclusive design) to every lab section.",
+      "Give detailed feedback on empirical papers and facilitate collaborative scientific discussion."
     ],
     tags: ["STEM Pedagogy", "CIRTL Practitioner Certified", "BIOL 159 & 150", "R & Python Data", "Lab Instruction"]
   },
   {
     id: "teach-2",
-    period: "Jan 2025 – Oct 2025",
+    period: "Jan 2025 - Oct 2025",
     role: "Perplexity AI Campus Strategist & AI Literacy Lead",
     organization: "Perplexity AI & UT Knoxville",
     location: "Knoxville, TN / Remote",
     category: "workshops",
     impactMetric: "500+ Researchers & Faculty Onboarded",
     highlights: [
-      "Designed and delivered live AI research literacy workshops and hands-on demonstrations for **500+ graduate researchers, postdocs, and faculty**.",
-      "Taught structured prompting methodologies, literature synthesis workflows, and critical verification techniques for academic research.",
-      "Drafted university guidelines for transparent and academically responsible AI tool integration in research writing.",
-      "Mentored a network of student AI champions across multiple STEM and humanities departments."
+      "Designed and delivered AI research-literacy workshops for 500+ researchers, postdocs, and faculty.",
+      "Taught structured prompting, literature-synthesis workflows, and source-verification techniques for scholarly work.",
+      "Drafted university guidelines for responsible AI integration in research writing.",
+      "Mentored a cross-departmental network of student AI champions."
     ],
     tags: ["AI Research Literacy", "Prompt Engineering", "Faculty Workshops", "500+ Trained", "Responsible AI"]
   },
   {
     id: "teach-3",
-    period: "2022 – Present",
+    period: "2022 - Present",
     role: "Undergraduate Spatial Ecology Research Mentor",
     organization: "Armsworth Lab, UT Knoxville",
     location: "Knoxville, TN",
     category: "mentorship",
     impactMetric: "1-on-1 Research & Career Mentorship",
     highlights: [
-      "Mentored undergraduate researchers in spatial connectivity modeling (Circuitscape), satellite remote sensing, and GIS data processing.",
-      "Guided students in presenting poster research at the **Exhibition of Undergraduate Research and Creative Achievement (EUReCA)**.",
-      "Advised mentees on NSF REU applications, graduate school statements, and scientific manuscript drafting.",
-      "Hosted weekly code-review sessions teaching reproducible analytical workflows in R and Python."
+      "Mentor undergraduates in spatial connectivity modeling (Circuitscape), remote sensing, and GIS processing.",
+      "Coach students to present poster research at UTK's EUReCA exhibition.",
+      "Advise mentees on NSF REU applications, grad-school statements, and manuscript drafting.",
+      "Host weekly code-review sessions teaching reproducible R and Python workflows."
     ],
     tags: ["Spatial Modeling", "EUReCA Mentor", "GIS/R Training", "NSF REU Prep", "Code Review"]
   },
   {
     id: "teach-4",
-    period: "2024 – 2025",
+    period: "2024 - 2025",
     role: "NWF EcoLeaders Youth Leadership & Community Mentor",
     organization: "National Wildlife Federation",
     location: "Reston, VA / Remote",
     category: "mentorship",
     impactMetric: "National Student Policy Mentorship",
     highlights: [
-      "Provided 1-on-1 and cohort mentorship to emerging youth leaders nationwide on environmental policy writing, advocacy, and community outreach.",
-      "Facilitated peer-review and coaching sessions for national student policy memos on Clean Water Act regulations and tribal co-management.",
-      "Evaluated student capstone projects for national sustainability badge credentials."
+      "Mentored youth leaders nationwide on policy writing, advocacy, and community outreach.",
+      "Ran peer-review and coaching sessions for national policy memos on Clean Water Act and tribal co-management.",
+      "Evaluated capstone projects for national sustainability-badge credentials."
     ],
     tags: ["Youth Leadership", "Policy Mentorship", "Clean Water Act", "Community Engagement"]
   },
   {
     id: "teach-5",
-    period: "2021 – Present",
+    period: "2021 - Present",
     role: "Public Science Communicator & Museum Educator",
     organization: "McClung Museum of Natural History & Culture",
     location: "Knoxville, TN",
     category: "outreach",
     impactMetric: "Public K-12 & Community Outreach",
     highlights: [
-      "Curated interactive biodiversity and evolutionary genetics learning stations for annual **Darwin's Day** museum celebrations.",
-      "Translated complex ecological datasets and specimen collections for K-12 students, teachers, and public museum visitors.",
-      "Designed hands-on biological visualization activities connecting regional Appalachian biodiversity to climate conservation."
+      "Curate interactive biodiversity and genetics stations for McClung Museum's annual Darwin's Day.",
+      "Translate ecological datasets and specimen collections for K-12 students, teachers, and visitors.",
+      "Design hands-on activities linking Appalachian biodiversity to climate conservation."
     ],
     tags: ["Darwin's Day", "Public Communication", "Museum Education", "K-12 Science"]
   },
   {
     id: "teach-6",
-    period: "2024 – 2026",
+    period: "2024 - 2026",
     role: "Appalachian Environmental Policy Workshop Leader",
     organization: "Appalachian Public Interest Environmental Law (APIEL)",
     location: "Knoxville, TN",
     category: "workshops",
     impactMetric: "Practitioner Training Workshops",
     highlights: [
-      "Designed and led interactive practitioner workshops teaching students and community advocates how to turn spatial ecological datasets into federal public comment letters.",
-      "Authored open-access reference guides for spatial GIS data translation in environmental law and policy contexts."
+      "Lead practitioner workshops teaching advocates to turn spatial ecological data into federal comment letters.",
+      "Authored open-access reference guides for translating GIS data into environmental law and policy."
     ],
     tags: ["Policy Workshops", "GIS Translation", "Environmental Advocacy", "APIEL Conference"]
   }
@@ -356,7 +356,7 @@ export default function Teaching() {
                 </span>
               </div>
               <p className="text-xs text-white/80 font-light leading-relaxed italic">
-                &ldquo;Effective STEM education bridges technical precision with inclusive, inquiry-driven mentorship. My mission is to equip students with computational tools, critical scientific literacy, and the confidence to drive real-world conservation impact.&rdquo;
+                &ldquo;Good STEM teaching pairs technical precision with inclusive, inquiry-driven mentorship. My aim is to give students the computational tools, scientific literacy, and confidence to drive real conservation impact.&rdquo;
               </p>
             </div>
           </div>

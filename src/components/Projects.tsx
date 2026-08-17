@@ -19,63 +19,63 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     id: "01",
-    title: "Species Movement in Climate & Land-Use Change Across Appalachians",
-    category: "Conservation Spatial Modeling",
-    year: "2024",
-    description: "Spatial modeling of species connectivity, movement patterns, and habitat corridors under future climate and land-use change scenarios across the Appalachian region.",
-    tags: ["R", "Python", "Circuitscape", "Google Earth Engine", "Remote Sensing"],
-    image: "/projects/species-movement-appalachians.jpg",
-    link: "/projects/species-movement-climate-landuse-appalachians",
+    title: "US Nationwide Representation Analysis & Two-Tier Quality Framework",
+    category: "Conservation Science & Spatial Modeling",
+    year: "2024–2026",
+    description: "National ecosystem representation modeling, log-log benchmark models, and co-responsibility matrices across 210 ecosystem types (4.3M km²).",
+    tags: ["PAD-US", "NatureServe", "Log-Log Regression", "Baseline Modeling", "Attribution Matrix"],
+    image: "/projects/us-representation-analysis.png",
+    link: "/projects/us-nationwide-representation-analysis-quality-framework",
   },
   {
     id: "02",
-    title: "Appalachian Biodiversity Projections",
-    category: "Ecology & Modeling",
-    year: "2025",
-    description: "Spatial land-use and climate change projections in the Appalachians to predict development expansion and habitat fragmentation.",
-    tags: ["Python", "R", "Dinamica EGO", "Circuitscape"],
+    title: "Appalachian Climate Change, Scenario Planning & Corridor Connectivity",
+    category: "Climate Projections & Scenario Planning",
+    year: "2024–2025",
+    description: "Spatial land-use simulation (Dinamica EGO) and circuit theory connectivity (Circuitscape) predicting development footprints and climate-resilient corridors across Appalachia.",
+    tags: ["Dinamica EGO", "Circuitscape", "Climate Projections", "Scenario Planning", "Python & R"],
     image: "/projects/appalachian-modeling.jpg",
-    link: "/projects/appalachian-biodiversity-projections",
+    link: "/projects/appalachian-climate-scenario-planning-connectivity",
   },
   {
     id: "03",
-    title: "Indigenous Co-Management of Wetlands",
-    category: "Environmental Policy",
-    year: "2023",
-    description: "Federal policy proposal modernizing wetland protection through tribal co-management partnerships (3rd place national winner, NWF contest).",
-    tags: ["Policy Analysis", "Clean Water Act", "Science Comm"],
-    image: "/projects/wetlands-policy.jpg",
-    link: "/projects/wetlands-policy-memo",
-  },
-  {
-    id: "04",
-    title: "EcoLeader Community Engagement",
-    category: "Community & Data Analytics",
+    title: "NWF EcoLeaders Platform Strategy & Behavioral Analytics",
+    category: "Sustainability Platform & Behavioral Analytics",
     year: "2025",
-    description: "Data analytics fellowship using Google Analytics and survey design to evaluate and improve national student conservation outreach.",
-    tags: ["Data Science", "Google Analytics", "UX Research"],
+    description: "National conservation fellowship combining longitudinal behavioral data, Personify platform architecture, gamification engines, and UX strategy (+283% engagement).",
+    tags: ["Longitudinal Analytics", "Personify Platform", "Gamification Engines", "UX Strategy", "Behavioral Nudges"],
     image: "/projects/nwf-analytics.jpg",
     link: "/projects/nwf-ecoleader-fellowship",
   },
   {
+    id: "04",
+    title: "Ecological Field Studies: Grants, Permitting & Publishing",
+    category: "Field Ecology & Research Lifecycle",
+    year: "2024–2026",
+    description: "End-to-end scientific research lifecycle: field specimen collection, state/federal research permits, competitive grant acquisition, and peer-reviewed publishing.",
+    tags: ["Field Data Collection", "Research Permits", "Grant Management", "Scientific Publishing"],
+    image: "/projects/botanical-field-research.jpg",
+    link: "/projects/ecological-field-studies-grants-publishing",
+  },
+  {
     id: "05",
-    title: "Parent-Offspring Conflict in Mosses",
-    category: "Evolutionary Genetics",
-    year: "2026",
-    description: "Ph.D. research investigating resource allocation trade-offs and maternal-offspring interactions in bryophytes using microtomy and SEM.",
-    tags: ["Microscopy", "Genetics", "Evolutionary Theory"],
-    image: "/projects/moss-conflict.jpg",
-    link: "/projects/moss-parent-offspring-conflict",
+    title: "Environmental Policy & Sustainability Leadership",
+    category: "Environmental Policy & Community Leadership",
+    year: "2022–Present",
+    description: "Award-winning federal policy memo on Clean Water Act wetland protection (3rd place national, NWF), Okefenokee mining comment letters, campus EV initiative (2026 Sustainability Award nominee), and mentoring.",
+    tags: ["Clean Water Act", "EV Initiative", "Sustainability Award 2026", "Environmental Law", "Policy Analysis"],
+    image: "/projects/wetlands-policy.jpg",
+    link: "/projects/environmental-policy-tribal-comanagement-leadership",
   },
   {
     id: "06",
-    title: "Brassica Pathogen Genomics",
-    category: "Plant Pathogen Genetics",
-    year: "2021",
-    description: "Genome-wide association study (GWAS) and bioinformatic pipelines to map and annotate resistance genes in Brassica crops against Blackleg.",
-    tags: ["GWAS", "RGAugury", "PLINK", "R"],
-    image: "/projects/brassica-genomics.jpg",
-    link: "/projects/brassica-pathogen-genomics",
+    title: "Applied AI Systems: Computer Vision, Gemini Apps & Technical Enablement",
+    category: "Applied AI & Technical Enablement",
+    year: "2024–2025",
+    description: "Autoencoder computer vision ML pipeline (ORNL publication in Machine Learning: Science & Tech), Google Gemini conversational web app, and AI adoption curriculum for 500+ researchers.",
+    tags: ["Python & PyTorch", "Google Gemini API", "Computer Vision", "ORNL Publication", "AI Curriculum"],
+    image: "/projects/gemini-ai-systems.png",
+    link: "/projects/applied-ai-systems-machine-learning-adoption",
   },
 ];
 
@@ -186,8 +186,16 @@ export default function Projects() {
               LinkedIn
             </a>
             <span className="hidden sm:inline">•</span>
+            <a href="https://github.com/vkenned2" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
+              GitHub
+            </a>
+            <span className="hidden sm:inline">•</span>
             <a href="https://scholar.google.com/scholar?q=Vishal+Kennedy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">
               Google Scholar
+            </a>
+            <span className="hidden sm:inline">•</span>
+            <a href="/Vishal_Kennedy_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-white/10 text-white text-xs font-medium hover:bg-emerald-500/20 hover:text-emerald-300 border border-white/10 hover:border-emerald-500/30 transition-all duration-300">
+              Download Resume (PDF)
             </a>
           </div>
           <p className="text-[#86868b] text-xs mt-12 tracking-widest uppercase">
