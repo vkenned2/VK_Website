@@ -9,6 +9,10 @@
   --accent-muted: #86868b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
   background-color: var(--background);

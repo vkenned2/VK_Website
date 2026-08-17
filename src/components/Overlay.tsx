@@ -68,13 +68,13 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Ecology & Policy Research Portfolio
+          CONSERVATION, ENERGY &amp; POLICY PORTFOLIO
         </span>
         <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-5xl leading-[1.15]">
           VISHAL KENNEDY<span className="font-semibold">.</span>
         </h1>
         <p className="text-base md:text-xl lg:text-2xl font-light text-[#86868b] mt-6 tracking-wide max-w-3xl text-balance">
-          Ph.D. Candidate in Ecology & Evolutionary Biology mapping the future of biodiversity, conservation management, and environmental policy.
+          Ph.D. Candidate, Conservation &amp; Environmental Policy · Data-Driven Decision-Making · Energy &amp; Sustainability · Scientist · University of Tennessee, Knoxville
         </p>
       </div>
 
@@ -88,10 +88,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-20 lg:px-32 text-left max-w-3xl"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Spatial Ecology & Data
+          DATA-DRIVEN DECISION-MAKING
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Integrating <span className="font-medium text-white">niche modeling</span> and remote sensing to project biodiversity trends.
+          Turning complex data into decisions leaders can act on.
         </h2>
       </div>
 
@@ -105,10 +105,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-end px-8 md:px-20 lg:px-32 text-right max-w-3xl ml-auto"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          Science &amp; Policy Bridge
+          SCIENCE &amp; POLICY
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Translating complex <span className="font-medium text-white">scientific findings</span> into actionable environmental policies.
+          Translating science into environmental and energy policy that works in practice.
         </h2>
       </div>
 

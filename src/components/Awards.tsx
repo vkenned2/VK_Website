@@ -15,6 +15,14 @@ interface AwardItem {
 const AWARDS: AwardItem[] = [
   {
     year: "2026",
+    title: "Campus Sustainability Leadership Award Nominee",
+    organization: "University of Tennessee, Knoxville",
+    description: "Nominated for founding campus Electric Vehicle (EV) sustainability initiatives, expanding EV infrastructure advocacy, and cross-departmental environmental leadership.",
+    badge: "Sustainability Honor",
+    category: "award"
+  },
+  {
+    year: "2026",
     title: "William Byrne-Hartz Fellowship",
     organization: "University of Tennessee, Knoxville",
     description: "Highest-honor fellowship awarded for outstanding environmental research impact and conservation leadership.",
@@ -47,9 +55,9 @@ const AWARDS: AwardItem[] = [
   },
   {
     year: "2025",
-    title: "NWF EcoLeaders Graduate Fellowship",
+    title: "NWF EcoLeaders Graduate Research Fellowship",
     organization: "National Wildlife Federation",
-    description: "Competitive national research fellowship focusing on digital engagement analytics, sustainability governance, and community outreach.",
+    description: "Competitive national fellowship leading digital platform transformation (+283% active engagement), longitudinal behavioral analytics, and enterprise Personify systems architecture.",
     badge: "National Fellowship",
     category: "fellowship"
   },
@@ -96,12 +104,15 @@ const AWARDS: AwardItem[] = [
 ];
 
 const CERTIFICATIONS = [
-  { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic", year: "2025" },
-  { title: "Claude 101 & Advanced Prompting", issuer: "Anthropic", year: "2025" },
+  { title: "ISO 14001:2026 Lead Auditor Training Course", issuer: "Audit Workshop (Exemplar Global Certified)", year: "2026 (In Progress)" },
+  { title: "Environmental Management Systems (EMS) & Compliance Auditing", issuer: "Baker School of Public Policy / Audit Workshop", year: "2025–2026" },
+  { title: "U.S. EPA Regulatory Training (Clean Air Act, CWA & RCRA)", issuer: "U.S. EPA / SC DES Permitting Frameworks", year: "2025" },
+  { title: "Project Management Certificate", issuer: "Baker School of Public Policy & Public Affairs", year: "2025 (In Progress)" },
+  { title: "Administrative & Regulatory Policy (BCPP 548)", issuer: "Baker School of Public Policy & Public Affairs", year: "2025" },
   { title: "GIS & Remote Sensing Certification", issuer: "Indian Institute of Remote Sensing (ISRO)", year: "2023" },
-  { title: "CIRTL Practitioner (STEM Pedagogy)", issuer: "Center for Integration of Research, Teaching & Learning", year: "2024" },
-  { title: "Environmental Justice Badge", issuer: "National Wildlife Federation", year: "2025" },
-  { title: "UNDP Biodiversity Finance (BIOFIN) Certification", issuer: "United Nations Development Programme", year: "2024" },
+  { title: "CIRTL Practitioner (Evidence-Based Instruction)", issuer: "Center for Integration of Research, Teaching & Learning", year: "2024" },
+  { title: "EcoLeaders Environmental Justice Badge", issuer: "National Wildlife Federation", year: "2025" },
+  { title: "CITI Responsible Conduct of Research & Field Safety", issuer: "CITI Program / University of Tennessee", year: "2024" },
 ];
 
 const PRESENTATIONS = [

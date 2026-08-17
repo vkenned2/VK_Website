@@ -4,6 +4,7 @@ import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
+import About from "@/components/About";
 import NewsFeature from "@/components/NewsFeature";
 import Experience from "@/components/Experience";
 import Teaching from "@/components/Teaching";
@@ -28,6 +29,9 @@ export default function Home() {
           <Overlay />
         </div>
       </div>
+
+      {/* About & Focus Areas Section */}
+      <About />
 
       {/* Featured Press / Recently in the News Section */}
       <NewsFeature />
