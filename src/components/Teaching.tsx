@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { 
   GraduationCap, 
   Users, 
@@ -34,7 +35,7 @@ const TEACHING_EXPERIENCES: TeachingItem[] = [
     organization: "Division of Biology, University of Tennessee, Knoxville",
     location: "Knoxville, TN",
     category: "instruction",
-    impactMetric: "120+ Undergraduates Taught",
+    impactMetric: "1,400+ Undergraduates Taught",
     highlights: [
       "Instruct lab sections for BIOL 159 (Skills of Biological Investigation) and BioLit 150 (Biological Literacy).",
       "Guide students through hypothesis formulation, experimental design, and data analysis in R and Python.",
@@ -45,19 +46,19 @@ const TEACHING_EXPERIENCES: TeachingItem[] = [
   },
   {
     id: "teach-2",
-    period: "Jan 2025 - Oct 2025",
-    role: "Perplexity AI Campus Strategist & AI Literacy Lead",
-    organization: "Perplexity AI & UT Knoxville",
+    period: "Jan 2025 – Oct 2025",
+    role: "Campus Strategist and Training Program Lead",
+    organization: "Perplexity AI",
     location: "Knoxville, TN / Remote",
     category: "workshops",
-    impactMetric: "500+ Researchers & Faculty Onboarded",
+    impactMetric: "500+ Researchers, Faculty & Staff Trained",
     highlights: [
-      "Designed and delivered AI research-literacy workshops for 500+ researchers, postdocs, and faculty.",
-      "Taught structured prompting, literature-synthesis workflows, and source-verification techniques for scholarly work.",
-      "Drafted university guidelines for responsible AI integration in research writing.",
-      "Mentored a cross-departmental network of student AI champions."
+      "Built and delivered a **technical AI-literacy curriculum to 500+ researchers, faculty, and staff**, covering structured prompting, literature-synthesis workflows, and source-verification methods.",
+      "Mentored a cross-departmental network of student AI champions.",
+      "Built **AI-assisted workflows aggregating news, literature, and public sources into verified briefs**.",
+      "Drafted department-adopted **responsible-use guidelines** and ran structured feedback cycles between users and product engineering across fast release windows."
     ],
-    tags: ["AI Research Literacy", "Prompt Engineering", "Faculty Workshops", "500+ Trained", "Responsible AI"]
+    tags: ["Technical AI-Literacy", "500+ Researchers", "Structured Prompting", "Literature-Synthesis", "Responsible AI Governance", "Feedback Cycles"]
   },
   {
     id: "teach-3",
@@ -216,21 +217,112 @@ export default function Teaching() {
         {/* Metrics Grid Banner */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
-            <div className="text-2xl md:text-3xl font-light text-white mb-1">500+</div>
-            <div className="text-xs text-[#86868b] font-medium">Researchers & Faculty Trained in AI</div>
+            <div className="text-2xl md:text-3xl font-light text-white mb-1">1,400+</div>
+            <div className="text-xs text-[#86868b] font-medium">Undergraduates Taught Across Biology Labs</div>
           </div>
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
-            <div className="text-2xl md:text-3xl font-light text-emerald-400 mb-1">CIRTL</div>
+            <div className="text-2xl md:text-3xl font-light text-emerald-400 mb-1">500+</div>
+            <div className="text-xs text-[#86868b] font-medium">Researchers &amp; Faculty Trained in AI</div>
+          </div>
+          <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
+            <div className="text-2xl md:text-3xl font-light text-white mb-1">CIRTL</div>
             <div className="text-xs text-[#86868b] font-medium">Practitioner Certified in STEM Pedagogy</div>
           </div>
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
-            <div className="text-2xl md:text-3xl font-light text-white mb-1">4+</div>
-            <div className="text-xs text-[#86868b] font-medium">University Courses & Lab Sections</div>
-          </div>
-          <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
             <div className="text-2xl md:text-3xl font-light text-emerald-400 mb-1">1-on-1</div>
-            <div className="text-xs text-[#86868b] font-medium">Undergrad & Youth Policy Mentorship</div>
+            <div className="text-xs text-[#86868b] font-medium">Undergrad &amp; Youth Policy Mentorship</div>
           </div>
+        </div>
+
+        {/* Dual Academic Spotlight: Classroom Instruction & Research Mentorship */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16 items-stretch">
+          {/* Card 1: Auditorium Lecture & STEM Pedagogy (7 cols on lg) */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            className="lg:col-span-7 glass-card p-6 md:p-8 rounded-3xl border border-white/10 flex flex-col justify-between bg-white/[0.02] group"
+          >
+            <div>
+              <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-[#18181b] mb-6">
+                <Image
+                  src="/photos/vishal-lecture.jpg"
+                  alt="Vishal Kennedy lecturing on species richness, functional diversity, and ecological data in a university auditorium"
+                  fill
+                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  className="object-contain object-center group-hover:scale-[1.01] transition-transform duration-500 ease-out"
+                />
+                <div className="absolute inset-0 pointer-events-none rounded-2xl ring-1 ring-inset ring-white/10" />
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                  <span className="text-[10px] font-mono text-emerald-300 bg-black/80 backdrop-blur-md px-3 py-1 rounded-full border border-emerald-500/30">
+                    Large-Format Classroom Instruction
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 mb-2">
+                <GraduationCap className="w-4 h-4 text-emerald-400" />
+                <span className="text-[11px] font-mono tracking-widest text-emerald-400 font-semibold uppercase">
+                  STEM Pedagogy &amp; Laboratory Sections
+                </span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-light text-white leading-snug mb-2">
+                Evidence-Based <span className="font-medium text-emerald-300">Classroom Teaching</span>
+              </h3>
+              <p className="text-xs text-[#86868b] font-light leading-relaxed mb-4">
+                Division of Biology · BIOL 159 &amp; BioLit 150 · University of Tennessee, Knoxville
+              </p>
+              <p className="text-xs text-white/80 font-light leading-relaxed">
+                Instructing undergraduates in experimental hypothesis testing, statistical modeling in R/Python, and scientific writing with CIRTL Practitioner certified active-learning frameworks.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Card 2: 1-on-1 Mentorship & Poster Sessions (5 cols on lg) */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+            className="lg:col-span-5 glass-card p-6 md:p-8 rounded-3xl border border-white/10 flex flex-col justify-between bg-white/[0.02] group"
+          >
+            <div>
+              <div className="relative aspect-[599/640] w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-[#18181b] mb-6">
+                <Image
+                  src="/photos/vishal-research.jpg"
+                  alt="Vishal Kennedy mentoring undergraduate researcher at EUReCA poster presentation"
+                  fill
+                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500 ease-out"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                  <span className="text-[10px] font-mono text-emerald-300 bg-black/80 backdrop-blur-md px-3 py-1 rounded-full border border-emerald-500/30">
+                    1-on-1 Research Mentorship &amp; Symposia
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 mb-2">
+                <Users className="w-4 h-4 text-emerald-400" />
+                <span className="text-[11px] font-mono tracking-widest text-emerald-400 font-semibold uppercase">
+                  EUReCA &amp; Research Coaching
+                </span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-light text-white leading-snug mb-2">
+                Undergraduate <span className="font-medium text-emerald-300">Research Mentorship</span>
+              </h3>
+              <p className="text-xs text-[#86868b] font-light leading-relaxed mb-4">
+                Armsworth Lab &amp; National Wildlife Federation EcoLeaders
+              </p>
+              <p className="text-xs text-white/80 font-light leading-relaxed">
+                Coaching undergraduate mentees in spatial connectivity modeling (Circuitscape), manuscript drafting, EUReCA poster exhibitions, and national sustainability policy fellowships.
+              </p>
+            </div>
+          </motion.div>
         </div>
 
         {/* Teaching & Mentoring Cards */}

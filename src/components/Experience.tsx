@@ -20,202 +20,144 @@ interface ExperienceItem {
 const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-1",
-    year: "Aug 2022 - Present",
+    year: "Aug 2022 – Present",
     role: "Graduate Research Scientist (NSF Funded)",
     organization: "University of Tennessee, Armsworth Lab",
     location: "Knoxville, TN",
     category: "research",
-    typeLabel: "National Assessment & Modeling",
-    impactMetric: "210 Ecosystem Types Across 4.3M km²",
+    typeLabel: "National Policy Performance & Benchmarking",
+    impactMetric: "210 Categories Nationwide & 4 Federal Data Sources",
     highlights: [
-      "Designed and led a national environmental assessment covering **210 ecosystem types across 4.3 million km²**, owning research design, statistical modeling, documentation, and validation.",
-      "Built a **two-tier quality assessment framework** separating high-integrity outcomes from nominal ones; revealed weaker tier supplies 70% of headline total, with targets met for 63% under permissive vs 19% under strict definitions.",
-      "Created the **baseline-setting methodology** defining expected outcomes, plus linear and log-log benchmark models making results comparable across units differing by orders of magnitude, explaining up to **82% of outcome variance**.",
-      "Reconciled 4 heterogeneous federal data sources (PAD-US, USNVC, EPA ecoregions, NatureServe G-ranks) into an analytical layer with automated QA/QC checks in Python and R, maintaining **ISO 14001-style audit-trail discipline**.",
-      "Modeled climate-driven range shifts for **270 species across 13 states** and constructed **co-responsibility matrices** (concentration & evenness indices) for jurisdictional attribution where climate impacts cross boundaries.",
-      "Served as technical lead in a cross-functional partnership with NatureServe and USGS, translating statistical methods into criteria non-specialist teams can apply."
+      "Determined which metric faithfully represents national policy performance to external audiences: proved the headline statistic in widest official use systematically overstates it, and designed the **proportional-parity benchmark** replacing it across **210 classification categories nationwide**.",
+      "Quantified how metric definition drives externally reported results: the permissive tier supplies **70% of the headline number**, and a published policy target appears met for **63% of units under the loose definition against 19% under the strict one**. Exactly the discrepancy risk that surfaces when a figure is shared publicly without its definition.",
+      "Audited a widely cited published result and proved its reported intercept and crossover point were **algebraic identities rather than empirical findings**, retracting an inference that had already propagated into downstream policy debate.",
+      "Own the **Python and R pipelines** and partner-facing reporting tables reconciling **four heterogeneous federal data sources** with automated QA, so every externally reported figure traces to source; reproduced all **21 published statistics** from the prior national assessment as a validation gate. Sole technical lead on federal and NGO partners.",
+      "Measured policy impact from observational data with a **matching design**: 174 matched clusters across two reporting vintages, benchmarked against null-model counterfactuals, with **variance decomposition** isolating where the national reporting bias originated.",
+      "Built a **multi-jurisdiction burden-attribution model** from scenario-based projection across **13 state jurisdictions and 270 tracked units**, combining simulation and network analysis with concentration (HHI) and evenness (Pielou) indices to quantify where policy impacts cross regulatory boundaries no single authority spans."
     ],
-    tags: ["Nationwide Spatial Modeling", "PAD-US Analytics", "Baseline Modeling", "Two-Tier Quality Framework", "Python & R Pipelines", "ISO 14001 Audit Discipline", "Co-Responsibility Matrix"]
+    tags: ["Proportional-Parity Benchmark", "Python & R Pipelines", "Automated QA Validation", "Matching Estimators", "Variance Decomposition", "Multi-Jurisdiction Attribution", "HHI & Pielou Indices", "USGS & NatureServe"]
   },
   {
     id: "exp-2",
-    year: "May 2025 - Oct 2025",
-    role: "National EcoLeaders Research Fellow & Platform Strategist",
-    organization: "National Wildlife Federation",
-    location: "Remote / Reston, VA",
-    category: "leadership",
-    typeLabel: "National Sustainability Fellowship",
-    impactMetric: "+283% Engagement & Enterprise Roadmap",
+    year: "2025 – Present",
+    role: "National Policy Board Member (Youth Seat)",
+    organization: "U.S. Biosphere Network",
+    location: "Washington, DC / National",
+    category: "policy",
+    typeLabel: "National Policy Board",
+    impactMetric: "National Gap Analysis & Federal Briefings",
     highlights: [
-      "Led digital strategy and behavioral data analytics for America's largest youth sustainability network, achieving a **+283% surge in active engagement** across the national platform.",
-      "Conducted longitudinal behavioral analytics on multi-year cohort datasets ($r = +0.84$ active user-action correlation), isolating onboarding bottlenecks and diagnosing platform stickiness levers.",
-      "Architected enterprise integration specifications with **Personify platform engineers**, establishing automated API triggers, behavioral email nudge journeys, and dynamic personalized recommendation widgets.",
-      "Engineered multi-tiered **gamification progression architecture** (milestone badges, Bronze/Silver/Gold ladders, seasonal challenges) and redesigned the EcoLeader Certification UX.",
-      "Convened and facilitated consultative focus groups with NWF's **National Youth Advisory Council (YAC)**, embedding stakeholder co-design into national digital governance.",
-      "Scripted, designed, and produced full-suite multimedia video tours (DaVinci Resolve / CapCut / Canva) and delivered an executive-adopted 6–12 month implementation roadmap."
+      "Authored the **national gap analysis** behind the Network’s policy position and briefed senior federal agency leaders, a federal climate science center, and UNESCO working groups on national target performance.",
+      "Translate quantitative findings into **policy positions agency and international stakeholders act on**, for audiences with no statistical background."
     ],
-    tags: ["Behavioral Analytics", "Personify Platform", "Gamification Engines", "Longitudinal Modeling", "Youth Advisory Council", "Multimedia UX"]
+    tags: ["National Gap Analysis", "Executive Briefing", "Federal Agency Leadership", "UNESCO Working Groups", "Policy Translation"]
   },
   {
     id: "exp-3",
-    year: "2024 - Present",
-    role: "Environmental Management & Audit Systems Specialist",
-    organization: "Baker School of Public Policy / Audit Workshop",
-    location: "Knoxville, TN",
-    category: "policy",
-    typeLabel: "EMS & Regulatory Compliance",
-    impactMetric: "ISO 14001 Lead Auditor Certified",
+    year: "May 2025 – Oct. 2025",
+    role: "EcoLeaders Graduate Research Fellow and Platform Strategist",
+    organization: "National Wildlife Federation",
+    location: "Reston, VA / Remote",
+    category: "leadership",
+    typeLabel: "Platform Analytics & Strategy",
+    impactMetric: "+283% Engagement Increase & Executive Roadmap",
     highlights: [
-      "Completed **Exemplar Global certified ISO 14001:2026 Lead Auditor training** covering EMS requirements, audit planning/execution, environmental aspects & impacts, nonconformity/corrective action, and Plan-Do-Check-Act continual improvement.",
-      "Completed **U.S. EPA foundational regulatory training** in Clean Air Act (CAA) and RCRA, with self-directed review of South Carolina DES (SC DES) permitting requirements.",
-      "Analyzed state & federal clean-energy and land-use policy with the Environmental Law Organization, including EV infrastructure, utility incentives, clean energy standards, and siting compliance.",
-      "Trained in Advanced Microsoft Excel (VLOOKUP, pivot tables, multi-source data reconciliation, macros) and environmental compliance reporting software."
+      "Reconstructed several prior years of platform user-analytics records into a **consistent cohort panel**, then ran **longitudinal behavioral analysis** to isolate which onboarding and retention actions actually moved engagement, and rebuilt the funnel around them: **283% engagement increase** over the prior cycle.",
+      "Built and maintained the **recurring dashboards** that made engagement, onboarding, and retention legible to staff and external partners, defining the underlying metrics and instrumentation so reported figures stayed consistent across cycles.",
+      "Specified **enterprise API integrations** with platform engineers and delivered an **executive-adopted 6–12 month roadmap**, pairing qualitative stakeholder research with platform telemetry to validate findings before they reached external reporting."
     ],
-    tags: ["ISO 14001 EMS", "Lead Auditor Training", "Clean Air Act & RCRA", "SC DES Permitting", "Advanced Excel", "Compliance Reporting"]
+    tags: ["Longitudinal Behavioral Analysis", "Cohort Panel Reconstruction", "+283% Engagement", "Recurring Dashboards", "Enterprise API Integrations", "Telemetry & Roadmapping"]
   },
   {
     id: "exp-4",
-    year: "Jan 2025 - Oct 2025",
+    year: "Jan. 2025 – Oct. 2025",
     role: "Campus Strategist and Training Program Lead",
     organization: "Perplexity AI",
     location: "Knoxville, TN / Remote",
     category: "leadership",
-    typeLabel: "Enterprise Program Lead",
-    impactMetric: "500+ Researchers & Staff Trained",
+    typeLabel: "AI Enablement & Curriculum",
+    impactMetric: "500+ Researchers, Faculty & Staff Trained",
     highlights: [
-      "Coordinated and developed a technical training curriculum delivered to **500+ researchers and staff** across multiple departments.",
-      "Drafted responsible-use guidelines adopted at department level for non-technical users and maintained supporting intranet, web content, and internal communications.",
-      "Ran structured feedback cycles between campus users and product engineering team across fast-paced release windows."
+      "Built and delivered a **technical AI-literacy curriculum to 500+ researchers, faculty, and staff**, covering structured prompting, literature-synthesis workflows, and source-verification methods; mentored a cross-departmental network of student AI champions.",
+      "Built **AI-assisted workflows aggregating news, literature, and public sources into verified briefs**; drafted department-adopted responsible-use guidelines and ran feedback cycles between users and product engineering across fast release windows."
     ],
-    tags: ["Training Curriculum", "Intranet & Web Maintenance", "Cross-Functional Leadership", "User Feedback Loops"]
+    tags: ["Technical AI-Literacy", "500+ Researchers", "Structured Prompting", "Literature-Synthesis", "Responsible AI Guidelines", "User Feedback Loops"]
   },
   {
     id: "exp-5",
-    year: "Dec 2021 - Aug 2022",
-    role: "Research Scientist",
-    organization: "Manipal Centre for Natural Sciences (Dr. Pandi Lab)",
-    location: "Manipal, India",
-    category: "research",
-    typeLabel: "Global Sustainability Analytics",
-    impactMetric: "UN SDG 13 & 15 Evaluation",
+    year: "2024 – Present",
+    role: "Regulatory Analysis and Disclosure Standards Specialist",
+    organization: "Baker School Audit Workshop · Environmental Law Organization",
+    location: "Knoxville, TN",
+    category: "policy",
+    typeLabel: "EMS & Regulatory Standards",
+    impactMetric: "ISO 14001 Audit & EPA Disclosure Standards",
     highlights: [
-      "Applied geospatial and statistical modeling to evaluate environmental program performance against **UN Sustainable Development Goals 13 (Climate Action)** and **15 (Life on Land)**.",
-      "Integrated large, heterogeneous environmental datasets into technical compliance reports used by government decision-makers and international stakeholders."
+      "Track and analyze state and federal energy and land-use policy: **EV infrastructure, utility incentives, clean energy standards, and siting compliance**; co-authored a regulatory comment letter on a contested federal permitting decision.",
+      "Apply **ISO 14001 audit and U.S. EPA disclosure-reporting standards** to analytical documentation, holding externally filed figures to audit-trail consistency."
     ],
-    tags: ["UN SDGs 13 & 15", "Geospatial Modeling", "Technical Reports", "Environmental Performance"]
+    tags: ["Regulatory Analysis", "ISO 14001 Lead Auditor", "EPA Disclosure Standards", "Clean Energy & EV Policy", "Public Comment Letter"]
   },
   {
     id: "exp-6",
-    year: "Jun 2021 - Aug 2021",
-    role: "Summer Research Intern (SDURI Fellowship)",
-    organization: "The University of Western Australia",
-    location: "Perth, Australia",
-    category: "research",
-    typeLabel: "Supply Chain Risk Fellowship",
-    impactMetric: "+30% Screening Throughput",
+    year: "2024 – 2026",
+    role: "Policy Impact, Open Analysis & Peer-Reviewed Research",
+    organization: "Independent Analysis & Academic Collaborations",
+    location: "National / Open Source",
+    category: "built",
+    typeLabel: "Selected Policy Impact",
+    impactMetric: "AI Adoption Parity Index · IALE Keynote 2026",
     highlights: [
-      "Analyzed experimental phenotypic and genomic screening data for government-funded program on crop resilience to disease and climate stress (**input-side risk in agricultural supply chains**).",
-      "Restructured analytical pipeline to **raise screening throughput 30%**, scaling evaluation across a heterogeneous dataset without loosening quality standards applied to each sample."
+      "**AI adoption parity index (2026)**: Open analysis measuring state-level AI adoption against AI-exposed employment rather than population, using the Anthropic Economic Index, BLS OES, and O*NET, with Lorenz curves and Gini coefficients on raw and exposure-adjusted distributions (`github.com/vkenned2/Anthropic_ai-adoption-parity-index`).",
+      "**Written for external audiences**: Federal regulatory analysis of statutory authority, compliance standards, and multi-party co-management – policy memorandum, National Wildlife Federation, **third place, national** · co-authored public comment letter on a contested federal permitting decision · open-access guides on converting analytical results into federal regulatory comment (2024–2026).",
+      "**Peer reviewed**: Kennedy, V., Armsworth, P. R., et al. Distributional measurement of national policy target attainment across governance tiers. In preparation, *Conservation Science & Practice*. Presented at **IALE North America (keynote, 2026)**, U.S. Biosphere Network, Washington DC (2026), and a federal climate adaptation science center (2025)."
     ],
-    tags: ["Supply Chain Risk", "Throughput Optimization", "Data Pipelines", "Multidisciplinary Collaboration"]
+    tags: ["AI Adoption Parity Index", "Anthropic Economic Index", "BLS OES & O*NET", "Gini & Lorenz Analysis", "NWF Policy Memo (3rd Place)", "IALE Keynote 2026"]
   },
   {
     id: "exp-7",
-    year: "2025 - Present",
-    role: "Youth Board Member",
-    organization: "US Biosphere Network (USBN)",
-    location: "National / Washington, DC",
-    category: "policy",
-    typeLabel: "National Policy Board",
-    impactMetric: "UNESCO National Gap Analysis",
+    year: "2024",
+    role: "Applied AI Systems & Computer Vision Engineering",
+    organization: "Oak Ridge National Lab & Google Competition",
+    location: "Oak Ridge, TN / Global",
+    category: "built",
+    typeLabel: "ML Publication & Full-Stack App",
+    impactMetric: "Peer-Reviewed ML Paper & Gemini Agent",
     highlights: [
-      "Represent early-career scientists on national biosphere-reserve strategy and national ecosystem representation gap analysis.",
-      "Authored national representation gap analysis and presented to U.S. Biosphere Network, Southeast Climate Adaptation Science Center, and agency leaders.",
-      "Briefed senior agency leaders and international working groups on ecosystem protection targets."
+      "Co-developed ML pipelines automating Transmission Electron Microscopy analysis with a four-university team (Penn State, NYU, Purdue, UTK); used autoencoders to surface nanoparticle-geometry correlations, published in *Machine Learning: Science and Technology* (DOI: 10.1088/2632-2153/ae1f5d).",
+      "Designed and shipped a full-stack Node.js/Express conversational agent on the Google Gemini API, incorporating dynamic elicitation design and intent-conditioned queries."
     ],
-    tags: ["UNESCO Policy", "Geospatial Gap Analysis", "National Agency Briefings", "Stakeholder Presentation"]
+    tags: ["Python & PyTorch", "Autoencoders", "Computer Vision", "ORNL Hackathon", "Google Gemini API", "Node.js & Express"]
   },
   {
     id: "exp-8",
-    year: "2024",
-    role: "Automated TEM Analysis Pipeline Developer",
-    organization: "Mic-hackathon (ORNL & MSA)",
-    location: "Oak Ridge National Lab / Remote",
-    category: "built",
-    typeLabel: "ML Publication",
-    impactMetric: "Peer-Reviewed ML Publication",
+    year: "Jun. 2021 – Aug. 2022",
+    role: "Research Scientist; Summer Research Intern",
+    organization: "Manipal Centre for Natural Sciences · University of Western Australia",
+    location: "India / Australia",
+    category: "research",
+    typeLabel: "Quantitative Research & Screening Pipelines",
+    impactMetric: "+30% Screening Throughput & SDG Modeling",
     highlights: [
-      "Co-developed ML pipelines automating Transmission Electron Microscopy analysis with a four-university team (Penn State, NYU, Purdue, UTK).",
-      "Benchmarked image-cropping and augmentation strategies, using autoencoders to surface nanoparticle-geometry correlations.",
-      "Contributed to resulting peer-reviewed paper in *Machine Learning: Science and Technology* (DOI: 10.1088/2632-2153/ae1f5d)."
+      "Applied geospatial and statistical modeling to evaluate environmental program performance against **UN Sustainable Development Goals 13 (Climate Action) and 15 (Life on Land)**.",
+      "Analyzed experimental phenotypic and genomic screening data for government-funded program on crop resilience to disease and climate stress (**input-side risk in agricultural supply chains**), optimizing pipeline throughput by **30%**."
     ],
-    tags: ["Python", "Machine Learning", "Autoencoders", "ORNL Hackathon", "Computer Vision"]
+    tags: ["Supply Chain Risk", "Throughput Optimization", "Data Pipelines", "UN SDGs", "Geospatial Modeling"]
   },
   {
     id: "exp-9",
-    year: "2024",
-    role: "Clarifying-Question AI Chatbot Creator",
-    organization: "Google Gemini API Developer Competition",
-    location: "Global Competition",
-    category: "built",
-    typeLabel: "Full-Stack App",
-    impactMetric: "Full-Stack Node/Express App Shipped",
-    highlights: [
-      "Designed a conversational agent that asks clarifying questions before answering, conditioning each API call on user intent.",
-      "Shipped full-stack Node.js/Express app with responsive browser interface, demonstrating context-awareness and user guidance."
-    ],
-    tags: ["JavaScript", "Node.js", "Express", "Google Gemini API", "UX Engineering"]
-  },
-  {
-    id: "exp-10",
-    year: "Aug 2016 - Aug 2021",
-    role: "Integrated B.S. and M.S., Ecology & Environmental Biology",
-    organization: "IISER Kolkata",
-    location: "Kolkata, India",
+    year: "Aug. 2016 – May 2027 (exp.)",
+    role: "Ph.D. Researcher & Graduate Scholar (Candidacy Passed May 2026)",
+    organization: "The University of Tennessee & IISER Kolkata",
+    location: "Knoxville, TN & Kolkata, India",
     category: "leadership",
-    typeLabel: "Degree & Governance",
-    impactMetric: "Top 1% National INSPIRE Scholar",
+    typeLabel: "Education & Governance",
+    impactMetric: "Ph.D. Candidacy Passed (May 2026) · Baker School Policy Training",
     highlights: [
-      "Conferred Master's degree in 2021, followed by 5 years of continuous full-time quantitative research.",
-      "Awarded INSPIRE Fellowship (top 1% national merit, Govt. of India) for academic excellence.",
-      "Elected General Secretary of Student Affairs Council, governing budgets and logistics for a 2,000+ member organization across multicultural teams."
+      "**The University of Tennessee** (Ph.D., Ecology · Research focus: data-driven decision making and policy | Aug. 2022 – May 2027 expected): Dissertation on quantitative evaluation of national policy target performance – metric design, benchmark construction, and distributional measurement across federal administrative data. Developed with USGS, funded by NSF. Candidacy exam passed May 2026. Graduate policy training at Baker School: Administrative and Regulatory Policy, Public Policy Process, Public Management, Biometry.",
+      "**IISER Kolkata** (Integrated B.S. and M.S. in Ecology and Environmental Biology | Aug. 2016 – Aug. 2021): Master's thesis research from 2020. Top 1% National INSPIRE Scholar. Elected General Secretary, Student Affairs Council: managed budgets and operations for a 4,000+ member organization."
     ],
-    tags: ["Ecology & Environment", "INSPIRE Fellow", "Student Governance", "Budget & Logistics"]
-  },
-  {
-    id: "exp-11",
-    year: "2022 - Present",
-    role: "Graduate Teaching Associate & Science Communicator",
-    organization: "University of Tennessee, Knoxville",
-    location: "Knoxville, TN",
-    category: "leadership",
-    typeLabel: "Instruction & Outreach",
-    impactMetric: "CIRTL Practitioner Certified",
-    highlights: [
-      "Instruct laboratory sections for 90+ credit hours of environmental science, regulatory policy, and quantitative methods.",
-      "Earned CIRTL Practitioner certification in evidence-based STEM instruction.",
-      "Designed and led public environmental education sessions, museum exhibits, and visitor programming for McClung Museum Darwin's Day (2022–2025)."
-    ],
-    tags: ["Evidence-Based Instruction", "CIRTL Practitioner", "Public Outreach", "Environmental Education"]
-  },
-  {
-    id: "exp-12",
-    year: "2022 - Present",
-    role: "Environmental & Sustainability Leadership Initiative",
-    organization: "University of Tennessee, Knoxville",
-    location: "Knoxville, TN",
-    category: "leadership",
-    typeLabel: "Campus Sustainability & Advocacy",
-    impactMetric: "2026 Sustainability Award Nominee",
-    highlights: [
-      "Founded and led a campus **Electric Vehicle (EV) sustainability initiative**, expanding EV charging infrastructure awareness and sustainable transportation advocacy—nominated for the **2026 Campus Sustainability Award**.",
-      "Served as **IP-PIPES mentor** to incoming graduate students, providing research guidance and fostering inclusive academic community within EEB.",
-      "Volunteered at **McClung Museum of Natural History & Culture**, contributing to citizen science programs, Darwin Day public outreach, and biodiversity education events (2022–2025).",
-      "Active member of the **Environmental Law Organization**, co-authoring a public comment letter opposing strip mining near Okefenokee National Wildlife Refuge.",
-      "Engaged with **Naturalists Club**, **Society for Professional Environmental Scientists (SPES)**, and **Ecological Leadership Group (ELG)** to lead campus invasive plant removal at Deans Woods trail and biodiversity awareness campaigns.",
-      "Presented at the **Tennessee Biodiversity Summit**, **SE Climate Adaptation Science Center (SE-CASC)**, and **Appalachian Law Conference** on conservation policy and ecosystem representation gaps."
-    ],
-    tags: ["EV Initiative", "2026 Sustainability Award", "IP-PIPES Mentor", "McClung Museum", "Environmental Law", "Naturalists Club"]
+    tags: ["Ph.D. Candidacy (May 2026)", "Baker School Policy Training", "USGS & NSF Funded", "IISER Kolkata B.S.-M.S.", "INSPIRE Scholar", "SAC General Secretary"]
   }
 ];
 
@@ -241,7 +183,7 @@ export default function Experience() {
             Professional <span className="font-semibold">Experience.</span>
           </h2>
           <p className="text-[#86868b] text-sm md:text-base font-light leading-relaxed">
-            Building ML pipelines, shipping AI applications, leading national spatial research, and shaping environmental policy.
+            Quantitative research, causal analysis, national reporting pipelines, and evidence-based policy for federal agencies and NGO partners.
           </p>
 
           {/* Filter Pills */}

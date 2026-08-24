@@ -15,17 +15,17 @@ interface AwardItem {
 const AWARDS: AwardItem[] = [
   {
     year: "2026",
-    title: "Campus Sustainability Leadership Award Nominee",
-    organization: "University of Tennessee, Knoxville",
-    description: "Nominated for founding campus Electric Vehicle (EV) sustainability initiatives, expanding EV infrastructure advocacy, and cross-departmental environmental leadership.",
-    badge: "Sustainability Honor",
-    category: "award"
+    title: "Elected Student Representative, Executive Committee",
+    organization: "IALE North America (International Association for Landscape Ecology)",
+    description: "Elected to the Executive Committee to represent student and early-career researchers across North American landscape ecology and policy.",
+    badge: "Elected Leadership",
+    category: "fellowship"
   },
   {
     year: "2026",
     title: "William Byrne-Hartz Fellowship",
-    organization: "University of Tennessee, Knoxville",
-    description: "Highest-honor fellowship awarded for outstanding environmental research impact and conservation leadership.",
+    organization: "The University of Tennessee, Knoxville",
+    description: "Highest-honor graduate fellowship awarded for outstanding quantitative environmental research and policy impact.",
     badge: "Fellowship Honor",
     category: "fellowship"
   },
@@ -33,63 +33,31 @@ const AWARDS: AwardItem[] = [
     year: "2026",
     title: "Real Brown Award",
     organization: "Ecological Society of America (ESA)",
-    description: "Recognizing excellence in wildlife ecology, spatial conservation modeling, and ecosystem protection.",
+    description: "Recognizing excellence in wildlife ecology, quantitative spatial modeling, and ecosystem protection.",
     badge: "National Award",
     category: "award"
   },
   {
     year: "2026",
     title: "Tom Gilbert Award",
-    organization: "Baker School of Public Policy & Public Affairs",
-    description: "Awarded for impactful public policy research bridging ecological modeling with federal environmental decision-making.",
+    organization: "Howard H. Baker Jr. School of Public Policy and Public Affairs",
+    description: "Awarded for impactful public policy research bridging data-driven quantitative modeling with federal decision-making.",
     badge: "Policy Honor",
     category: "policy"
   },
   {
-    year: "2026",
-    title: "UNESCO MAB Young Scientist Award Nominee",
-    organization: "UNESCO Man & the Biosphere Programme",
-    description: "Nominated for multi-scale gap analysis evaluating ecosystem representation across US Biosphere Reserves and 30x30 targets.",
-    badge: "Global Nomination",
-    category: "fellowship"
-  },
-  {
     year: "2025",
-    title: "NWF EcoLeaders Graduate Research Fellowship",
-    organization: "National Wildlife Federation",
-    description: "Competitive national fellowship leading digital platform transformation (+283% active engagement), longitudinal behavioral analytics, and enterprise Personify systems architecture.",
+    title: "EcoLeaders Graduate Research Fellowship",
+    organization: "National Wildlife Federation (NWF)",
+    description: "National fellowship leading platform analytics, longitudinal behavioral analysis, and enterprise digital strategy (+283% engagement increase).",
     badge: "National Fellowship",
     category: "fellowship"
   },
   {
-    year: "2024–2025",
-    title: "Hesler Student Research Award",
-    organization: "UTK Department of Ecology & Evolutionary Biology",
-    description: "Herbarium-based specimen research grant supporting national-scale vegetation classification and spatial analytics.",
-    badge: "Research Grant",
-    category: "award"
-  },
-  {
-    year: "2024–2025",
-    title: "Breedlove, Dennis Award for Botanical Field Experiences",
-    organization: "UTK Department of Ecology & Evolutionary Biology",
-    description: "Grant supporting botanical field inventory, specimen collections, and regional biodiversity mapping.",
-    badge: "Field Grant",
-    category: "award"
-  },
-  {
-    year: "2024–2025",
-    title: "A.J. and Evelyn Sharp Award",
-    organization: "Botanical Society of America / UTK",
-    description: "Awarded for research excellence in plant morphology, systematic botany, and evolutionary adaptations.",
-    badge: "Academic Honor",
-    category: "award"
-  },
-  {
     year: "2023",
-    title: "3rd Place Winner, National Innovative Policy Memo Contest",
+    title: "Third Place Winner, National Innovative Policy Memo Contest",
     organization: "National Wildlife Federation",
-    description: "National award for innovative policy memorandum on wetlands conservation, Clean Water Act regulations, and tribal co-management.",
+    description: "National award for federal regulatory analysis of statutory authority, compliance standards, and multi-party co-management under the Clean Water Act.",
     badge: "3rd Place National",
     category: "policy"
   },
@@ -97,51 +65,48 @@ const AWARDS: AwardItem[] = [
     year: "2016–2021",
     title: "INSPIRE Fellowship (Top 1% National Merit)",
     organization: "Department of Science & Technology, Govt. of India",
-    description: "Prestigious 5-year fellowship awarded to students ranking in the top 1% nationwide for scientific excellence.",
+    description: "Prestigious 5-year fellowship awarded to students ranking in the top 1% nationwide for scientific excellence during integrated B.S.-M.S.",
     badge: "Top 1% National Merit",
     category: "fellowship"
   }
 ];
 
 const CERTIFICATIONS = [
-  { title: "ISO 14001:2026 Lead Auditor Training Course", issuer: "Audit Workshop (Exemplar Global Certified)", year: "2026 (In Progress)" },
-  { title: "Environmental Management Systems (EMS) & Compliance Auditing", issuer: "Baker School of Public Policy / Audit Workshop", year: "2025–2026" },
-  { title: "U.S. EPA Regulatory Training (Clean Air Act, CWA & RCRA)", issuer: "U.S. EPA / SC DES Permitting Frameworks", year: "2025" },
-  { title: "Project Management Certificate", issuer: "Baker School of Public Policy & Public Affairs", year: "2025 (In Progress)" },
-  { title: "Administrative & Regulatory Policy (BCPP 548)", issuer: "Baker School of Public Policy & Public Affairs", year: "2025" },
+  { title: "ISO 14001 Lead Auditor", issuer: "Audit Workshop / Exemplar Global Standards", year: "2025–2026" },
+  { title: "EPA Regulatory Training (CAA, CWA, RCRA)", issuer: "U.S. EPA / Baker School Regulatory Frameworks", year: "2025" },
+  { title: "Project Management Certification", issuer: "Howard H. Baker Jr. School of Public Policy", year: "2025–2026" },
   { title: "GIS & Remote Sensing Certification", issuer: "Indian Institute of Remote Sensing (ISRO)", year: "2023" },
   { title: "CIRTL Practitioner (Evidence-Based Instruction)", issuer: "Center for Integration of Research, Teaching & Learning", year: "2024" },
-  { title: "EcoLeaders Environmental Justice Badge", issuer: "National Wildlife Federation", year: "2025" },
-  { title: "CITI Responsible Conduct of Research & Field Safety", issuer: "CITI Program / University of Tennessee", year: "2024" },
+  { title: "Administrative & Regulatory Policy Training", issuer: "Baker School of Public Policy & Public Affairs", year: "2024–2025" },
 ];
 
 const PRESENTATIONS = [
   {
-    title: "Evaluating Representation Debt in US Protected Area Networks",
-    venue: "IALE (International Association for Landscape Ecology)",
-    location: "Athens, GA",
+    title: "Distributional Measurement of National Policy Target Attainment Across Governance Tiers",
+    venue: "IALE North America Annual Meeting",
+    location: "Keynote Presentation",
     year: "2026",
-    type: "Research Keynote"
+    type: "Keynote Address"
   },
   {
-    title: "Multi-Scale Ecosystem Representation in US Biosphere Reserves",
-    venue: "US Biosphere Network (USBN) Working Group",
+    title: "National Gap Analysis & Policy Target Performance Briefing",
+    venue: "U.S. Biosphere Network & UNESCO Working Groups",
     location: "Washington, DC",
     year: "2026",
-    type: "Policy Briefing"
+    type: "Executive Briefing"
   },
   {
-    title: "Climate-Driven Vertebrate Shifts & State Wildlife Action Plans",
-    venue: "Southeast CASC Regional Science Symposium",
-    location: "Raleigh, NC",
+    title: "Observational Matching & Climate Adaptation Performance",
+    venue: "Federal Climate Adaptation Science Center",
+    location: "Regional Science Briefing",
     year: "2025",
-    type: "Symposium Presentation"
+    type: "Agency Briefing"
   },
   {
-    title: "Translating Spatial Ecological Data into Legal & Policy Comment Letters",
+    title: "Converting Analytical Results into Federal Regulatory Comment",
     venue: "Appalachian Public Interest Environmental Law Conference",
     location: "Knoxville, TN",
-    year: "2024 – 2026",
+    year: "2024–2026",
     type: "Practitioner Workshop"
   }
 ];
@@ -215,60 +180,64 @@ export default function Awards() {
         </div>
 
         {/* Two-Column Grid: Certifications & Keynote Talks */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Certifications Section */}
-          <div className="glass-card p-8 rounded-2xl border border-white/10">
-            <div className="flex items-center gap-2 mb-6">
-              <ShieldCheck className="w-5 h-5 text-emerald-400" />
-              <h3 className="text-xl font-light text-white">
-                Professional <span className="font-medium">Certifications</span>
-              </h3>
-            </div>
+          <div className="glass-card p-6 md:p-8 rounded-2xl border border-white/10 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <ShieldCheck className="w-5 h-5 text-emerald-400" />
+                <h3 className="text-xl font-light text-white">
+                  Professional <span className="font-medium">Certifications</span>
+                </h3>
+              </div>
 
-            <div className="space-y-4">
-              {CERTIFICATIONS.map((cert) => (
-                <div
-                  key={cert.title}
-                  className="flex items-start justify-between p-3.5 rounded-xl bg-white/5 border border-white/5 hover:border-white/10 transition-colors"
-                >
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                    <div>
-                      <h4 className="text-sm font-medium text-white mb-0.5">{cert.title}</h4>
-                      <p className="text-xs text-[#86868b]">{cert.issuer}</p>
+              <div className="space-y-3.5">
+                {CERTIFICATIONS.map((cert) => (
+                  <div
+                    key={cert.title}
+                    className="flex items-start justify-between p-3.5 rounded-xl bg-white/5 border border-white/5 hover:border-white/10 transition-colors"
+                  >
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                      <div>
+                        <h4 className="text-sm font-medium text-white mb-0.5">{cert.title}</h4>
+                        <p className="text-xs text-[#86868b]">{cert.issuer}</p>
+                      </div>
                     </div>
+                    <span className="text-[10px] font-mono text-[#86868b] uppercase shrink-0 ml-2">{cert.year}</span>
                   </div>
-                  <span className="text-[10px] font-mono text-[#86868b] uppercase">{cert.year}</span>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Selected Presentations Section */}
-          <div className="glass-card p-8 rounded-2xl border border-white/10">
-            <div className="flex items-center gap-2 mb-6">
-              <Presentation className="w-5 h-5 text-blue-400" />
-              <h3 className="text-xl font-light text-white">
-                Keynote & <span className="font-medium">Presentations</span>
-              </h3>
-            </div>
+          <div className="glass-card p-6 md:p-8 rounded-2xl border border-white/10 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <Presentation className="w-5 h-5 text-blue-400" />
+                <h3 className="text-xl font-light text-white">
+                  Keynote &amp; <span className="font-medium">Presentations</span>
+                </h3>
+              </div>
 
-            <div className="space-y-4">
-              {PRESENTATIONS.map((talk) => (
-                <div
-                  key={talk.title}
-                  className="p-3.5 rounded-xl bg-white/5 border border-white/5 hover:border-white/10 transition-colors"
-                >
-                  <div className="flex items-center justify-between text-[10px] font-mono text-[#86868b] uppercase mb-1">
-                    <span className="text-blue-300 font-medium">{talk.type}</span>
-                    <span>{talk.year}</span>
+              <div className="space-y-3.5">
+                {PRESENTATIONS.map((talk) => (
+                  <div
+                    key={talk.title}
+                    className="p-3.5 rounded-xl bg-white/5 border border-white/5 hover:border-white/10 transition-colors"
+                  >
+                    <div className="flex items-center justify-between text-[10px] font-mono text-[#86868b] uppercase mb-1">
+                      <span className="text-blue-300 font-medium">{talk.type}</span>
+                      <span>{talk.year}</span>
+                    </div>
+                    <h4 className="text-sm font-medium text-white mb-1 leading-snug">{talk.title}</h4>
+                    <p className="text-xs text-[#86868b]">
+                      {talk.venue} • <span className="text-white/60">{talk.location}</span>
+                    </p>
                   </div>
-                  <h4 className="text-sm font-medium text-white mb-1">{talk.title}</h4>
-                  <p className="text-xs text-[#86868b]">
-                    {talk.venue} • <span className="text-white/60">{talk.location}</span>
-                  </p>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>

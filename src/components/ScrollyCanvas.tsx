@@ -84,6 +84,8 @@ export default function ScrollyCanvas({ scrollProgress }: ScrollyCanvasProps) {
         drawY = (canvasHeight - drawHeight) / 2;
       }
 
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = "high";
       ctx.clearRect(0, 0, canvasWidth, canvasHeight);
       ctx.drawImage(img, drawX, drawY, drawWidth, drawHeight);
 
@@ -169,12 +171,22 @@ export default function ScrollyCanvas({ scrollProgress }: ScrollyCanvasProps) {
         </div>
       )}
 
-      {/* Canvas Rendering */}
+      {/* Subtle Studio Backlight: provides natural depth and hair separation */}
+      <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_50%_38%,rgba(255,255,255,0.07)_0%,rgba(255,255,255,0.02)_40%,transparent_70%)]" />
+
+      {/* Canvas Rendering with soft edge-feathering to eliminate outer compression noise while preserving full natural hair texture */}
       <canvas
         ref={canvasRef}
         className="block w-full h-full object-cover transition-opacity duration-700 ease-in-out"
-        style={{ opacity: isPreloaded ? 1 : 0 }}
+        style={{
+          opacity: isPreloaded ? 1 : 0,
+          maskImage: "radial-gradient(ellipse 75% 75% at 50% 45%, black 45%, rgba(0,0,0,0.85) 60%, transparent 85%)",
+          WebkitMaskImage: "radial-gradient(ellipse 75% 75% at 50% 45%, black 45%, rgba(0,0,0,0.85) 60%, transparent 85%)",
+        }}
       />
+
+      {/* Outer Studio Vignette: blends outer perimeter into page background */}
+      <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_75%_75%_at_50%_45%,transparent_50%,rgba(18,18,18,0.5)_75%,#121212_100%)]" />
     </div>
   );
 }

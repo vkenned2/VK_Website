@@ -14,13 +14,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vishal Kennedy - Conservation, Energy & Policy Portfolio",
+  title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
   description:
-    "Vishal Kennedy, Ph.D. candidate in conservation and environmental policy. Data-driven decision-making across biodiversity, energy, and sustainability, translating national spatial analysis into U.S. policy.",
+    "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
   openGraph: {
-    title: "Vishal Kennedy - Conservation, Energy & Policy Portfolio",
+    title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
     description:
-      "Vishal Kennedy, Ph.D. candidate in conservation and environmental policy. Data-driven decision-making across biodiversity, energy, and sustainability, translating national spatial analysis into U.S. policy.",
+      "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
     url: "https://vishalkennedy.com",
     siteName: "Vishal Kennedy Portfolio",
     images: [
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vishal Kennedy - Conservation, Energy & Policy Portfolio",
+    title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
     description:
-      "Vishal Kennedy, Ph.D. candidate in conservation and environmental policy. Data-driven decision-making across biodiversity, energy, and sustainability, translating national spatial analysis into U.S. policy.",
+      "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
     images: [
       "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Magazines/2026/Summer-2026/NEXT-GEN-Vishal-Kennedy-SUMMER26-960x630.jpg",
     ],
