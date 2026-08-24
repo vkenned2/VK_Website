@@ -129,13 +129,44 @@ export default function ProjectPage() {
           {project.image && (
             <motion.div
               variants={itemVariants}
-              className="mb-16 w-full max-w-5xl rounded-2xl overflow-hidden glass-card border border-white/10 p-3 bg-white/[0.02] shadow-2xl"
+              className="mb-12 w-full max-w-5xl rounded-2xl overflow-hidden glass-card border border-white/10 p-3 bg-white/[0.02] shadow-2xl"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={project.image}
                 alt={`${project.title} Cover`}
                 className="w-full h-auto max-h-[500px] object-cover rounded-xl"
+              />
+            </motion.div>
+          )}
+
+          {/* Interactive Audit & Visualization App */}
+          {project.interactiveEmbed && (
+            <motion.div
+              variants={itemVariants}
+              className="mb-16 w-full max-w-5xl rounded-2xl overflow-hidden glass-card border border-white/10 p-2 md:p-4 bg-[#141414] shadow-2xl"
+            >
+              <div className="flex items-center justify-between px-3 py-2 border-b border-white/5 mb-3">
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+                  <span className="text-xs uppercase tracking-[0.2em] text-white/90 font-medium">
+                    Live Interactive Audit Tool
+                  </span>
+                </div>
+                <a
+                  href={project.interactiveEmbed}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1 transition-colors"
+                >
+                  <span>Open in full window</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+              </div>
+              <iframe
+                src={project.interactiveEmbed}
+                title={`${project.title} Interactive Application`}
+                className="w-full h-[820px] rounded-xl border border-white/5 bg-[#121212]"
               />
             </motion.div>
           )}

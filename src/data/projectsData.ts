@@ -22,6 +22,7 @@ export interface ProjectData {
   process: string[];
   image: string;
   workflowImage: string | null;
+  interactiveEmbed?: string | null;
   cta: ProjectCTA | null;
   challenges?: string;
   solution?: string;
@@ -39,29 +40,31 @@ export const PROJECTS_DATA: ProjectData[] = [
     overview: "Conceived and engineered an open-source analysis measuring state-level AI adoption against AI-exposed employment rather than raw population. Utilizes the Anthropic Economic Index, BLS Occupational Employment and Wage Statistics (OES), and O*NET occupational exposure models, evaluating geographic concentration through Lorenz curves and Gini coefficients on both raw and exposure-adjusted distributions.",
     meta: [
       { label: "Data Sources", value: "Anthropic Economic Index, BLS OES, O*NET Occupational Data" },
-      { label: "Methodologies", value: "Lorenz Curves, Gini Coefficients, Exposure-Adjusted Distributions" },
-      { label: "Repository", value: "github.com/vkenned2/Anthropic_ai-adoption-parity-index" },
-      { label: "Software / Stack", value: "Python (pandas, NumPy, statsmodels), R, Git & GitHub" }
+      { label: "Methodologies", value: "Lorenz Curves, Gini Coefficients, Exposure-Adjusted Distributions, Theil Index" },
+      { label: "Repository", value: "github.com/vkenned2/aei-index-audit" },
+      { label: "Software / Stack", value: "Python (pandas, NumPy, statsmodels), Plotly, R, Git & GitHub" }
     ],
-    role: "Lead Quantitative Analyst. Conceived the research question, engineered the exposure weighting model, calculated concentration metrics, and open-sourced the analysis.",
-    tools: ["Python", "R", "Anthropic Economic Index", "BLS OES", "O*NET", "Gini Coefficients", "Lorenz Curves", "Git & GitHub"],
-    context: "Investigating whether geographic AI adoption correlates with raw population or specifically with knowledge-work occupational density across U.S. states.",
+    role: "Lead Quantitative Analyst. Conceived the research question, engineered the exposure weighting model, calculated concentration metrics, built the interactive audit visualization, and open-sourced the analysis.",
+    tools: ["Python", "R", "Anthropic Economic Index", "BLS OES", "O*NET", "Plotly.js", "Gini Coefficients", "Theil Index", "Lorenz Curves", "Git & GitHub"],
+    context: "Investigating how much of the measured geographic AI divide is an artifact of regional aggregation (the Modifiable Areal Unit Problem) vs true underlying knowledge-work exposure across U.S. states.",
     process: [
-      "Ingest state-level AI activity telemetry from the Anthropic Economic Index.",
+      "Ingest state-level AI activity telemetry from the Anthropic Economic Index (releases 2025-09 through 2026-06).",
       "Extract and harmonize employment distributions across detailed occupational categories from BLS OES.",
-      "Map O*NET occupational exposure scores to estimate state-level AI-exposed labor forces.",
-      "Construct Lorenz curves and compute Gini inequality coefficients on raw vs exposure-adjusted distributions.",
-      "Publish open-access Jupyter notebooks and documentation enabling reproducible public replication."
+      "Map O*NET occupational exposure scores to estimate state-level AI-exposed labor forces on fixed working-age population denominators.",
+      "Construct Lorenz curves and compute Gini inequality and Theil indices across 6 official US government geographical groupings.",
+      "Build live interactive Plotly audit interface allowing researchers to inspect geographic aggregation sensitivity and counterfactual shifts.",
+      "Publish open-access Jupyter notebooks, interactive tools, and documentation enabling reproducible public replication."
     ],
     image: "/projects/anthropic-ai-adoption-parity.png",
     workflowImage: null,
+    interactiveEmbed: "/interactive/aei-audit.html",
     cta: {
       text: "View GitHub Repository",
-      link: "https://github.com/vkenned2/Anthropic_ai-adoption-parity-index"
+      link: "https://github.com/vkenned2/aei-index-audit"
     },
-    challenges: "Raw population normalization fundamentally skews public and policy understanding of AI adoption. It fails to account for regional differences in occupational exposure and knowledge-economy workforce concentration, misattributing geographic disparities to adoption reluctance rather than occupational mix.",
-    solution: "Engineered an exposure-weighted parity index by mapping O*NET occupational task exposure scores to BLS OEWS state employment matrices. Constructed Lorenz curves and computed Gini inequality coefficients to compare raw population distributions against exposure-adjusted counterfactuals.",
-    outcome: "Delivered a reproducible, open-source analysis showing that exposure weighting shifts state parity distributions significantly, providing policymakers and economists with a faithful benchmark for measuring regional AI workforce adoption."
+    challenges: "Anthropic's AI Usage Index reports state Claude usage relative to population. However, raw population normalization and geographic aggregation boundaries create significant distortion: changing the geography (e.g. from states to BEA or Census regions) causes measured inequality (Theil/Gini) to fall dramatically, concealing substantial regional variation.",
+    solution: "Built an interactive audit and exposure-weighted benchmark integrating the Anthropic Economic Index with BLS OEWS and O*NET occupational exposure models. Rendered dynamic Lorenz curves, Gini metrics, and Theil decompositions across multiple geographic tiers.",
+    outcome: "Delivered a public open-source analysis proving that geographic aggregation hides up to 60%+ of measured variation, providing external researchers and policymakers with an interactive tool and exposure-adjusted benchmark for understanding true regional AI workforce dynamics."
   },
   {
     slug: "us-nationwide-representation-analysis-quality-framework",
