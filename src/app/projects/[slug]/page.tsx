@@ -112,7 +112,7 @@ export default function ProjectPage() {
 
           {/* CTA Button */}
           {project.cta && (
-            <motion.div variants={itemVariants} className="mb-16">
+            <motion.div variants={itemVariants} className="mb-12">
               <a
                 href={project.cta.link}
                 target="_blank"
@@ -122,6 +122,21 @@ export default function ProjectPage() {
                 {project.cta.text}
                 <ArrowUpRight className="w-4 h-4" />
               </a>
+            </motion.div>
+          )}
+
+          {/* Hero Cover Image */}
+          {project.image && (
+            <motion.div
+              variants={itemVariants}
+              className="mb-16 w-full max-w-5xl rounded-2xl overflow-hidden glass-card border border-white/10 p-3 bg-white/[0.02] shadow-2xl"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={project.image}
+                alt={`${project.title} Cover`}
+                className="w-full h-auto max-h-[500px] object-cover rounded-xl"
+              />
             </motion.div>
           )}
 

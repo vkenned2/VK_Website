@@ -19,61 +19,61 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     id: "01",
-    title: "US Nationwide Representation Analysis & Two-Tier Quality Framework",
-    category: "Conservation Science & Spatial Modeling",
-    year: "2024–2026",
-    description: "National ecosystem representation modeling, log-log benchmark models, and co-responsibility matrices across 210 ecosystem types (4.3M km²).",
-    tags: ["PAD-US", "NatureServe", "Log-Log Regression", "Baseline Modeling", "Attribution Matrix"],
+    title: "AI Adoption Parity Index & Exposure-Adjusted Distributions",
+    category: "Open Analysis & Causal Metrics",
+    year: "2026",
+    description: "Open analysis measuring state-level AI adoption against AI-exposed employment rather than population using Anthropic Economic Index, BLS OES, and O*NET.",
+    tags: ["Anthropic Index", "BLS OES", "O*NET", "Gini & Lorenz", "Python & R"],
+    image: "/projects/anthropic-ai-adoption-parity.png",
+    link: "/projects/ai-adoption-parity-index",
+  },
+  {
+    id: "02",
+    title: "National Policy Performance & Proportional-Parity Benchmark",
+    category: "Policy Performance & Measurement",
+    year: "2022–Present",
+    description: "Proved official headline metric systematically overstates performance; designed proportional-parity benchmark across 210 categories and reconciled 4 federal data sources.",
+    tags: ["PAD-US", "NatureServe", "Proportional Parity", "Automated QA", "USGS & NSF"],
     image: "/projects/us-representation-analysis.png",
     link: "/projects/us-nationwide-representation-analysis-quality-framework",
   },
   {
-    id: "02",
-    title: "Appalachian Climate Change, Scenario Planning & Corridor Connectivity",
-    category: "Climate Projections & Scenario Planning",
-    year: "2024–2025",
-    description: "Spatial land-use simulation (Dinamica EGO) and circuit theory connectivity (Circuitscape) predicting development footprints and climate-resilient corridors across Appalachia.",
-    tags: ["Dinamica EGO", "Circuitscape", "Climate Projections", "Scenario Planning", "Python & R"],
+    id: "03",
+    title: "Observational Matching & Multi-Jurisdiction Attribution",
+    category: "Causal Inference & Attribution",
+    year: "2024–2026",
+    description: "Matching design on observational data (174 matched clusters, null models) and trans-boundary attribution (HHI, Pielou indices across 13 states / 270 units).",
+    tags: ["Matching Estimators", "Null Models", "HHI & Pielou", "IALE Keynote 2026", "Python & R"],
     image: "/projects/appalachian-modeling.jpg",
-    link: "/projects/appalachian-climate-scenario-planning-connectivity",
+    link: "/projects/distributional-policy-measurement-jurisdiction-attribution",
   },
   {
-    id: "03",
+    id: "04",
     title: "NWF EcoLeaders Platform Strategy & Behavioral Analytics",
-    category: "Sustainability Platform & Behavioral Analytics",
+    category: "Behavioral Analytics & Strategy",
     year: "2025",
-    description: "National conservation fellowship combining longitudinal behavioral data, Personify platform architecture, gamification engines, and UX strategy (+283% engagement).",
-    tags: ["Longitudinal Analytics", "Personify Platform", "Gamification Engines", "UX Strategy", "Behavioral Nudges"],
+    description: "Reconstructed multi-year cohort panel, ran longitudinal behavioral analysis (+283% engagement increase), recurring dashboards, and enterprise API roadmap.",
+    tags: ["Cohort Analysis", "Longitudinal Telemetry", "Recurring Dashboards", "+283% Engagement", "Personify API"],
     image: "/projects/nwf-analytics.jpg",
     link: "/projects/nwf-ecoleader-fellowship",
   },
   {
-    id: "04",
-    title: "Ecological Field Studies: Grants, Permitting & Publishing",
-    category: "Field Ecology & Research Lifecycle",
-    year: "2024–2026",
-    description: "End-to-end scientific research lifecycle: field specimen collection, state/federal research permits, competitive grant acquisition, and peer-reviewed publishing.",
-    tags: ["Field Data Collection", "Research Permits", "Grant Management", "Scientific Publishing"],
-    image: "/projects/botanical-field-research.jpg",
-    link: "/projects/ecological-field-studies-grants-publishing",
-  },
-  {
     id: "05",
-    title: "Environmental Policy & Sustainability Leadership",
-    category: "Environmental Policy & Community Leadership",
-    year: "2022–Present",
-    description: "Award-winning federal policy memo on Clean Water Act wetland protection (3rd place national, NWF), Okefenokee mining comment letters, campus EV initiative (2026 Sustainability Award nominee), and mentoring.",
-    tags: ["Clean Water Act", "EV Initiative", "Sustainability Award 2026", "Environmental Law", "Policy Analysis"],
+    title: "Federal Regulatory Analysis, Compliance & Policy Impact",
+    category: "Regulatory Analysis & Policy",
+    year: "2023–Present",
+    description: "Federal regulatory analysis of statutory authority (3rd place national, NWF), contested permitting comment letters, and open-access guides on regulatory comments.",
+    tags: ["Clean Water Act", "ISO 14001 Audit", "EPA Standards", "Regulatory Comments", "NWF 3rd Place"],
     image: "/projects/wetlands-policy.jpg",
     link: "/projects/environmental-policy-tribal-comanagement-leadership",
   },
   {
     id: "06",
-    title: "Applied AI Systems: Computer Vision, Gemini Apps & Technical Enablement",
-    category: "Applied AI & Technical Enablement",
+    title: "Applied AI Systems, Technical Enablement & ML Pipelines",
+    category: "Applied AI & Machine Learning",
     year: "2024–2025",
-    description: "Autoencoder computer vision ML pipeline (ORNL publication in Machine Learning: Science & Tech), Google Gemini conversational web app, and AI adoption curriculum for 500+ researchers.",
-    tags: ["Python & PyTorch", "Google Gemini API", "Computer Vision", "ORNL Publication", "AI Curriculum"],
+    description: "Autoencoder computer vision pipeline (ORNL publication in IOP), Gemini full-stack agent, and AI-literacy curriculum for 500+ researchers at Perplexity AI.",
+    tags: ["Python & PyTorch", "Google Gemini API", "Computer Vision", "ORNL Publication", "Perplexity AI"],
     image: "/projects/gemini-ai-systems.png",
     link: "/projects/applied-ai-systems-machine-learning-adoption",
   },
@@ -90,14 +90,14 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20">
           <div>
             <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] font-semibold block mb-4">
-              Case Studies
+              Case Studies &amp; Research
             </span>
             <h2 className="text-4xl md:text-6xl font-light tracking-tight text-white">
               Selected <span className="font-semibold">Works.</span>
             </h2>
           </div>
           <p className="text-[#86868b] text-sm md:text-base max-w-sm font-light">
-            A curated selection of research, publications, and policy projects bridging ecological data with environmental conservation.
+            A curated selection of quantitative evaluations, policy analyses, behavioral analytics, and applied AI systems.
           </p>
         </div>
 

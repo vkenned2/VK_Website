@@ -45,16 +45,16 @@ export default function Overlay() {
     return output[0];
   };
 
-  const opacity1 = interpolate(progress, [0, 0.18, 0.25], [1, 1, 0]);
-  const y1 = interpolate(progress, [0, 0.25], [0, -80]);
+  const opacity1 = interpolate(progress, [0, 0.20, 0.30], [1, 1, 0]);
+  const y1 = interpolate(progress, [0, 0.30], [0, -60]);
 
-  const opacity2 = interpolate(progress, [0.22, 0.3, 0.48, 0.55], [0, 1, 1, 0]);
-  const y2 = interpolate(progress, [0.22, 0.3, 0.48, 0.55], [60, 0, 0, -60]);
+  const opacity2 = interpolate(progress, [0.26, 0.34, 0.58, 0.66], [0, 1, 1, 0]);
+  const y2 = interpolate(progress, [0.26, 0.34, 0.58, 0.66], [50, 0, 0, -50]);
 
-  const opacity3 = interpolate(progress, [0.52, 0.6, 0.78, 0.85], [0, 1, 1, 0]);
-  const y3 = interpolate(progress, [0.52, 0.6, 0.78, 0.85], [60, 0, 0, -60]);
+  const opacity3 = interpolate(progress, [0.62, 0.70, 0.94, 1.0], [0, 1, 1, 0]);
+  const y3 = interpolate(progress, [0.62, 0.70, 0.94, 1.0], [50, 0, 0, -50]);
 
-  const arrowOpacity = interpolate(progress, [0, 0.05], [0.8, 0]);
+  const arrowOpacity = interpolate(progress, [0, 0.08], [0.8, 0]);
 
   return (
     <div className="absolute inset-0 z-10 pointer-events-none select-none">
@@ -67,15 +67,20 @@ export default function Overlay() {
         }}
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6"
       >
-        <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          CONSERVATION, ENERGY &amp; POLICY PORTFOLIO
+        <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 mb-4 font-semibold">
+          DATA-DRIVEN POLICY &amp; QUANTITATIVE MEASUREMENT
         </span>
         <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-5xl leading-[1.15]">
-          VISHAL KENNEDY<span className="font-semibold">.</span>
+          VISHAL KENNEDY<span className="font-semibold text-emerald-400">.</span>
         </h1>
         <p className="text-base md:text-xl lg:text-2xl font-light text-[#86868b] mt-6 tracking-wide max-w-3xl text-balance">
-          Ph.D. Candidate, Conservation &amp; Environmental Policy · Data-Driven Decision-Making · Energy &amp; Sustainability · Scientist · University of Tennessee, Knoxville
+          Data-Driven Policy • Measurement, Causal Analysis, and External-Facing Analytics
         </p>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-xs font-mono text-zinc-400">
+          <span>Knoxville, TN</span>
+          <span className="text-zinc-600">•</span>
+          <span className="text-emerald-400/90">Open to relocation: NYC, San Francisco, or Washington, DC</span>
+        </div>
       </div>
 
       {/* Section 2: Core Philosophy */}
@@ -88,10 +93,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-20 lg:px-32 text-left max-w-3xl"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          DATA-DRIVEN DECISION-MAKING
+          EVIDENCE &amp; MEASUREMENT
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Turning complex data into decisions leaders can act on.
+          Producing national-scale evidence and briefing agency leadership directly.
         </h2>
       </div>
 
@@ -105,10 +110,10 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col justify-center items-end px-8 md:px-20 lg:px-32 text-right max-w-3xl ml-auto"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          SCIENCE &amp; POLICY
+          CAUSAL REASONING &amp; POLICY
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Translating science into environmental and energy policy that works in practice.
+          Translating quantitative findings into policy positions stakeholders act on.
         </h2>
       </div>
 

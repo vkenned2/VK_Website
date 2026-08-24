@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main className="relative bg-[#121212] min-h-screen w-full select-none">
       {/* Cinematic Scrollytelling Canvas Section */}
-      <div ref={containerRef} id="scrolly-container" className="relative h-[500vh] w-full bg-[#121212]">
+      <div ref={containerRef} id="scrolly-container" className="relative h-[300vh] w-full bg-[#121212]">
         <div className="sticky top-0 h-screen w-full overflow-hidden">
           <ScrollyCanvas scrollProgress={scrollYProgress} />
           <Overlay />
