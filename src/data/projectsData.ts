@@ -57,7 +57,7 @@ export const PROJECTS_DATA: ProjectData[] = [
     ],
     image: "/projects/anthropic-ai-adoption-parity.png",
     workflowImage: null,
-    interactiveEmbed: "/interactive/aei-audit.html",
+    interactiveEmbed: "/interactive/ai-adoption-parity-index.html",
     cta: {
       text: "View GitHub Repository",
       link: "https://github.com/vkenned2/aei-index-audit"
