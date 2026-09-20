@@ -77,6 +77,16 @@ const PROJECTS: Project[] = [
     image: "/projects/gemini-ai-systems.png",
     link: "/projects/applied-ai-systems-machine-learning-adoption",
   },
+  {
+    id: "07",
+    title: "NIKE, Inc. Systems Analysis & Sustainability Audit",
+    category: "Corporate Systems & ESG Analytics",
+    year: "2026",
+    description: "Systems analysis of NIKE, Inc. sustainability disclosures (FY20–FY25) across 6 connected views with restated-vs-original basis toggle and chart provenance.",
+    tags: ["Plotly.js", "Systems Audit", "Scope 1–3 Telemetry", "Dual-Basis Toggle", "ESG Analytics"],
+    image: "/projects/nike-sustainability.png",
+    link: "/projects/nike-sustainability-analysis",
+  },
 ];
 
 export default function Projects() {
