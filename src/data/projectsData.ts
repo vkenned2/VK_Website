@@ -67,6 +67,40 @@ export const PROJECTS_DATA: ProjectData[] = [
     outcome: "Delivered a public open-source analysis proving that geographic aggregation hides up to 60%+ of measured variation, providing external researchers and policymakers with an interactive tool and exposure-adjusted benchmark for understanding true regional AI workforce dynamics."
   },
   {
+    slug: "nike-sustainability-analysis",
+    title: "NIKE, Inc. Systems Analysis & Sustainability Audit (FY20–FY25)",
+    tagline: "Systems analysis of NIKE, Inc. sustainability data across six connected views built from FY24/FY25 reports with restated-vs-original basis toggle and chart-level provenance.",
+    category: "Corporate Systems & ESG Analytics",
+    year: "2026",
+    overview: "Engineered a standalone interactive systems analysis of NIKE, Inc. corporate sustainability disclosures spanning FY20 to FY25. Features six interconnected audit dashboards evaluating Scope 1–3 emissions, renewable energy leverage, materials circularity, water stewardship, and supply chain decarbonization. Integrates a real-time restated-versus-original accounting basis toggle and page-level provenance for all reported indicators.",
+    meta: [
+      { label: "Data Sources", value: "NIKE, Inc. FY24 & FY25 Sustainability Data Reports, SEC Filings" },
+      { label: "Methodologies", value: "Restated-vs-Original Basis Reconciliation, Systems Leverage Analysis, Scope 1–3 Telemetry" },
+      { label: "Repository", value: "github.com/vkenned2/Nike-Sustainability-Analysis" },
+      { label: "Software / Stack", value: "Python, HTML5, Plotly.js, CSS3, Data Engineering Pipeline" }
+    ],
+    role: "Lead Systems Analyst & Visualization Engineer. Designed data extraction pipelines, built accounting reconciliation algorithms, constructed interactive Plotly dashboards, and open-sourced the analysis.",
+    tools: ["Python", "Plotly.js", "Systems Modeling", "ESG Accounting", "HTML5/CSS3", "Git & GitHub"],
+    context: "Auditing corporate environmental target trajectories, accounting methodology revisions, and leverage points across global apparel and footwear manufacturing supply chains.",
+    process: [
+      "Ingest multi-year sustainability data tables across carbon, materials, waste, and water disclosures from NIKE, Inc.",
+      "Develop reconciliation models comparing historical baseline revisions against original published figures (FY20–FY25).",
+      "Construct six connected interactive audit views exploring Scope 1–3 emissions, materials impact, and decarbonization leverage.",
+      "Instrument live restated-versus-original basis toggle allowing researchers to audit restatement impacts in real time.",
+      "Deploy self-contained interactive web application with page-level source provenance for every chart."
+    ],
+    image: "/projects/nike-sustainability.png",
+    workflowImage: null,
+    interactiveEmbed: "/interactive/nike-sustainability-analysis.html",
+    cta: {
+      text: "View GitHub Repository",
+      link: "https://github.com/vkenned2/Nike-Sustainability-Analysis"
+    },
+    challenges: "Corporate sustainability reporting frequently undergoes baseline restatements between annual reporting cycles, obscuring whether reported target progress stems from operational efficiency gains or accounting definition shifts.",
+    solution: "Built a multi-view interactive audit dashboard with a dual-basis toggle (restated vs. original) and chart-level source provenance, rendering true carbon and materials trajectories transparent to researchers.",
+    outcome: "Delivered a public open-access systems audit tool mapping decarbonization leverage points and accounting restatements across Nike's global value chain."
+  },
+  {
     slug: "us-nationwide-representation-analysis-quality-framework",
     title: "National Policy Performance & Proportional-Parity Benchmark",
     tagline: "Proved headline metric systematically overstates national policy performance; designed proportional-parity benchmark across 210 categories nationwide.",
@@ -216,39 +250,5 @@ export const PROJECTS_DATA: ProjectData[] = [
     challenges: "Creating ML models and AI workflows that combine rigorous computational performance with transparent, accessible adoption for researchers.",
     solution: "Built modular Python/PyTorch computer vision architectures and structured hands-on educational curricula for structured prompting and source verification.",
     outcome: "Published peer-reviewed ML paper with ORNL collaborators, deployed a full-stack Gemini agent, and trained 500+ campus researchers."
-  },
-  {
-    slug: "nike-sustainability-analysis",
-    title: "NIKE, Inc. Systems Analysis & Sustainability Audit (FY20–FY25)",
-    tagline: "Systems analysis of NIKE, Inc. sustainability data across six connected views built from FY24/FY25 reports with restated-vs-original basis toggle and chart-level provenance.",
-    category: "Corporate Systems & ESG Analytics",
-    year: "2026",
-    overview: "Engineered a standalone interactive systems analysis of NIKE, Inc. corporate sustainability disclosures spanning FY20 to FY25. Features six interconnected audit dashboards evaluating Scope 1–3 emissions, renewable energy leverage, materials circularity, water stewardship, and supply chain decarbonization. Integrates a real-time restated-versus-original accounting basis toggle and page-level provenance for all reported indicators.",
-    meta: [
-      { label: "Data Sources", value: "NIKE, Inc. FY24 & FY25 Sustainability Data Reports, SEC Filings" },
-      { label: "Methodologies", value: "Restated-vs-Original Basis Reconciliation, Systems Leverage Analysis, Scope 1–3 Telemetry" },
-      { label: "Repository", value: "github.com/vkenned2/Nike-Sustainability-Analysis" },
-      { label: "Software / Stack", value: "Python, HTML5, Plotly.js, CSS3, Data Engineering Pipeline" }
-    ],
-    role: "Lead Systems Analyst & Visualization Engineer. Designed data extraction pipelines, built accounting reconciliation algorithms, constructed interactive Plotly dashboards, and open-sourced the analysis.",
-    tools: ["Python", "Plotly.js", "Systems Modeling", "ESG Accounting", "HTML5/CSS3", "Git & GitHub"],
-    context: "Auditing corporate environmental target trajectories, accounting methodology revisions, and leverage points across global apparel and footwear manufacturing supply chains.",
-    process: [
-      "Ingest multi-year sustainability data tables across carbon, materials, waste, and water disclosures from NIKE, Inc.",
-      "Develop reconciliation models comparing historical baseline revisions against original published figures (FY20–FY25).",
-      "Construct six connected interactive audit views exploring Scope 1–3 emissions, materials impact, and decarbonization leverage.",
-      "Instrument live restated-versus-original basis toggle allowing researchers to audit restatement impacts in real time.",
-      "Deploy self-contained interactive web application with page-level source provenance for every chart."
-    ],
-    image: "/projects/nike-sustainability.png",
-    workflowImage: null,
-    interactiveEmbed: "/interactive/nike-sustainability-analysis.html",
-    cta: {
-      text: "View GitHub Repository",
-      link: "https://github.com/vkenned2/Nike-Sustainability-Analysis"
-    },
-    challenges: "Corporate sustainability reporting frequently undergoes baseline restatements between annual reporting cycles, obscuring whether reported target progress stems from operational efficiency gains or accounting definition shifts.",
-    solution: "Built a multi-view interactive audit dashboard with a dual-basis toggle (restated vs. original) and chart-level source provenance, rendering true carbon and materials trajectories transparent to researchers.",
-    outcome: "Delivered a public open-access systems audit tool mapping decarbonization leverage points and accounting restatements across Nike's global value chain."
   }
 ];

@@ -29,6 +29,16 @@ const PROJECTS: Project[] = [
   },
   {
     id: "02",
+    title: "NIKE, Inc. Systems Analysis & Sustainability Audit",
+    category: "Corporate Systems & ESG Analytics",
+    year: "2026",
+    description: "Systems analysis of NIKE, Inc. sustainability disclosures (FY20–FY25) across 6 connected views with restated-vs-original basis toggle and chart provenance.",
+    tags: ["Plotly.js", "Systems Audit", "Scope 1–3 Telemetry", "Dual-Basis Toggle", "ESG Analytics"],
+    image: "/projects/nike-sustainability.png",
+    link: "/projects/nike-sustainability-analysis",
+  },
+  {
+    id: "03",
     title: "National Policy Performance & Proportional-Parity Benchmark",
     category: "Policy Performance & Measurement",
     year: "2022–Present",
@@ -38,7 +48,7 @@ const PROJECTS: Project[] = [
     link: "/projects/us-nationwide-representation-analysis-quality-framework",
   },
   {
-    id: "03",
+    id: "04",
     title: "Observational Matching & Multi-Jurisdiction Attribution",
     category: "Causal Inference & Attribution",
     year: "2024–2026",
@@ -48,7 +58,7 @@ const PROJECTS: Project[] = [
     link: "/projects/distributional-policy-measurement-jurisdiction-attribution",
   },
   {
-    id: "04",
+    id: "05",
     title: "NWF EcoLeaders Platform Strategy & Behavioral Analytics",
     category: "Behavioral Analytics & Strategy",
     year: "2025",
@@ -58,7 +68,7 @@ const PROJECTS: Project[] = [
     link: "/projects/nwf-ecoleader-fellowship",
   },
   {
-    id: "05",
+    id: "06",
     title: "Federal Regulatory Analysis, Compliance & Policy Impact",
     category: "Regulatory Analysis & Policy",
     year: "2023–Present",
@@ -68,7 +78,7 @@ const PROJECTS: Project[] = [
     link: "/projects/environmental-policy-tribal-comanagement-leadership",
   },
   {
-    id: "06",
+    id: "07",
     title: "Applied AI Systems, Technical Enablement & ML Pipelines",
     category: "Applied AI & Machine Learning",
     year: "2024–2025",
@@ -76,16 +86,6 @@ const PROJECTS: Project[] = [
     tags: ["Python & PyTorch", "Google Gemini API", "Computer Vision", "ORNL Publication", "Perplexity AI"],
     image: "/projects/gemini-ai-systems.png",
     link: "/projects/applied-ai-systems-machine-learning-adoption",
-  },
-  {
-    id: "07",
-    title: "NIKE, Inc. Systems Analysis & Sustainability Audit",
-    category: "Corporate Systems & ESG Analytics",
-    year: "2026",
-    description: "Systems analysis of NIKE, Inc. sustainability disclosures (FY20–FY25) across 6 connected views with restated-vs-original basis toggle and chart provenance.",
-    tags: ["Plotly.js", "Systems Audit", "Scope 1–3 Telemetry", "Dual-Basis Toggle", "ESG Analytics"],
-    image: "/projects/nike-sustainability.png",
-    link: "/projects/nike-sustainability-analysis",
   },
 ];
 
