@@ -30,19 +30,34 @@ interface TeachingItem {
 const TEACHING_EXPERIENCES: TeachingItem[] = [
   {
     id: "teach-1",
-    period: "2021 - Present",
+    period: "2021 - Present (9 Semesters)",
     role: "Graduate Teaching Assistant & Laboratory Instructor",
     organization: "Division of Biology, University of Tennessee, Knoxville",
     location: "Knoxville, TN",
     category: "instruction",
-    impactMetric: "1,400+ Undergraduates Taught",
+    impactMetric: "9 Semesters · 1,400+ Undergraduates Taught",
     highlights: [
-      "Instruct lab sections for BIOL 159 (Skills of Biological Investigation) and BioLit 150 (Biological Literacy).",
-      "Guide students through hypothesis formulation, experimental design, and data analysis in R and Python.",
-      "Apply CIRTL Practitioner methods (active learning, inclusive design) to every lab section.",
-      "Give detailed feedback on empirical papers and facilitate collaborative scientific discussion."
+      "Instruct laboratory sections across nine semesters for BIOL 159 (Skills of Biological Investigation) and BioLit 150 (Biological Literacy).",
+      "Guide students through hypothesis formulation, experimental design, and quantitative ecological data analysis in R and Python.",
+      "Apply CIRTL Practitioner methods (active learning, inclusive instructional design, inquiry-based labs) to every cohort.",
+      "Provide detailed empirical feedback on research reports and facilitate collaborative scientific discourse."
     ],
-    tags: ["STEM Pedagogy", "CIRTL Practitioner Certified", "BIOL 159 & 150", "R & Python Data", "Lab Instruction"]
+    tags: ["9 Semesters TA", "STEM Pedagogy", "CIRTL Practitioner Certified", "BIOL 159 & 150", "R & Python Data"]
+  },
+  {
+    id: "teach-ek-pehal",
+    period: "2016 - 2021",
+    role: "Core Team Member & Community STEM Educator",
+    organization: "Ek Pehal, IISER Kolkata",
+    location: "Kolkata, India",
+    category: "outreach",
+    impactMetric: "5-Year Student-Run Community Outreach",
+    highlights: [
+      "Served on the core leadership team of Ek Pehal, a student-run non-profit initiative at IISER Kolkata.",
+      "Taught foundational STEM curricula and essential hygiene education to children and women in nearby rural and underserved communities.",
+      "Coordinated volunteer schedules, educational supplies, and community workshops across a dedicated five-year commitment."
+    ],
+    tags: ["Ek Pehal Core Team", "STEM Education", "Hygiene Outreach", "Community Empowerment", "IISER Kolkata"]
   },
   {
     id: "teach-2",
@@ -217,12 +232,12 @@ export default function Teaching() {
         {/* Metrics Grid Banner */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
-            <div className="text-2xl md:text-3xl font-light text-white mb-1">1,400+</div>
-            <div className="text-xs text-[#86868b] font-medium">Undergraduates Taught Across Biology Labs</div>
+            <div className="text-2xl md:text-3xl font-light text-white mb-1">9 Semesters</div>
+            <div className="text-xs text-[#86868b] font-medium">1,400+ Undergraduates Taught Across Biology Labs</div>
           </div>
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
-            <div className="text-2xl md:text-3xl font-light text-emerald-400 mb-1">500+</div>
-            <div className="text-xs text-[#86868b] font-medium">Researchers &amp; Faculty Trained in AI</div>
+            <div className="text-2xl md:text-3xl font-light text-emerald-400 mb-1">5-Year Outreach</div>
+            <div className="text-xs text-[#86868b] font-medium">Ek Pehal Core Team (STEM &amp; Hygiene)</div>
           </div>
           <div className="glass-card p-6 rounded-2xl border border-white/10 text-center bg-white/[0.02]">
             <div className="text-2xl md:text-3xl font-light text-white mb-1">CIRTL</div>

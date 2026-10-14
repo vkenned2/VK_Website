@@ -15,23 +15,39 @@ interface AwardItem {
 const AWARDS: AwardItem[] = [
   {
     year: "2026",
-    title: "Elected Student Representative, Executive Committee",
-    organization: "IALE North America (International Association for Landscape Ecology)",
-    description: "Elected to the Executive Committee to represent student and early-career researchers across North American landscape ecology and policy.",
-    badge: "Elected Leadership",
+    title: "Nominated for UNESCO MAB Young Scientists Award",
+    organization: "U.S. Biosphere Network & UNESCO Man and the Biosphere Programme",
+    description: "Nominated by the U.S. Biosphere Network national policy board to represent the United States for the global UNESCO MAB Young Scientists Award.",
+    badge: "UNESCO Nomination",
     category: "fellowship"
   },
   {
     year: "2026",
-    title: "William Byrne-Hartz Fellowship",
-    organization: "The University of Tennessee, Knoxville",
-    description: "Highest-honor graduate fellowship awarded for outstanding quantitative environmental research and policy impact.",
-    badge: "Fellowship Honor",
+    title: "Third Place Winner, National Innovative Policy Memo Contest",
+    organization: "National Wildlife Federation",
+    description: "National award for federal regulatory analysis of statutory authority, compliance standards, and multi-party tribal/municipal co-management under the Clean Water Act for Mississippi River Basin flood resilience.",
+    badge: "3rd Place National",
+    category: "policy"
+  },
+  {
+    year: "2026",
+    title: "Tom Gilbert Award",
+    organization: "Howard H. Baker Jr. School of Public Policy and Public Affairs",
+    description: "Awarded for impactful public policy research bridging quantitative spatial modeling with federal decision-making.",
+    badge: "Policy Honor",
+    category: "policy"
+  },
+  {
+    year: "2026",
+    title: "William Bryne Hartz Fellowship ($3,000)",
+    organization: "Department of Ecology & Evolutionary Biology, UT Knoxville",
+    description: "Highest-honor graduate research fellowship awarded for outstanding quantitative environmental research and policy impact.",
+    badge: "Graduate Fellowship",
     category: "fellowship"
   },
   {
     year: "2026",
-    title: "Real Brown Award",
+    title: "ESA Student Section Real Brown Travel Award",
     organization: "Ecological Society of America (ESA)",
     description: "Recognizing excellence in wildlife ecology, quantitative spatial modeling, and ecosystem protection.",
     badge: "National Award",
@@ -39,11 +55,11 @@ const AWARDS: AwardItem[] = [
   },
   {
     year: "2026",
-    title: "Tom Gilbert Award",
-    organization: "Howard H. Baker Jr. School of Public Policy and Public Affairs",
-    description: "Awarded for impactful public policy research bridging data-driven quantitative modeling with federal decision-making.",
-    badge: "Policy Honor",
-    category: "policy"
+    title: "Elected Student Representative, Executive Committee",
+    organization: "IALE North America (International Association for Landscape Ecology)",
+    description: "Elected to the Executive Committee to represent student and early-career researchers across North American landscape ecology and policy.",
+    badge: "Elected Leadership",
+    category: "fellowship"
   },
   {
     year: "2025",
@@ -54,18 +70,26 @@ const AWARDS: AwardItem[] = [
     category: "fellowship"
   },
   {
+    year: "2025",
+    title: "A.J. and Evelyn Sharp Fund Award",
+    organization: "Department of Ecology & Evolutionary Biology, UT Knoxville",
+    description: "Graduate research award supporting botanical field studies, evolutionary morphology, and plant conservation.",
+    badge: "Research Award",
+    category: "award"
+  },
+  {
     year: "2023",
-    title: "Third Place Winner, National Innovative Policy Memo Contest",
-    organization: "National Wildlife Federation",
-    description: "National award for federal regulatory analysis of statutory authority, compliance standards, and multi-party co-management under the Clean Water Act.",
-    badge: "3rd Place National",
-    category: "policy"
+    title: "Breedlove Dennis Award",
+    organization: "Department of Ecology & Evolutionary Biology, UT Knoxville",
+    description: "Departmental award recognizing exceptional early-career promise in ecological and evolutionary research.",
+    badge: "Department Honor",
+    category: "award"
   },
   {
     year: "2016–2021",
     title: "INSPIRE Fellowship (Top 1% National Merit)",
     organization: "Department of Science & Technology, Govt. of India",
-    description: "Prestigious 5-year fellowship awarded to students ranking in the top 1% nationwide for scientific excellence during integrated B.S.-M.S.",
+    description: "Prestigious 5-year fellowship awarded to students ranking in the top 1% nationwide for scientific excellence during integrated B.S.–M.S.",
     badge: "Top 1% National Merit",
     category: "fellowship"
   }
@@ -82,9 +106,16 @@ const CERTIFICATIONS = [
 
 const PRESENTATIONS = [
   {
+    title: "Invited Talk: Ecosystem Representation Across Public and Private Lands",
+    venue: "George Wright Society Biennial Conference",
+    location: "Invited Speaker",
+    year: "2027",
+    type: "Invited Conference Talk"
+  },
+  {
     title: "Distributional Measurement of National Policy Target Attainment Across Governance Tiers",
     venue: "IALE North America Annual Meeting",
-    location: "Keynote Presentation",
+    location: "Student Keynote Address",
     year: "2026",
     type: "Keynote Address"
   },
@@ -96,8 +127,15 @@ const PRESENTATIONS = [
     type: "Executive Briefing"
   },
   {
+    title: "Incorporating Ecosystem Representation into Forest Stewardship Standards",
+    venue: "Forest Stewardship Council (FSC) Annual Meeting (via NatureServe)",
+    location: "Annual Meeting Policy Briefing",
+    year: "2025",
+    type: "Policy & Standards Briefing"
+  },
+  {
     title: "Observational Matching & Climate Adaptation Performance",
-    venue: "Federal Climate Adaptation Science Center",
+    venue: "Southeast Climate Adaptation Science Center",
     location: "Regional Science Briefing",
     year: "2025",
     type: "Agency Briefing"
