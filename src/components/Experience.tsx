@@ -21,143 +21,134 @@ const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-1",
     year: "Aug 2022 – Present",
-    role: "Graduate Research Scientist (NSF Funded)",
-    organization: "University of Tennessee, Armsworth Lab",
+    role: "Ph.D. Candidate & Graduate Research Scientist (NSF & USGS Funded)",
+    organization: "University of Tennessee, Armsworth Lab (EEB)",
     location: "Knoxville, TN",
     category: "research",
-    typeLabel: "National Policy Performance & Benchmarking",
-    impactMetric: "210 Categories Nationwide & 4 Federal Data Sources",
+    typeLabel: "Dissertation Research (Chapters 1, 2, 3)",
+    impactMetric: "210 Ecosystem Groups • 270 Vertebrate Taxa • GBF Target 3",
     highlights: [
-      "Determined which metric faithfully represents national policy performance to external audiences: proved the headline statistic in widest official use systematically overstates it, and designed the **proportional-parity benchmark** replacing it across **210 classification categories nationwide**.",
-      "Quantified how metric definition drives externally reported results: the permissive tier supplies **70% of the headline number**, and a published policy target appears met for **63% of units under the loose definition against 19% under the strict one**. Exactly the discrepancy risk that surfaces when a figure is shared publicly without its definition.",
-      "Audited a widely cited published result and proved its reported intercept and crossover point were **algebraic identities rather than empirical findings**, retracting an inference that had already propagated into downstream policy debate.",
-      "Own the **Python and R pipelines** and partner-facing reporting tables reconciling **four heterogeneous federal data sources** with automated QA, so every externally reported figure traces to source; reproduced all **21 published statistics** from the prior national assessment as a validation gate. Sole technical lead on federal and NGO partners.",
-      "Measured policy impact from observational data with a **matching design**: 174 matched clusters across two reporting vintages, benchmarked against null-model counterfactuals, with **variance decomposition** isolating where the national reporting bias originated.",
-      "Built a **multi-jurisdiction burden-attribution model** from scenario-based projection across **13 state jurisdictions and 270 tracked units**, combining simulation and network analysis with concentration (HHI) and evenness (Pielou) indices to quantify where policy impacts cross regulatory boundaries no single authority spans."
+      "**Chapter 2 (Ecosystem Representation, with NatureServe & USGS)**: Evaluated 210 natural USNVC Groups across PAD-US at 6 hierarchical levels. Discovered larger ecosystems get proportionally less strict protection: a 10-fold larger ecosystem holds ~7.3 times strictly protected area (**slope 0.86, 95% CI 0.79 to 0.93**), holding across every classification check.",
+      "**Geographic Disparity vs. Threat Status**: Geography matters far more than endangerment: Western ecosystems have **4.1x** and Eastern **3.3x** the strict protection of Great Plains ecosystems. Great Plains types cover **21.7% of the landscape but only 5.0% of the strict estate**, while conservation rank explains only **0.1%** of variation.",
+      "**Policy Target Sensitivity & GBF Target 3**: 63% of ecosystem types meet 30% if multiple-use land counts, but only **19% under strict protection**. Applying the species target rule to ecosystems would mandate protecting **58% of the U.S. landscape** (113 of 210 types are <10,000 km²), proving ecosystems need targets of their own.",
+      "**Forest Certification & Policy Uptake**: Provided figures to NatureServe for the **Forest Stewardship Council (FSC) annual meeting** as FSC considers adding ecosystem status to forest certification; shared follow-up longleaf pine modeling with Gwen Iacona at ASU; invited talk at **George Wright Society 2027**.",
+      "**Chapter 3 (Appalachian Trans-boundary Climate Shifts)**: Modeled shifting conservation responsibility across 13 Appalachian states for 270 vertebrates under 13 climate models and 4 SSP scenarios through 2050 (Barve et al. niche models, Circuitscape, HHI concentration, and Pielou evenness indices).",
+      "**Chapter 1 (Evolutionary Morphology)**: Investigated moss calyptra morphology with Jessica Budke, submitted to *The Bryologist*."
     ],
-    tags: ["Proportional-Parity Benchmark", "Python & R Pipelines", "Automated QA Validation", "Matching Estimators", "Variance Decomposition", "Multi-Jurisdiction Attribution", "HHI & Pielou Indices", "USGS & NatureServe"]
+    tags: ["GBF Target 3", "210 USNVC Groups", "PAD-US v4.1", "Log-Log Scaling (Slope 0.86)", "FSC Forest Certification", "Longleaf Pine (ASU)", "270 Vertebrate Taxa", "Circuitscape", "NatureServe & USGS"]
   },
   {
     id: "exp-2",
     year: "2025 – Present",
-    role: "National Policy Board Member (Youth Seat)",
+    role: "National Policy Board Member & Youth Core Committee",
     organization: "U.S. Biosphere Network",
     location: "Washington, DC / National",
     category: "policy",
-    typeLabel: "National Policy Board",
-    impactMetric: "National Gap Analysis & Federal Briefings",
+    typeLabel: "National Policy Board & Governance",
+    impactMetric: "National Gap Analysis & UNESCO MAB Nominee (2026)",
     highlights: [
-      "Authored the **national gap analysis** behind the Network’s policy position and briefed senior federal agency leaders, a federal climate science center, and UNESCO working groups on national target performance.",
-      "Translate quantitative findings into **policy positions agency and international stakeholders act on**, for audiences with no statistical background."
+      "Serve on the **National Policy Board** and **Youth Core Committee** of the U.S. Biosphere Network; nominated by the Network for the **UNESCO MAB Young Scientists Award (2026)**.",
+      "Authored the **national gap analysis** behind the Network’s policy position and briefed senior federal agency leaders, a federal climate science center, and UNESCO working groups on national conservation target performance.",
+      "Presented ecosystem representation research directly to the U.S. Biosphere Network in 2026."
     ],
-    tags: ["National Gap Analysis", "Executive Briefing", "Federal Agency Leadership", "UNESCO Working Groups", "Policy Translation"]
+    tags: ["National Policy Board", "Youth Core Committee", "UNESCO MAB Nominee (2026)", "Federal Agency Briefings", "National Gap Analysis"]
   },
   {
     id: "exp-3",
-    year: "May 2025 – Oct. 2025",
-    role: "EcoLeaders Graduate Research Fellow and Platform Strategist",
-    organization: "National Wildlife Federation",
-    location: "Reston, VA / Remote",
+    year: "2026 – Present",
+    role: "Student Representative-Elect, Executive Committee",
+    organization: "IALE-North America (Landscape Ecology)",
+    location: "North America / National",
     category: "leadership",
-    typeLabel: "Platform Analytics & Strategy",
-    impactMetric: "+283% Engagement Increase & Executive Roadmap",
+    typeLabel: "Elected Professional Leadership",
+    impactMetric: "Student Keynote Speaker · IALE 2026",
     highlights: [
-      "Reconstructed several prior years of platform user-analytics records into a **consistent cohort panel**, then ran **longitudinal behavioral analysis** to isolate which onboarding and retention actions actually moved engagement, and rebuilt the funnel around them: **283% engagement increase** over the prior cycle.",
-      "Built and maintained the **recurring dashboards** that made engagement, onboarding, and retention legible to staff and external partners, defining the underlying metrics and instrumentation so reported figures stayed consistent across cycles.",
-      "Specified **enterprise API integrations** with platform engineers and delivered an **executive-adopted 6–12 month roadmap**, pairing qualitative stakeholder research with platform telemetry to validate findings before they reached external reporting."
+      "Elected as **Student Representative-Elect** to the Executive Committee of the International Association for Landscape Ecology (IALE-North America).",
+      "Delivered student **Keynote Presentation at IALE-North America 2026** on distributional measurement of national conservation target attainment and multi-jurisdiction burden attribution.",
+      "Lead student and early-career professional development, research symposia, and landscape ecology networking."
     ],
-    tags: ["Longitudinal Behavioral Analysis", "Cohort Panel Reconstruction", "+283% Engagement", "Recurring Dashboards", "Enterprise API Integrations", "Telemetry & Roadmapping"]
+    tags: ["IALE-North America", "Student Representative-Elect", "Keynote Address 2026", "Landscape Ecology", "Early-Career Mentorship"]
   },
   {
     id: "exp-4",
-    year: "Jan. 2025 – Oct. 2025",
-    role: "Campus Strategist and Training Program Lead",
-    organization: "Perplexity AI",
-    location: "Knoxville, TN / Remote",
+    year: "May 2025 – Oct. 2025",
+    role: "EcoLeaders Graduate Research Fellow & Platform Strategist",
+    organization: "National Wildlife Federation",
+    location: "Reston, VA / Remote",
     category: "leadership",
-    typeLabel: "AI Enablement & Curriculum",
-    impactMetric: "500+ Researchers, Faculty & Staff Trained",
+    typeLabel: "Conservation Analytics & Digital Strategy",
+    impactMetric: "+283% Engagement & National Wildlife Profile",
     highlights: [
-      "Built and delivered a **technical AI-literacy curriculum to 500+ researchers, faculty, and staff**, covering structured prompting, literature-synthesis workflows, and source-verification methods; mentored a cross-departmental network of student AI champions.",
-      "Built **AI-assisted workflows aggregating news, literature, and public sources into verified briefs**; drafted department-adopted responsible-use guidelines and ran feedback cycles between users and product engineering across fast release windows."
+      "Selected as the NWF EcoLeaders Graduate Research Fellow; featured in *National Wildlife* magazine profile: **'Vishal Kennedy Is Mapping the Future'**.",
+      "Reconstructed several prior years of platform analytics records into a **consistent cohort panel**, executing longitudinal behavioral analysis to isolate engagement drivers: **+283% active engagement increase**.",
+      "Built and maintained recurring executive dashboards, specified enterprise API integrations with Personify platform engineers, and delivered an adopted 6–12 month strategic roadmap."
     ],
-    tags: ["Technical AI-Literacy", "500+ Researchers", "Structured Prompting", "Literature-Synthesis", "Responsible AI Guidelines", "User Feedback Loops"]
+    tags: ["National Wildlife Federation", "+283% Engagement", "National Wildlife Feature", "Longitudinal Telemetry", "Recurring Dashboards", "Youth Changemakers"]
   },
   {
     id: "exp-5",
-    year: "2024 – Present",
-    role: "Regulatory Analysis and Disclosure Standards Specialist",
-    organization: "Baker School Audit Workshop · Environmental Law Organization",
+    year: "2023 – Present",
+    role: "Environmental Policy Analyst & Regulatory Specialist",
+    organization: "Baker School of Public Policy · Environmental Law Organization",
     location: "Knoxville, TN",
     category: "policy",
-    typeLabel: "EMS & Regulatory Standards",
-    impactMetric: "ISO 14001 Audit & EPA Disclosure Standards",
+    typeLabel: "Administrative Law & Federal Comments",
+    impactMetric: "3rd Place National Policy Memo · USFWS Okefenokee Comment",
     highlights: [
-      "Track and analyze state and federal energy and land-use policy: **EV infrastructure, utility incentives, clean energy standards, and siting compliance**; co-authored a regulatory comment letter on a contested federal permitting decision.",
-      "Apply **ISO 14001 audit and U.S. EPA disclosure-reporting standards** to analytical documentation, holding externally filed figures to audit-trail consistency."
+      "**3rd place nationally** in the National Wildlife Federation Innovative Policy Memo Contest for analyzing statutory authority, compliance standards, and multi-party co-management under the Clean Water Act for Mississippi River Basin flood resilience.",
+      "Contributed to a formal regulatory public comment letter submitted to the **U.S. Fish and Wildlife Service (USFWS)** on a contested titanium mining permitting decision threatening the **Okefenokee National Wildlife Refuge**.",
+      "Received the **Tom Gilbert Award (2026)** from UTK's Baker School of Public Policy and Public Affairs for impactful environmental policy analysis bridging quantitative models with federal decisions.",
+      "Apply **ISO 14001 lead auditor and U.S. EPA disclosure standards** to analytical documentation and environmental compliance reviews."
     ],
-    tags: ["Regulatory Analysis", "ISO 14001 Lead Auditor", "EPA Disclosure Standards", "Clean Energy & EV Policy", "Public Comment Letter"]
+    tags: ["Clean Water Act", "USFWS Okefenokee Comment", "NWF 3rd Place National", "Tom Gilbert Award (2026)", "ISO 14001 Lead Auditor", "EPA Standards"]
   },
   {
     id: "exp-6",
-    year: "2024 – 2026",
-    role: "Policy Impact, Open Analysis & Peer-Reviewed Research",
-    organization: "Independent Analysis & Academic Collaborations",
-    location: "National / Open Source",
-    category: "built",
-    typeLabel: "Selected Policy Impact",
-    impactMetric: "AI Adoption Parity Index · IALE Keynote 2026",
+    year: "2016 – 2022",
+    role: "Pre-Doctoral Research Scholar & Field Ecologist",
+    organization: "IISER Kolkata · IISc Bangalore · Manipal Centre · UWA Perth",
+    location: "India & Australia",
+    category: "research",
+    typeLabel: "International Research & Fieldwork",
+    impactMetric: "Top 1% INSPIRE Scholar · Western Ghats & Smokies Fieldwork",
     highlights: [
-      "**AI adoption parity index (2026)**: Open analysis measuring state-level AI adoption against AI-exposed employment rather than population, using the Anthropic Economic Index, BLS OES, and O*NET, with Lorenz curves and Gini coefficients on raw and exposure-adjusted distributions (`github.com/vkenned2/Anthropic_ai-adoption-parity-index`).",
-      "**Written for external audiences**: Federal regulatory analysis of statutory authority, compliance standards, and multi-party co-management – policy memorandum, National Wildlife Federation, **third place, national** · co-authored public comment letter on a contested federal permitting decision · open-access guides on converting analytical results into federal regulatory comment (2024–2026).",
-      "**Peer reviewed**: Kennedy, V., Armsworth, P. R., et al. Distributional measurement of national policy target attainment across governance tiers. In preparation, *Conservation Science & Practice*. Presented at **IALE North America (keynote, 2026)**, U.S. Biosphere Network, Washington DC (2026), and a federal climate adaptation science center (2025)."
+      "Completed integrated B.S.–M.S. in Biological Sciences at **IISER Kolkata** (top 1% national **INSPIRE Scholar**); elected General Secretary, Student Affairs Council (governing operations for 4,000+ members).",
+      "Conducted extensive field research across the **Western Ghats biodiversity hotspot** and the **Great Smoky Mountains National Park**.",
+      "Research stints at the **Indian Institute of Science (IISc Bangalore)**, the **Manipal Centre for Natural Sciences**, and the **University of Western Australia (UWA Perth)** evaluating crop resilience to disease and climate stress (optimizing screening pipeline throughput by 30%) and UN SDGs 13 & 15.",
+      "Core team member of **Ek Pehal (2016–2021)**, student-run initiative teaching STEM and hygiene to children and women in underserved communities."
     ],
-    tags: ["AI Adoption Parity Index", "Anthropic Economic Index", "BLS OES & O*NET", "Gini & Lorenz Analysis", "NWF Policy Memo (3rd Place)", "IALE Keynote 2026"]
+    tags: ["IISER Kolkata B.S.–M.S.", "INSPIRE Scholar (Top 1%)", "IISc Bangalore", "UWA Perth", "Western Ghats Fieldwork", "Smoky Mountains", "Ek Pehal"]
   },
   {
     id: "exp-7",
-    year: "2024",
-    role: "Applied AI Systems & Computer Vision Engineering",
-    organization: "Oak Ridge National Lab & Google Competition",
-    location: "Oak Ridge, TN / Global",
+    year: "2024 – 2026",
+    role: "Computational Policy & Open-Source Causal Analysis",
+    organization: "Independent Analysis & AI Governance",
+    location: "Open Source / National",
     category: "built",
-    typeLabel: "ML Publication & Full-Stack App",
-    impactMetric: "Peer-Reviewed ML Paper & Gemini Agent",
+    typeLabel: "Open Causal Analysis & Tooling",
+    impactMetric: "AI Adoption Parity Index · Interactive Live Audit",
     highlights: [
-      "Co-developed ML pipelines automating Transmission Electron Microscopy analysis with a four-university team (Penn State, NYU, Purdue, UTK); used autoencoders to surface nanoparticle-geometry correlations, published in *Machine Learning: Science and Technology* (DOI: 10.1088/2632-2153/ae1f5d).",
-      "Designed and shipped a full-stack Node.js/Express conversational agent on the Google Gemini API, incorporating dynamic elicitation design and intent-conditioned queries."
+      "**AI adoption parity index (2026)**: Conceived and engineered an open-source analysis measuring state-level AI adoption against AI-exposed employment rather than population using the Anthropic Economic Index, BLS OES, and O*NET.",
+      "Rendered dynamic Lorenz curves, Gini inequality metrics, and Theil decompositions across 6 geographic tiers, publishing an interactive web audit and reproducible Jupyter notebooks."
     ],
-    tags: ["Python & PyTorch", "Autoencoders", "Computer Vision", "ORNL Hackathon", "Google Gemini API", "Node.js & Express"]
+    tags: ["Anthropic Economic Index", "BLS OES & O*NET", "Lorenz Curves", "Gini & Theil", "Python & R", "Open Source"]
   },
   {
     id: "exp-8",
-    year: "Jun. 2021 – Aug. 2022",
-    role: "Research Scientist; Summer Research Intern",
-    organization: "Manipal Centre for Natural Sciences · University of Western Australia",
-    location: "India / Australia",
-    category: "research",
-    typeLabel: "Quantitative Research & Screening Pipelines",
-    impactMetric: "+30% Screening Throughput & SDG Modeling",
+    year: "2024 – 2025",
+    role: "Applied AI Systems, ML Pipelines & Campus Enablement",
+    organization: "Oak Ridge National Lab · Perplexity AI · Google API",
+    location: "Oak Ridge, TN / Remote",
+    category: "built",
+    typeLabel: "IOP ML Publication & Enterprise Training",
+    impactMetric: "Peer-Reviewed ML Paper & 500+ Researchers Trained",
     highlights: [
-      "Applied geospatial and statistical modeling to evaluate environmental program performance against **UN Sustainable Development Goals 13 (Climate Action) and 15 (Life on Land)**.",
-      "Analyzed experimental phenotypic and genomic screening data for government-funded program on crop resilience to disease and climate stress (**input-side risk in agricultural supply chains**), optimizing pipeline throughput by **30%**."
+      "Co-developed autoencoders for Transmission Electron Microscopy with a four-university team (Penn State, NYU, Purdue, UTK), published in *Machine Learning: Science and Technology* (DOI: 10.1088/2632-2153/ae1f5d).",
+      "Shipped full-stack Node/Express conversational agent on Google Gemini API.",
+      "Built and delivered technical AI-literacy curriculum to **500+ researchers, faculty, and staff at Perplexity AI**."
     ],
-    tags: ["Supply Chain Risk", "Throughput Optimization", "Data Pipelines", "UN SDGs", "Geospatial Modeling"]
-  },
-  {
-    id: "exp-9",
-    year: "Aug. 2016 – May 2027 (exp.)",
-    role: "Ph.D. Researcher & Graduate Scholar (Candidacy Passed May 2026)",
-    organization: "The University of Tennessee & IISER Kolkata",
-    location: "Knoxville, TN & Kolkata, India",
-    category: "leadership",
-    typeLabel: "Education & Governance",
-    impactMetric: "Ph.D. Candidacy Passed (May 2026) · Baker School Policy Training",
-    highlights: [
-      "**The University of Tennessee** (Ph.D., Ecology · Research focus: data-driven decision making and policy | Aug. 2022 – May 2027 expected): Dissertation on quantitative evaluation of national policy target performance – metric design, benchmark construction, and distributional measurement across federal administrative data. Developed with USGS, funded by NSF. Candidacy exam passed May 2026. Graduate policy training at Baker School: Administrative and Regulatory Policy, Public Policy Process, Public Management, Biometry.",
-      "**IISER Kolkata** (Integrated B.S. and M.S. in Ecology and Environmental Biology | Aug. 2016 – Aug. 2021): Master's thesis research from 2020. Top 1% National INSPIRE Scholar. Elected General Secretary, Student Affairs Council: managed budgets and operations for a 4,000+ member organization."
-    ],
-    tags: ["Ph.D. Candidacy (May 2026)", "Baker School Policy Training", "USGS & NSF Funded", "IISER Kolkata B.S.-M.S.", "INSPIRE Scholar", "SAC General Secretary"]
+    tags: ["ORNL Publication", "Autoencoders", "IOP ML: Science & Tech", "Google Gemini API", "Perplexity AI", "500+ Researchers"]
   }
 ];
 
@@ -176,24 +167,24 @@ export default function Experience() {
       <div className="max-w-7xl mx-auto relative">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] font-semibold block mb-3">
-            Track Record & Projects
+          <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 font-semibold block mb-3">
+            Track Record &amp; Projects
           </span>
           <h2 className="text-3xl md:text-5xl font-light tracking-tight text-white mb-4">
             Professional <span className="font-semibold">Experience.</span>
           </h2>
           <p className="text-[#86868b] text-sm md:text-base font-light leading-relaxed">
-            Quantitative research, causal analysis, national reporting pipelines, and evidence-based policy for federal agencies and NGO partners.
+            Quantitative ecology, ecosystem representation benchmarks, trans-boundary climate modeling, and environmental policy translation.
           </p>
 
           {/* Filter Pills */}
           <div className="flex flex-wrap justify-center items-center gap-2 mt-8">
             {[
               { id: "all", label: "All Experiences", icon: Sparkles },
-              { id: "built", label: "Built & Shipped (AI / Hackathons)", icon: Code2 },
-              { id: "research", label: "Research & Spatial Data", icon: Cpu },
-              { id: "policy", label: "Policy & Strategy", icon: Building2 },
-              { id: "leadership", label: "Leadership & Teaching", icon: GraduationCap },
+              { id: "research", label: "Conservation & Spatial Ecology", icon: Cpu },
+              { id: "policy", label: "Policy & Governance", icon: Building2 },
+              { id: "leadership", label: "Leadership & Outreach", icon: GraduationCap },
+              { id: "built", label: "Computational & Applied AI", icon: Code2 },
             ].map((tab) => {
               const Icon = tab.icon;
               const isActive = filter === tab.id;

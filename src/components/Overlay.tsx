@@ -68,18 +68,25 @@ export default function Overlay() {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6"
       >
         <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 mb-4 font-semibold">
-          DATA-DRIVEN POLICY &amp; QUANTITATIVE MEASUREMENT
+          QUANTITATIVE ECOLOGY • BIODIVERSITY INDICATORS • CONSERVATION POLICY
         </span>
         <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-5xl leading-[1.15]">
           VISHAL KENNEDY<span className="font-semibold text-emerald-400">.</span>
         </h1>
-        <p className="text-base md:text-xl lg:text-2xl font-light text-[#86868b] mt-6 tracking-wide max-w-3xl text-balance">
-          Data-Driven Policy • Measurement, Causal Analysis, and External-Facing Analytics
+        <p className="text-base md:text-xl lg:text-2xl font-light text-white/90 mt-5 tracking-wide max-w-3xl text-balance">
+          Ph.D. Candidate in Ecology &amp; Evolutionary Biology • University of Tennessee, Knoxville
         </p>
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-xs font-mono text-zinc-400">
-          <span>Knoxville, TN</span>
+        <p className="text-xs md:text-sm lg:text-base font-light text-[#86868b] mt-2 tracking-wide max-w-2xl text-balance">
+          Ecosystem Representation • Global Biodiversity Framework (GBF Target 3) • Species Protection Index • Climate Range Shifts
+        </p>
+        <div className="mt-5 flex flex-wrap items-center justify-center gap-2 text-xs font-mono text-zinc-400">
+          <span className="text-zinc-300">Armsworth Lab</span>
           <span className="text-zinc-600">•</span>
-          <span className="text-emerald-400/90">Open to relocation: NYC, San Francisco, or Washington, DC</span>
+          <span className="text-emerald-400/90 font-medium">Defending May 2027</span>
+          <span className="text-zinc-600">•</span>
+          <span>Concurrent M.S. in Ecology &amp; Baker School Policy</span>
+          <span className="text-zinc-600">•</span>
+          <span className="text-zinc-300">Available Summer / Fall 2027</span>
         </div>
       </div>
 
@@ -92,11 +99,11 @@ export default function Overlay() {
         }}
         className="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-20 lg:px-32 text-left max-w-3xl"
       >
-        <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          EVIDENCE &amp; MEASUREMENT
+        <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 mb-4 font-semibold">
+          ECOSYSTEM REPRESENTATION &amp; 30x30 BENCHMARKS
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Producing national-scale evidence and briefing agency leadership directly.
+          Testing whether ecosystem-level and species-level protection tell the same story across national and global estates.
         </h2>
       </div>
 
@@ -109,11 +116,11 @@ export default function Overlay() {
         }}
         className="absolute inset-0 flex flex-col justify-center items-end px-8 md:px-20 lg:px-32 text-right max-w-3xl ml-auto"
       >
-        <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] mb-4 font-semibold">
-          CAUSAL REASONING &amp; POLICY
+        <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 mb-4 font-semibold">
+          SCIENCE-TO-POLICY TRANSLATION
         </span>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white leading-tight">
-          Translating quantitative findings into policy positions stakeholders act on.
+          Translating spatial ecological evidence into forest certification, trans-boundary governance, and federal policy.
         </h2>
       </div>
 

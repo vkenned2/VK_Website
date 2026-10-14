@@ -14,13 +14,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
+  title: "Vishal Kennedy | Quantitative Ecology, Biodiversity Indicators & Conservation Policy",
   description:
-    "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
+    "Vishal Kennedy — Ph.D. Candidate in Ecology & Evolutionary Biology at UT Knoxville (Armsworth Lab). Research in ecosystem representation, Global Biodiversity Framework indicators, species range shifts, and environmental policy.",
   openGraph: {
-    title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
+    title: "Vishal Kennedy | Quantitative Ecology, Biodiversity Indicators & Conservation Policy",
     description:
-      "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
+      "Vishal Kennedy — Ph.D. Candidate in Ecology & Evolutionary Biology at UT Knoxville (Armsworth Lab). Research in ecosystem representation, Global Biodiversity Framework indicators, species range shifts, and environmental policy.",
     url: "https://vishalkennedy.com",
     siteName: "Vishal Kennedy Portfolio",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Magazines/2026/Summer-2026/NEXT-GEN-Vishal-Kennedy-SUMMER26-960x630.jpg",
         width: 960,
         height: 630,
-        alt: "Vishal Kennedy",
+        alt: "Vishal Kennedy conducting conservation research",
       },
     ],
     locale: "en_US",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vishal Kennedy | Data-Driven Policy • Measurement, Causal Analysis & Analytics",
+    title: "Vishal Kennedy | Quantitative Ecology, Biodiversity Indicators & Conservation Policy",
     description:
-      "Vishal Kennedy - Data scientist specializing in quantitative measurement, policy evaluation, and external reporting. Six years of quantitative research experience using Python, R, and SQL across federal, administrative, and behavioral datasets.",
+      "Vishal Kennedy — Ph.D. Candidate in Ecology & Evolutionary Biology at UT Knoxville (Armsworth Lab). Research in ecosystem representation, Global Biodiversity Framework indicators, species range shifts, and environmental policy.",
     images: [
       "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Magazines/2026/Summer-2026/NEXT-GEN-Vishal-Kennedy-SUMMER26-960x630.jpg",
     ],

@@ -19,61 +19,71 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     id: "01",
-    title: "AI Adoption Parity Index & Exposure-Adjusted Distributions",
-    category: "Open Analysis & Causal Metrics",
-    year: "2026",
-    description: "Open analysis measuring state-level AI adoption against AI-exposed employment rather than population using Anthropic Economic Index, BLS OES, and O*NET.",
-    tags: ["Anthropic Index", "BLS OES", "O*NET", "Gini & Lorenz", "Python & R"],
-    image: "/projects/anthropic-ai-adoption-parity.png",
-    link: "/projects/ai-adoption-parity-index",
-  },
-  {
-    id: "02",
-    title: "National Policy Performance & Proportional-Parity Benchmark",
-    category: "Policy Performance & Measurement",
+    title: "National Ecosystem Representation & 30x30 Benchmark (GBF Target 3)",
+    category: "Conservation Indicators & Spatial Policy",
     year: "2022–Present",
-    description: "Proved official headline metric systematically overstates performance; designed proportional-parity benchmark across 210 categories and reconciled 4 federal data sources.",
-    tags: ["PAD-US", "NatureServe", "Proportional Parity", "Automated QA", "USGS & NSF"],
+    description: "Evaluated 210 USNVC ecosystem groups across PAD-US to benchmark GBF Target 3; revealed severe geographic bias (Western 4.1x, Eastern 3.3x vs Great Plains) and metric sensitivity.",
+    tags: ["GBF Target 3", "210 Ecosystems", "PAD-US v4.1", "NatureServe & USGS", "Slope 0.86"],
     image: "/projects/us-representation-analysis.png",
     link: "/projects/us-nationwide-representation-analysis-quality-framework",
   },
   {
-    id: "03",
-    title: "Observational Matching & Multi-Jurisdiction Attribution",
-    category: "Causal Inference & Attribution",
+    id: "02",
+    title: "Appalachian Climate Range Shifts & Multi-State Governance",
+    category: "Spatial Modeling & Multi-Jurisdiction Policy",
     year: "2024–2026",
-    description: "Matching design on observational data (174 matched clusters, null models) and trans-boundary attribution (HHI, Pielou indices across 13 states / 270 units).",
-    tags: ["Matching Estimators", "Null Models", "HHI & Pielou", "IALE Keynote 2026", "Python & R"],
+    description: "Modeled shifting conservation responsibility across 13 Appalachian states for 270 vertebrates under 13 climate models and 4 SSP scenarios through 2050.",
+    tags: ["270 Vertebrates", "13 Climate Models", "Circuitscape", "HHI & Pielou", "IALE Keynote 2026"],
     image: "/projects/appalachian-modeling.jpg",
     link: "/projects/distributional-policy-measurement-jurisdiction-attribution",
   },
   {
+    id: "03",
+    title: "Federal Environmental Policy, Permitting Compliance & Statutory Analysis",
+    category: "Environmental Law & Regulatory Comment",
+    year: "2023–Present",
+    description: "3rd place nationally for NWF policy memo on Mississippi River Basin flood resilience; co-authored USFWS comment letter on Okefenokee National Wildlife Refuge.",
+    tags: ["Clean Water Act", "USFWS Okefenokee", "ISO 14001 Audit", "NWF 3rd Place", "Tom Gilbert Award"],
+    image: "/projects/wetlands-policy.jpg",
+    link: "/projects/environmental-policy-tribal-comanagement-leadership",
+  },
+  {
     id: "04",
-    title: "NWF EcoLeaders Platform Strategy & Behavioral Analytics",
-    category: "Behavioral Analytics & Strategy",
+    title: "NWF EcoLeaders Platform Strategy & Conservation Analytics",
+    category: "Behavioral Analytics & Conservation Leadership",
     year: "2025",
-    description: "Reconstructed multi-year cohort panel, ran longitudinal behavioral analysis (+283% engagement increase), recurring dashboards, and enterprise API roadmap.",
-    tags: ["Cohort Analysis", "Longitudinal Telemetry", "Recurring Dashboards", "+283% Engagement", "Personify API"],
+    description: "Longitudinal behavioral analysis of national youth conservation changemakers (+283% engagement), recurring dashboards, and enterprise roadmap.",
+    tags: ["+283% Engagement", "Cohort Panel", "Longitudinal Telemetry", "Recurring Dashboards", "NWF Fellow"],
     image: "/projects/nwf-analytics.jpg",
     link: "/projects/nwf-ecoleader-fellowship",
   },
   {
     id: "05",
-    title: "Federal Regulatory Analysis, Compliance & Policy Impact",
-    category: "Regulatory Analysis & Policy",
-    year: "2023–Present",
-    description: "Federal regulatory analysis of statutory authority (3rd place national, NWF), contested permitting comment letters, and open-access guides on regulatory comments.",
-    tags: ["Clean Water Act", "ISO 14001 Audit", "EPA Standards", "Regulatory Comments", "NWF 3rd Place"],
-    image: "/projects/wetlands-policy.jpg",
-    link: "/projects/environmental-policy-tribal-comanagement-leadership",
+    title: "Evolutionary Ecology, Calyptra Morphology & Botanical Research",
+    category: "Evolutionary Morphology & Field Botany",
+    year: "2020–Present",
+    description: "Morphological and evolutionary analysis of moss calyptrae (submitted to The Bryologist); fieldwork across Western Ghats and Great Smoky Mountains.",
+    tags: ["The Bryologist", "Western Ghats", "Great Smokies", "Morphometrics", "UN SDGs 13 & 15"],
+    image: "/projects/moss-conflict.jpg",
+    link: "/projects/evolutionary-ecology-bryophyte-morphology",
   },
   {
     id: "06",
-    title: "Applied AI Systems, Technical Enablement & ML Pipelines",
-    category: "Applied AI & Machine Learning",
+    title: "AI Adoption Parity Index & Exposure-Adjusted Distributions",
+    category: "Open Analysis & Causal Metrics",
+    year: "2026",
+    description: "Open analysis measuring state-level AI adoption against AI-exposed employment rather than population using Anthropic Economic Index, BLS OES, and O*NET.",
+    tags: ["Anthropic Index", "BLS OES", "O*NET", "Gini & Lorenz", "Interactive Tool"],
+    image: "/projects/anthropic-ai-adoption-parity.png",
+    link: "/projects/ai-adoption-parity-index",
+  },
+  {
+    id: "07",
+    title: "Applied AI Systems, Scientific ML Pipelines & Technical Enablement",
+    category: "Applied AI & Scientific Computing",
     year: "2024–2025",
     description: "Autoencoder computer vision pipeline (ORNL publication in IOP), Gemini full-stack agent, and AI-literacy curriculum for 500+ researchers at Perplexity AI.",
-    tags: ["Python & PyTorch", "Google Gemini API", "Computer Vision", "ORNL Publication", "Perplexity AI"],
+    tags: ["ORNL Publication", "IOP ML: Science & Tech", "Google Gemini API", "PyTorch", "Perplexity AI"],
     image: "/projects/gemini-ai-systems.png",
     link: "/projects/applied-ai-systems-machine-learning-adoption",
   },
@@ -89,7 +99,7 @@ export default function Projects() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20">
           <div>
-            <span className="text-xs uppercase tracking-[0.4em] text-[#86868b] font-semibold block mb-4">
+            <span className="text-xs uppercase tracking-[0.4em] text-emerald-400 font-semibold block mb-4">
               Case Studies &amp; Research
             </span>
             <h2 className="text-4xl md:text-6xl font-light tracking-tight text-white">
@@ -97,7 +107,7 @@ export default function Projects() {
             </h2>
           </div>
           <p className="text-[#86868b] text-sm md:text-base max-w-sm font-light">
-            A curated selection of quantitative evaluations, policy analyses, behavioral analytics, and applied AI systems.
+            A curated portfolio of ecosystem representation benchmarks, trans-boundary climate models, environmental policy filings, and scientific computing systems.
           </p>
         </div>
 
