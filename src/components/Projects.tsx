@@ -59,16 +59,6 @@ const PROJECTS: Project[] = [
   },
   {
     id: "05",
-    title: "Evolutionary Ecology, Calyptra Morphology & Botanical Research",
-    category: "Evolutionary Morphology & Field Botany",
-    year: "2020–Present",
-    description: "Morphological and evolutionary analysis of moss calyptrae (submitted to The Bryologist); fieldwork across Western Ghats and Great Smoky Mountains.",
-    tags: ["The Bryologist", "Western Ghats", "Great Smokies", "Morphometrics", "UN SDGs 13 & 15"],
-    image: "/projects/moss-conflict.jpg",
-    link: "/projects/evolutionary-ecology-bryophyte-morphology",
-  },
-  {
-    id: "06",
     title: "AI Adoption Parity Index & Exposure-Adjusted Distributions",
     category: "Open Analysis & Causal Metrics",
     year: "2026",
@@ -78,7 +68,7 @@ const PROJECTS: Project[] = [
     link: "/projects/ai-adoption-parity-index",
   },
   {
-    id: "07",
+    id: "06",
     title: "Applied AI Systems, Scientific ML Pipelines & Technical Enablement",
     category: "Applied AI & Scientific Computing",
     year: "2024–2025",

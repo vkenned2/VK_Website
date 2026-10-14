@@ -155,37 +155,6 @@ export const PROJECTS_DATA: ProjectData[] = [
     outcome: "Achieved a +283% increase in active platform engagement, established permanent reporting dashboards, and delivered an executive-approved implementation roadmap."
   },
   {
-    slug: "evolutionary-ecology-bryophyte-morphology",
-    title: "Evolutionary Ecology, Calyptra Morphology & Botanical Research",
-    tagline: "Morphological and evolutionary analysis of moss calyptrae (submitted to The Bryologist); fieldwork across Western Ghats and Great Smoky Mountains.",
-    category: "Evolutionary Morphology & Field Botany",
-    year: "2020–Present",
-    overview: "Investigated functional morphological adaptation in bryophyte calyptrae under maternal care and desiccation stress with Jessica Budke (Dissertation Chapter 1, submitted to The Bryologist). Grounded in extensive field ecology across the Western Ghats (a global biodiversity hotspot) and the Great Smoky Mountains National Park. Pre-doctoral research at IISER Kolkata, the Indian Institute of Science (IISc Bangalore), the Manipal Centre for Natural Sciences, and the University of Western Australia (Perth), evaluating crop disease resilience, phenomics, and ecological program performance against UN Sustainable Development Goals 13 (Climate Action) and 15 (Life on Land).",
-    meta: [
-      { label: "Collaborators", value: "Jessica Budke (UTK), IISER Kolkata, IISc Bangalore, University of Western Australia (Perth)" },
-      { label: "Manuscript Status", value: "Submitted to The Bryologist (2026)" },
-      { label: "Field Sites", value: "Western Ghats Biodiversity Hotspot, Great Smoky Mountains National Park" },
-      { label: "Methods / Software", value: "Geometric Morphometrics, Statistical Phylogenetics, Phenotypic Screening, R & Python" }
-    ],
-    role: "Lead Researcher & Field Biologist. Conducted specimen dissections, high-resolution imaging, morphometric quantification, and phylogenetic comparative analysis.",
-    tools: ["Geometric Morphometrics", "Phylogenetic Comparative Methods", "R (geomorph, ape)", "Field Botany", "Microscopy & Imaging", "UN SDGs"],
-    context: "Dissertation Chapter 1 investigating evolutionary maternal-offspring conflict and functional morphology in moss calyptrae, complemented by multi-continent field botany.",
-    process: [
-      "Sample and dissect bryophyte calyptra specimens across diverse taxonomic lineages.",
-      "Acquire high-resolution microphotographs and calibrate landmark coordinates for geometric morphometrics.",
-      "Perform phylogenetic comparative analyses in R to evaluate trait evolution and functional divergence.",
-      "Synthesize empirical results into manuscript submitted to The Bryologist.",
-      "Conduct comparative botanical and ecological field surveys in the Western Ghats and Southern Appalachians."
-    ],
-    image: "/projects/moss-conflict.jpg",
-    workflowImage: null,
-    cta: null,
-    challenges: "Quantifying microscopic evolutionary traits across herbarium and wild populations requires rigorous morphological standards and phylogenetic control.",
-    solution: "Combined digital microscopy, geometric morphometrics, and phylogenetic comparative models in R to evaluate functional evolutionary adaptations.",
-    outcome: "Submitted manuscript to The Bryologist and established comparative botanical datasets bridging tropical Western Ghats and temperate Appalachian ecosystems.",
-    galleryImages: ["/projects/moss-conflict.jpg", "/projects/botanical-field-research.jpg"]
-  },
-  {
     slug: "ai-adoption-parity-index",
     title: "AI Adoption Parity Index & Exposure-Adjusted Distributional Analysis",
     tagline: "Open analysis measuring state-level AI adoption against AI-exposed employment rather than population using the Anthropic Economic Index, BLS OES, and O*NET.",
